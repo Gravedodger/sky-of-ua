@@ -1,4 +1,7 @@
 export const TRANSLATIONS_EN = {
+    // SITE NAME
+    site_name: "Sky of UA",
+
     // HEADER
     nav: "Navigation",
     nav_about_us: "About",

@@ -1,14 +1,20 @@
 export const TRANSLATIONS_UK = {
+    // SITE NAME
+    site_name: "Небо України",
+
+    // HEADER
     nav: "Навігація",
     nav_about_us: "Про нас",
     nav_projects: "Проекти",
     nav_reports: "Звіти",
     nav_marketplace: "MarketPlace",
 
+    // FOOTER
     partners: "Партнери",
     partner: "Партнер",
     supported_by: "За підтримки",
 
+    // ABOUT US SECTION
     about_us_section_title: "Про нас",
     about_us_1: {
         title: "Хто ми",
@@ -22,4 +28,6 @@ export const TRANSLATIONS_UK = {
         title: "Наша мотивація ",
         text: "Допомагати як звичайним людям, які потребують допомоги так і нашим бійцям в цей складний для нашої країни час. Роблячи світ краще."
     }
+
+
 }

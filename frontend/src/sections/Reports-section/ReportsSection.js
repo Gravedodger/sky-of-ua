@@ -1,59 +1,106 @@
 import React from "react";
-import { SectionTitleText, BlockTitle } from "../../Typography";
 import "./ReportsSection.css";
+import { SectionTitleText } from "../../Typography";
+import { useTranslation } from "react-i18next";
+import '../../i18n';
 import ladiesWithRubbish from "../../assets/images/ladies-with-rubbish.png";
-import { posts } from "./initialData";
+import boxWithItems from "../../assets/images/box-with-items.png";
+import pushbedAndLadies from "../../assets/images/pushbed-and-ladies.png";
+import foodWithMilitary from "../../assets/images/food-with-military.png";
 
 const ReportsSection = () => {
+  const { t } = useTranslation();
+
   return (
-    <div className="reports__wrap">
-      <SectionTitleText className="reports__title">Звіти</SectionTitleText>
-      <div className="reports__content">
-        <div className="card__wrap-main">
+    <div className="reports-wrap">
+      <SectionTitleText className="reports-title">{t("reports_section_title")}</SectionTitleText>
+
+      <div className="reports-content">
+        <div className="card-wrap-main">
           <img
             src={ladiesWithRubbish}
-            alt="жінки з візком"
-            className="card__img-main"
-          ></img>
-          <div className="card__descr-main">
-            <h4 className="card__title-main">
-              Допомога Апостолівській лікарні.
+            alt={t("reports_post_large.img_Alt")}
+            className="card-img-main"
+          />
+          <div className="card-descr-main">
+            <h4 className="card-title-main">
+              {t("reports_post_large.post_title")}
             </h4>
-            <p className="card__text-main">
-              Благодійний фонд "НЕБО УКРАЇНИ" за підтримки наших друзів Anna
-              Yashna із міста Новомосковськ надали допомогу дуже важливими
-              лікарськими засобами Апостолівській лікарні.
+            <p className="card-text-main">
+              {t("reports_post_large.post_text")}
             </p>
-            <div className="card__footer-main">
-              <a href="#" className="card__link-main">
-                Читати більше
+            <div className="card-footer-main">
+              <a href="#" className="card-link-main">
+                {t("read_more")}
               </a>
-              <time className="card__date-main" dateTime="2022-06-28">
-                Червень 28, 2022
+              <time className="card-date-main" dateTime="2022-06-28">
+                {t("month_june")} 28, 2022
               </time>
             </div>
           </div>
         </div>
-        <ul className="card__list">
-          {posts.map((element) => {
-            const { id, img, imgAlt, date, title, text } = element;
-            return (
-              <li key={id} className="card__item">
-                <img src={img} alt={imgAlt} className="card__img-add"></img>
-                <div className="card__descr-add">
-                  <time dateTime={date} className="card__date-add">
-                    {date}
-                  </time>
-                  <h4 className="card__title-add">{title}</h4>
-                  <p className="card__text-add">{text}</p>
-                </div>
-              </li>
-            );
-          })}
+
+        <ul className="card-list">
+          <li className="card-item">
+            <img
+                src={boxWithItems}
+                alt={t("reports_post_1.img_Alt")}
+                className="card-img-add"
+            />
+            <div className="card-descr-add">
+              <time dateTime={28072022} className="card-date-add">
+                {t("month_june")} 28, 2022
+              </time>
+              <h4 className="card-title-add">
+                {t("reports_post_1.post_title")}
+              </h4>
+              <p className="card-text-add">
+                {t("reports_post_1.post_text")}
+              </p>
+            </div>
+          </li>
+
+          <li className="card-item">
+            <img
+                src={pushbedAndLadies}
+                alt={t("reports_post_2.img_Alt")}
+                className="card-img-add"
+            />
+            <div className="card-descr-add">
+              <time dateTime={28072022} className="card-date-add">
+                {t("month_june")} 28, 2022
+              </time>
+              <h4 className="card-title-add">
+                {t("reports_post_2.post_title")}
+              </h4>
+              <p className="card-text-add">
+                {t("reports_post_2.post_text")}
+              </p>
+            </div>
+          </li>
+
+          <li className="card-item">
+            <img
+                src={foodWithMilitary}
+                alt={t("reports_post_3.img_Alt")}
+                className="card-img-add"
+            />
+            <div className="card-descr-add">
+              <time dateTime={28072022} className="card-date-add">
+                {t("month_june")} 28, 2022
+              </time>
+              <h4 className="card-title-add">
+                {t("reports_post_3.post_title")}
+              </h4>
+              <p className="card-text-add">
+                {t("reports_post_3.post_text")}
+              </p>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default ReportsSection;

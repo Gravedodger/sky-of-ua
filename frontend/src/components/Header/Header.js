@@ -25,7 +25,7 @@ const Header = () => {
       <div className="main-container header-gradient">
         <div className="header-wrap">
           <Logo style="header" />
-          <NavMenu style="header" lang={language} />
+          <NavMenu style="header" />
           <div className="header-language">
               <button value='uk' onClick={handleOnClick}>
                   UA
@@ -41,7 +41,9 @@ const Header = () => {
           <MediaQuery maxWidth={767}>
             {menuOn && <NavMenu style="header" />}
           </MediaQuery>
-          <MediaQuery minWidth={768}>{<NavMenu style="header" />}</MediaQuery>
+          {/*<MediaQuery minWidth={768}>*/}
+          {/*    {<NavMenu style="header" />}*/}
+          {/*</MediaQuery>*/}
         </div>
       </div>
     </header>

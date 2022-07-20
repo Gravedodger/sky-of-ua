@@ -1,35 +1,35 @@
-.reports__wrap {
-  padding: 20px 0;
+.reports-wrap {
   max-width: 100%;
+  padding: 20px 0;
 }
 
 @media screen and (min-width: 768px) {
-  .reports__wrap {
+  .reports-wrap {
     padding: 40px 0;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .reports__wrap {
+  .reports-wrap {
     padding: 80px 0;
   }
 }
 
-.reports__title {
+.reports-title {
   position: relative;
-  margin-left: 72px;
   margin-bottom: 20px;
+  margin-left: 72px;
 }
 
 @media screen and (min-width: 768px) {
-  .reports__title {
+  .reports-title {
     position: relative;
-    margin-left: 72px;
     margin-bottom: 40px;
+    margin-left: 72px;
   }
 }
 
-.reports__title::before {
+.reports-title::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -40,40 +40,39 @@
 }
 
 @media screen and (min-width: 768px) {
-  .reports__content {
+  .reports-content {
     display: flex;
   }
 }
 
 /* MAIN IMAGE CONTENT */
-
-.card__wrap-main {
+.card-wrap-main {
   width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  .card__wrap-main {
-    margin-right: 32px;
+  .card-wrap-main {
     width: 41%;
+    margin-right: 32px;
   }
 }
 
-.card__img-main {
+.card-img-main {
   width: 100%;
   border-radius: 6px;
 }
 
-.card__descr-main {
+.card-descr-main {
   padding: 8px 12px 12px;
 }
 
 @media screen and (min-width: 768px) {
-  .card__descr-main {
+  .card-descr-main {
     padding: 16px 24px 24px;
   }
 }
 
-.card__title-main {
+.card-title-main {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 14px;
@@ -84,7 +83,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .card__title-main {
+  .card-title-main {
     margin-bottom: 13px;
     font-weight: 600;
     font-size: 20px;
@@ -92,7 +91,7 @@
   }
 }
 
-.card__text-main {
+.card-text-main {
   margin-bottom: 16px;
   -webkit-line-clamp: 3;
   display: -webkit-box;
@@ -103,7 +102,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .card__text-main {
+  .card-text-main {
     margin-bottom: 16px;
     -webkit-line-clamp: 2;
     font-size: 14px;
@@ -111,12 +110,12 @@
   }
 }
 
-.card__footer-main {
+.card-footer-main {
   display: flex;
   justify-content: space-between;
 }
 
-.card__link-main {
+.card-link-main {
   font-weight: 400;
   font-size: 14px;
   line-height: 15px;
@@ -124,26 +123,26 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .card__link-main {
+  .card-link-main {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
   }
 }
 
-.card__date-main {
+.card-date-main {
   position: relative;
   font-size: 12px;
   color: #83868b;
 }
 
 @media screen and (min-width: 1440px) {
-  .card__date-main {
+  .card-date-main {
     font-size: 14px;
   }
 }
 
-.card__date-main::before {
+.card-date-main::before {
   content: "";
   position: absolute;
   top: -3px;
@@ -153,48 +152,47 @@
   background-image: url(../../assets/icons/icn-calendarBlank.svg);
 }
 @media screen and (min-width: 1440px) {
-  .card__date-main::before {
+  .card-date-main::before {
     left: -32px;
   }
 }
 
 /* ADDITION CONTENT */
-
-.card__list {
+.card-list {
   border-radius: 6px;
   background-color: #f5f5f0;
 }
 
 @media screen and (min-width: 1440px) {
-  .card__list {
+  .card-list {
     padding: 24px;
   }
 }
 
-.card__item {
+.card-item {
   position: relative;
   padding: 8px;
 }
 
 @media screen and (min-width: 768px) {
-  .card__item {
+  .card-item {
     display: flex;
   }
 }
 @media screen and (min-width: 1440px) {
-  .card__item {
+  .card-item {
     padding: 16px 24px 16px 16px;
   }
-  .card__item:last-child {
+  .card-item:last-child {
     margin-bottom: 0;
   }
 }
 
-.card__item:not(:last-child)::after {
+.card-item:not(:last-child)::after {
   content: "";
   position: absolute;
-  left: 8px;
   bottom: -8px;
+  left: 8px;
   margin-bottom: 20px;
   width: calc(100% - 16px);
   height: 1px;
@@ -202,41 +200,41 @@
 }
 
 @media screen and (min-width: 768px) {
-  .card__item:not(:last-child)::after {
+  .card-item:not(:last-child)::after {
     bottom: -18px;
     width: calc(100% - 16px);
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .card__item:not(:last-child)::after {
+  .card-item:not(:last-child)::after {
     left: 18px;
     width: calc(100% - 32px);
   }
 }
 
-.card__img-add {
+.card-img-add {
   display: block;
   margin: 0 auto 8px;
   border-radius: 4px;
 }
 
 @media screen and (min-width: 768px) {
-  .card__img-add {
-    margin-left: 0px;
-    margin-right: 12px;
+  .card-img-add {
     width: 140px;
+    margin-right: 12px;
+    margin-left: 0;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .card__img-add {
-    margin-right: 24px;
+  .card-img-add {
     width: inherit;
+    margin-right: 24px;
   }
 }
 
-.card__date-add {
+.card-date-add {
   position: relative;
   display: block;
   margin-bottom: 8px;
@@ -247,13 +245,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  .card__date-add {
-    text-align: start;
+  .card-date-add {
     padding-left: 20px;
+    text-align: start;
   }
 }
 
-.card__date-add::before {
+.card-date-add::before {
   content: "";
   position: absolute;
   top: -5px;
@@ -264,12 +262,12 @@
 }
 
 @media screen and (min-width: 768px) {
-  .card__date-add::before {
+  .card-date-add::before {
     left: -5px;
   }
 }
 
-.card__title-add {
+.card-title-add {
   margin-bottom: 5px;
   font-weight: 500;
   font-size: 14px;
@@ -281,13 +279,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  .card__title-add {
+  .card-title-add {
     width: 240px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .card__title-add {
+  .card-title-add {
     width: 370px;
     margin-bottom: 8px;
     font-weight: 500;
@@ -296,7 +294,7 @@
   }
 }
 
-.card__text-add {
+.card-text-add {
   -webkit-line-clamp: 3;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -306,12 +304,12 @@
 }
 
 @media screen and (min-width: 768px) {
-  .card__text-add {
+  .card-text-add {
     width: 240px;
   }
 }
 @media screen and (min-width: 1440px) {
-  .card__text-add {
+  .card-text-add {
     width: 434px;
     font-size: 14px;
     line-height: 22px;

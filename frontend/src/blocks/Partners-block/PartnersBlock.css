@@ -1,0 +1,9 @@
+.partners-item:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.partners-title {
+  font-size: 18px;
+  line-height: 22px;
+  color: #83868b;
+}

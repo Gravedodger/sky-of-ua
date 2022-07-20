@@ -4,6 +4,7 @@ import Logo from "../Logo";
 import NavMenu from "../NavMenu";
 import SocialLinks from "../SocialLinks/SocialLinks";
 import { useTranslation } from "react-i18next";
+import PartnersBlock from "../../blocks/Partners-block";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -12,7 +13,6 @@ const Footer = () => {
     <div className="main-container footer-bgc">
       <footer>
         <div className="footer-wrap">
-
           <div className="footer-contacts">
             <Logo style="footer" />
             <address className="footer-address">
@@ -25,12 +25,12 @@ const Footer = () => {
             </address>
             <SocialLinks style="footer" />
           </div>
-
           <div className="footer-middle">
             <div className="footer-nav">
               <h3 className="footer-title">{t("nav")}</h3>
               <NavMenu style="footer" />
             </div>
+
             <div className="footer-partners">
               <h3 className="footer-title">{t("partners")}</h3>
               <ul>
@@ -47,6 +47,8 @@ const Footer = () => {
                   <p className="partners-title">{t("partners")}</p>
                 </li>
               </ul>
+              <h3 className="footer-title">Партнери</h3>
+              <PartnersBlock />
             </div>
           </div>
 
@@ -56,7 +58,7 @@ const Footer = () => {
         </div>
       </footer>
     </div>
-  )
-}
+  );
+};
 
 export default Footer;

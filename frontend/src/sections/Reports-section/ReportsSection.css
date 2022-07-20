@@ -1,0 +1,319 @@
+.reports__wrap {
+  padding: 20px 0;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .reports__wrap {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .reports__wrap {
+    padding: 80px 0;
+  }
+}
+
+.reports__title {
+  position: relative;
+  margin-left: 72px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .reports__title {
+    position: relative;
+    margin-left: 72px;
+    margin-bottom: 40px;
+  }
+}
+
+.reports__title::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -72px;
+  width: 56px;
+  height: 2px;
+  background-color: #4c94ff;
+}
+
+@media screen and (min-width: 768px) {
+  .reports__content {
+    display: flex;
+  }
+}
+
+/* MAIN IMAGE CONTENT */
+
+.card__wrap-main {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .card__wrap-main {
+    margin-right: 32px;
+    width: 41%;
+  }
+}
+
+.card__img-main {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card__descr-main {
+  padding: 8px 12px 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .card__descr-main {
+    padding: 16px 24px 24px;
+  }
+}
+
+.card__title-main {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (min-width: 1440px) {
+  .card__title-main {
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+.card__text-main {
+  margin-bottom: 16px;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+@media screen and (min-width: 1440px) {
+  .card__text-main {
+    margin-bottom: 16px;
+    -webkit-line-clamp: 2;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+.card__footer-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__link-main {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #4c94ff;
+}
+
+@media screen and (min-width: 1440px) {
+  .card__link-main {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+.card__date-main {
+  position: relative;
+  font-size: 12px;
+  color: #83868b;
+}
+
+@media screen and (min-width: 1440px) {
+  .card__date-main {
+    font-size: 14px;
+  }
+}
+
+.card__date-main::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -22px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../assets/icons/icn-calendarBlank.svg);
+}
+@media screen and (min-width: 1440px) {
+  .card__date-main::before {
+    left: -32px;
+  }
+}
+
+/* ADDITION CONTENT */
+
+.card__list {
+  border-radius: 6px;
+  background-color: #f5f5f0;
+}
+
+@media screen and (min-width: 1440px) {
+  .card__list {
+    padding: 24px;
+  }
+}
+
+.card__item {
+  position: relative;
+  padding: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .card__item {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .card__item {
+    padding: 16px 24px 16px 16px;
+  }
+  .card__item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.card__item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 8px;
+  bottom: -8px;
+  margin-bottom: 20px;
+  width: calc(100% - 16px);
+  height: 1px;
+  background-color: #828282;
+}
+
+@media screen and (min-width: 768px) {
+  .card__item:not(:last-child)::after {
+    bottom: -18px;
+    width: calc(100% - 16px);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card__item:not(:last-child)::after {
+    left: 18px;
+    width: calc(100% - 32px);
+  }
+}
+
+.card__img-add {
+  display: block;
+  margin: 0 auto 8px;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .card__img-add {
+    margin-left: 0px;
+    margin-right: 12px;
+    width: 140px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card__img-add {
+    margin-right: 24px;
+    width: inherit;
+  }
+}
+
+.card__date-add {
+  position: relative;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #83868b;
+}
+
+@media screen and (min-width: 768px) {
+  .card__date-add {
+    text-align: start;
+    padding-left: 20px;
+  }
+}
+
+.card__date-add::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: calc(50% - 85px);
+  width: 24px;
+  height: 24px;
+  background-image: url(../../assets/icons/icn-calendarBlank.svg);
+}
+
+@media screen and (min-width: 768px) {
+  .card__date-add::before {
+    left: -5px;
+  }
+}
+
+.card__title-add {
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  -webkit-line-clamp: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (min-width: 768px) {
+  .card__title-add {
+    width: 240px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card__title-add {
+    width: 370px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.card__text-add {
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .card__text-add {
+    width: 240px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .card__text-add {
+    width: 434px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

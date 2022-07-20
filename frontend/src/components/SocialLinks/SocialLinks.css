@@ -1,0 +1,18 @@
+.socialLinks-list {
+  display: flex;
+  width: 168px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialLinks-link {
+  cursor: pointer;
+}
+
+.socialLinks-icon-header * {
+  stroke: red;
+}
+
+.socialLinks-icon-footer * {
+  stroke: #4c94ff;
+}

@@ -1,0 +1,12 @@
+.section-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 260px;
+    margin: 0 40px;
+    background: #828282;
+}

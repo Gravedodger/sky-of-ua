@@ -1,0 +1,18 @@
+.header-gradient {
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 59.49%, rgba(0, 0, 0, 0) 100%);
+}
+
+.header-wrap {
+  display: flex;
+  padding: 25px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-language {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+  cursor: pointer;
+}

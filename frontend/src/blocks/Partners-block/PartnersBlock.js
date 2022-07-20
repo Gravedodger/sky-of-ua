@@ -1,5 +1,7 @@
 import React from "react";
 import "./PartnersBlock.css";
+import "./../../i18n";
+import {useTranslation} from "react-i18next";
 
 const partnersList = [
   {
@@ -21,17 +23,19 @@ const partnersList = [
 ];
 
 const PartnersBlock = () => {
+  const { t } = useTranslation();
+
   return (
     <ul>
       {partnersList.map((element) => {
         return (
           <li key={element.id} className="partners-item">
-            <p className="partners-title">{element.name}</p>
+            <p className="partners-title">{t("partner")} {element.id}</p>
           </li>
-        );
+        )
       })}
     </ul>
-  );
-};
+  )
+}
 
 export default PartnersBlock;

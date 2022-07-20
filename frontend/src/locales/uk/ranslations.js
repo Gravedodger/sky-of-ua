@@ -6,6 +6,7 @@ export const TRANSLATIONS_UK = {
     nav_marketplace: "MarketPlace",
 
     partners: "Партнери",
+    partner: "Партнер",
     supported_by: "За підтримки",
 
     about_us_section_title: "Про нас",

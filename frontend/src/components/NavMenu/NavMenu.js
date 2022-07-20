@@ -15,31 +15,26 @@ const NavMenu = (props) => {
         <li className={`nav__item-${style}`}>
           <NavLink to="/" className={getActiveLink}>
             <NavText className={`nav-text-${style}`}>{t("nav_about_us")}</NavText>
-            <NavText className={`nav__text-${style}`}>Про нас</NavText>
           </NavLink>
         </li>
         <li className={`nav__item-${style}`}>
           <NavLink to="/projects" className={getActiveLink}>
             <NavText className={`nav-text-${style}`}>{t("nav_projects")}</NavText>
-            <NavText className={`nav__text-${style}`}>Проекти</NavText>
           </NavLink>
         </li>
         <li className={`nav__item-${style}`}>
           <NavLink to="/reports" className={getActiveLink}>
             <NavText className={`nav-text-${style}`}>{t("nav_reports")}</NavText>
-            <NavText className={`nav__text-${style}`}>Звіти</NavText>
           </NavLink>
         </li>
         <li className={`nav__item-${style}`}>
           <NavLink to="/marketplace" className={getActiveLink}>
             <NavText className={`nav-text-${style}`}>{t("nav_marketplace")}</NavText>
-
-            <NavText className={`nav__text-${style}`}>MarketPlace</NavText>
           </NavLink>
         </li>
       </ul>
     </nav>
-  );
-};
+  )
+}
 
 export default NavMenu;

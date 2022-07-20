@@ -12,7 +12,7 @@ const Header = () => {
     const [menuOn, setMenuOn] = useState(false);
     const onClickBurger = () => {
         setMenuOn((prevState) => !prevState);
-        document.querySelector(".header__burger").classList.toggle("active");
+        document.querySelector(".header-burger").classList.toggle("active");
     };
     const handleOnClick= (e) => {
         e.preventDefault();
@@ -35,14 +35,13 @@ const Header = () => {
               </button>
           </div>
 
-          <div className="header__burger" onClick={onClickBurger}>
-            <span></span>
+          <div className="header-burger" onClick={onClickBurger}>
+            <span />
           </div>
           <MediaQuery maxWidth={767}>
             {menuOn && <NavMenu style="header" />}
           </MediaQuery>
           <MediaQuery minWidth={768}>{<NavMenu style="header" />}</MediaQuery>
-          <span className="header-language">UA</span>
         </div>
       </div>
     </header>

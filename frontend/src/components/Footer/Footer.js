@@ -5,6 +5,7 @@ import NavMenu from "../NavMenu";
 import SocialLinks from "../SocialLinks/SocialLinks";
 import { useTranslation } from "react-i18next";
 import PartnersBlock from "../../blocks/Partners-block";
+import "./../../i18n";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -25,6 +26,7 @@ const Footer = () => {
             </address>
             <SocialLinks style="footer" />
           </div>
+
           <div className="footer-middle">
             <div className="footer-nav">
               <h3 className="footer-title">{t("nav")}</h3>
@@ -33,21 +35,6 @@ const Footer = () => {
 
             <div className="footer-partners">
               <h3 className="footer-title">{t("partners")}</h3>
-              <ul>
-                <li className="partners-item">
-                  <p className="partners-title">{t("partners")}</p>
-                </li>
-                <li className="partners-item">
-                  <p className="partners-title">{t("partners")}</p>
-                </li>
-                <li className="partners-item">
-                  <p className="partners-title">{t("partners")}</p>
-                </li>
-                <li className="partners-item">
-                  <p className="partners-title">{t("partners")}</p>
-                </li>
-              </ul>
-              <h3 className="footer-title">Партнери</h3>
               <PartnersBlock />
             </div>
           </div>

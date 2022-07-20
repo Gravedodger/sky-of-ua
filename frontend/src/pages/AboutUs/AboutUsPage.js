@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import AboutUsBlock from "../../blocks/AboutUs-block";
 import AboutUsSection from "../../sections/AboutUs-section";
 import ReportsSection from "../../sections/Reports-section";
 

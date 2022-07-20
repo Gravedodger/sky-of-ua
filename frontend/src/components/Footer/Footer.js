@@ -3,8 +3,8 @@ import "./Footer.css";
 import Logo from "../Logo";
 import NavMenu from "../NavMenu";
 import SocialLinks from "../SocialLinks/SocialLinks";
-import { useTranslation } from "react-i18next";
 import PartnersBlock from "../../blocks/Partners-block";
+import { useTranslation } from "react-i18next";
 import "./../../i18n";
 
 const Footer = () => {

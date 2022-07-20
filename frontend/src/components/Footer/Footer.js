@@ -9,7 +9,6 @@ const Footer = () => {
     <div className="main-container footer-bgc">
       <footer>
         <div className="footer-wrap">
-
           <div className="footer-contacts">
             <Logo style="footer" />
             <address className="footer-address">
@@ -52,7 +51,7 @@ const Footer = () => {
         </div>
       </footer>
     </div>
-  )
-}
+  );
+};
 
 export default Footer;

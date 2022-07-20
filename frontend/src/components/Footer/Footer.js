@@ -3,6 +3,7 @@ import "./Footer.css";
 import Logo from "../Logo";
 import NavMenu from "../NavMenu";
 import SocialLinks from "../SocialLinks/SocialLinks";
+import PartnersBlock from "../../blocks/Partners-block";
 
 const Footer = () => {
   return (
@@ -21,7 +22,6 @@ const Footer = () => {
             </address>
             <SocialLinks style="footer" />
           </div>
-
           <div className="footer-middle">
             <div className="footer-nav">
               <h3 className="footer-title">Навігація</h3>
@@ -29,20 +29,7 @@ const Footer = () => {
             </div>
             <div className="footer-partners">
               <h3 className="footer-title">Партнери</h3>
-              <ul>
-                <li className="partners-item">
-                  <p className="partners-title">Партнери</p>
-                </li>
-                <li className="partners-item">
-                  <p className="partners-title">Партнери</p>
-                </li>
-                <li className="partners-item">
-                  <p className="partners-title">Партнери</p>
-                </li>
-                <li className="partners-item">
-                  <p className="partners-title">Партнери</p>
-                </li>
-              </ul>
+              <PartnersBlock />
             </div>
           </div>
           <div className="footer-support">

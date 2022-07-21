@@ -3,7 +3,7 @@ import "./Footer.css";
 import Logo from "../Logo";
 import NavMenu from "../NavMenu";
 import SocialLinks from "../SocialLinks/SocialLinks";
-import PartnersBlock from "../../blocks/Partners-block";
+import PartnersFooterBlock from "../../blocks/PartnersFooter-block";
 import { useTranslation } from "react-i18next";
 import "./../../i18n";
 
@@ -35,7 +35,7 @@ const Footer = () => {
 
             <div className="footer-partners">
               <h3 className="footer-title">{t("partners")}</h3>
-              <PartnersBlock />
+              <PartnersFooterBlock />
             </div>
           </div>
 

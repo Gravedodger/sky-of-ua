@@ -1,3 +1,1 @@
-import AboutUsPage from "./AboutUsPage";
-
-export default AboutUsPage;
+export { default } from "./AboutUsPage";

@@ -1,11 +1,11 @@
 import React from 'react';
-import { BlockText, BlockTitle } from "../../Typography";
+import './AboutUsBlock.css';
 
 const AboutUsBlock = ({aboutUsBlockTitle, aboutUsBlockText}) => {
     return (
         <div className='block-container'>
-            <BlockTitle>{aboutUsBlockTitle}</BlockTitle>
-            <BlockText>{aboutUsBlockText}</BlockText>
+            <h3 className="block-title">{aboutUsBlockTitle}</h3>
+            <p className="block-text">{aboutUsBlockText}</p>
         </div>
     )
 }

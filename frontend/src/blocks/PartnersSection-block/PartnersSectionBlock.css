@@ -1,0 +1,15 @@
+.partners-block-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.partner-image {
+    width: 405px;
+}
+
+.partner-image-pic {
+    object-fit: contain;
+    margin-bottom: 16px;
+}

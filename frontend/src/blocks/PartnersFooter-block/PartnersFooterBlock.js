@@ -1,5 +1,5 @@
 import React from "react";
-import "./PartnersBlock.css";
+import "./PartnersFooterBlock.css";
 import "./../../i18n";
 import {useTranslation} from "react-i18next";
 
@@ -22,7 +22,7 @@ const partnersList = [
   },
 ];
 
-const PartnersBlock = () => {
+const PartnersFooterBlock = () => {
   const { t } = useTranslation();
 
   return (
@@ -38,4 +38,4 @@ const PartnersBlock = () => {
   )
 }
 
-export default PartnersBlock;
+export default PartnersFooterBlock;

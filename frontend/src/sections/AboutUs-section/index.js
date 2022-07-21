@@ -1,3 +1,1 @@
-import AboutUsSection from "./AboutUsSection";
-
-export default AboutUsSection;
+export { default } from "./AboutUsSection";

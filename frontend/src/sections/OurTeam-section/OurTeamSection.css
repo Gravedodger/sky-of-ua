@@ -1,0 +1,26 @@
+.our-team-section-wrap {
+    margin-bottom: 160px;
+}
+
+.our-team-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-team-img {
+    width: 100%;
+}
+
+.our-team-description {
+    text-align: center;
+}
+
+.our-team-description-title {
+    margin: 24px 0 16px;
+}
+
+.our-team-description-text {
+    width: 740px;
+    text-align: center;
+}

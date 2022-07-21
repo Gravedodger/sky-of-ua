@@ -52,7 +52,34 @@ export const TRANSLATIONS_UK = {
         post_text: "Благодійний фонд \"НЕБО УКРАЇНИ\" за підтримки наших друзів Anna Yashna із міста Новомосковськ надали допомогу дуже важливими лікарськими засобами Апостолівській лікарні."
     },
 
+    // OUR TEAM SECTION
+    our_team_section: {
+        img_Alt: "люди на прогулянці",
+        section_title: "Наша команда",
+        title: "Ми молода команда",
+        text: "Яка складається з різних людей, з різними світоглядами, але всі вони об’єднані однією ціллю - допомагати людям і роботи світ кращим, всі ми беремо участь в цьом. Ми намагаємось розкрити таланти кожного волонтера знайти йому місце, де він реалізує свої уміння."
+    },
+
+    // PARTNERS SECTION
+    partners_section_title: "Партнери",
+    partners_slider_1: {
+        img_Alt: "Діти героїв лого",
+        title: "Діти ГероЇв",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan velit vitae ligula tristique viverra. Ut blandit aliquet mollis. ",
+    },
+    partners_slider_2: {
+        img_Alt: "Українська Підтримка лого",
+        title: "Українська Підтримка",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan velit vitae ligula tristique viverra. Ut blandit aliquet mollis. ",
+    },
+    partners_slider_3: {
+        img_Alt: "Таблеточка лого",
+        title: "Таблеточка",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan velit vitae ligula tristique viverra. Ut blandit aliquet mollis. ",
+    },
+
     // MISC
     read_more: "Читати більше",
-    month_june: "Червень"
+    month_june: "Червень",
+    details: "Деталі"
 }

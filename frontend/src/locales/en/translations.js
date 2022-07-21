@@ -52,7 +52,34 @@ export const TRANSLATIONS_EN = {
         post_text: "The \"SKY OF UKRAINE\" charity foundation, with the support from our friend Anna Yashna from the city of Novomoskovsk, provided vitally important medical supplies to the Apostoliv hospital."
     },
 
+    // OUR TEAM SECTION
+    our_team_section: {
+        img_Alt: "people hiking",
+        section_title: "Our team",
+        title: "We are a young team",
+        text: "made up of different people, with different worldviews, yet united by a single goal - to help people and to make the world a better place, we all take part in this. We try to uncover the talents of each volunteer and to find the best place where his/her talents can be realized"
+    },
+
+    // PARTNERS SECTION
+    partners_section_title: "Partners",
+    partners_slider_1: {
+        img_Alt: "children of heroes logo",
+        title: "Children of Heroes",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan velit vitae ligula tristique viverra. Ut blandit aliquet mollis. ",
+    },
+    partners_slider_2: {
+        img_Alt: "support ukrainians logo",
+        title: "Ukrainian Support",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan velit vitae ligula tristique viverra. Ut blandit aliquet mollis. ",
+    },
+    partners_slider_3: {
+        img_Alt: "Tabletochki logo",
+        title: "Tabletochka",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan velit vitae ligula tristique viverra. Ut blandit aliquet mollis. ",
+    },
+
     // MISC
     read_more: "Read more",
-    month_june: "June"
+    month_june: "June",
+    details: "Details"
 }

@@ -21,16 +21,20 @@ export const NavText = styled.p`
     line-height: 18px;
 `;
 
-export const BlockTitle = styled.h3`
-    padding: 24px 0 21px 24px;
+export const PartnerBlockTitle = styled.h3`
+    margin-left: 30px;
+    margin-bottom: 16px;
+    text-align: left;
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
 `;
 
-export const BlockText = styled.p`
+export const PartnerBlockText = styled.p`
     width: 357px;
-    padding: 0 24px 81px 24px;
+    margin-left: 30px;
+    margin-bottom: 32px;
+    text-align: left;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -77,22 +81,31 @@ export const ListCardText = styled.p`
 `;
 
 export const Label = styled.label`
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 22px;
-  color: #272727;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #272727;
 `;
 
 export const Placeholder = styled.p`
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 17px;
-  color: #838688;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #838688;
+`;
+
+export const Button = styled.button`
+    width: 296px;
+    height: 51px;
+    margin-left: 60px;
+    border: 1px solid #4c94ff;
+    cursor: pointer;
+    background: #ffffff;
 `;
 
 export const ButtonText = styled.p`
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
-    color: {buttonTextColor};
+    color: #4C94FF;
 `;

@@ -1,6 +1,6 @@
-.section-wrap {
+.about-us-section-wrap {
     display: flex;
-    margin-top: 42px;
+    margin: 42px 0 160px;
     justify-content: space-evenly;
 }
 

@@ -1,9 +1,7 @@
 import React from 'react';
 import './PartnersSectionBlock.css';
 import { PartnerBlockText, PartnerBlockTitle, Button, ButtonText } from "../../Typography";
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { useTranslation } from "react-i18next";
-
 import '../../i18n';
 
 const PartnersSectionBlock = ({partnerImage, partnerImageAlt, partnerTitle, partnerDescription}) => {
@@ -19,7 +17,6 @@ const PartnersSectionBlock = ({partnerImage, partnerImageAlt, partnerTitle, part
             <Button>
                 <ButtonText>{t("details")}</ButtonText>
             </Button>
-
         </div>
     )
 }

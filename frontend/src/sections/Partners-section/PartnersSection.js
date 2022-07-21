@@ -2,8 +2,8 @@ import React from 'react';
 import './PartnersSection.css';
 import { SectionTitleBar, SectionTitleText } from '../../Typography';
 import PartnersSectionBlock from '../../blocks/PartnersSection-block';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { Carousel } from 'react-responsive-carousel';
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
 import { useTranslation } from 'react-i18next';
 import '../../i18n';
 
@@ -13,6 +13,72 @@ import Tabletochki from '../../assets/images/tabletochki.png';
 
 const PartnersSection = () => {
     const { t } = useTranslation();
+    const handleDragStart = (e) => e.preventDefault();
+    const items = [
+        <div className="partners-section-container">
+            <PartnersSectionBlock
+                className="item"
+                partnerImage={childrenOfHeroes}
+                partnerImageAlt={t("partners_slider_1.img_Alt")}
+                partnerTitle={t("partners_slider_1.title")}
+                partnerDescription={t("partners_slider_1.text")}
+                onDragStart={handleDragStart}
+                role="presentation"
+            />
+
+            <PartnersSectionBlock
+                className="item"
+                partnerImage={supportUkrainians}
+                partnerImageAlt={t("partners_slider_2.img_Alt")}
+                partnerTitle={t("partners_slider_2.title")}
+                partnerDescription={t("partners_slider_2.text")}
+                onDragStart={handleDragStart}
+                role="presentation"
+            />
+
+            <PartnersSectionBlock
+                className="item"
+                partnerImage={Tabletochki}
+                partnerImageAlt={t("partners_slider_3.img_Alt")}
+                partnerTitle={t("partners_slider_3.title")}
+                partnerDescription={t("partners_slider_3.text")}
+                onDragStart={handleDragStart}
+                role="presentation"
+            />
+        </div>,
+
+        <div className="partners-section-container">
+            <PartnersSectionBlock
+                className="item"
+                partnerImage={childrenOfHeroes}
+                partnerImageAlt={t("partners_slider_1.img_Alt")}
+                partnerTitle={t("partners_slider_1.title")}
+                partnerDescription={t("partners_slider_1.text")}
+                onDragStart={handleDragStart}
+                role="presentation"
+            />
+
+            <PartnersSectionBlock
+                className="item"
+                partnerImage={supportUkrainians}
+                partnerImageAlt={t("partners_slider_2.img_Alt")}
+                partnerTitle={t("partners_slider_2.title")}
+                partnerDescription={t("partners_slider_2.text")}
+                onDragStart={handleDragStart}
+                role="presentation"
+            />
+
+            <PartnersSectionBlock
+                className="item"
+                partnerImage={Tabletochki}
+                partnerImageAlt={t("partners_slider_3.img_Alt")}
+                partnerTitle={t("partners_slider_3.title")}
+                partnerDescription={t("partners_slider_3.text")}
+                onDragStart={handleDragStart}
+                role="presentation"
+            />
+        </div>,
+    ];
 
     return (
         <section>
@@ -21,53 +87,7 @@ const PartnersSection = () => {
                 <SectionTitleText>{t("partners_section_title")}</SectionTitleText>
             </div>
 
-            <Carousel autoPlay>
-                <div className="partners-section-wrap">
-                    <PartnersSectionBlock
-                        partnerImage={childrenOfHeroes}
-                        partnerImageAlt={t("partners_slider_1.img_Alt")}
-                        partnerTitle={t("partners_slider_1.title")}
-                        partnerDescription={t("partners_slider_1.text")}
-                    />
-
-                    <PartnersSectionBlock
-                        partnerImage={supportUkrainians}
-                        partnerImageAlt={t("partners_slider_2.img_Alt")}
-                        partnerTitle={t("partners_slider_2.title")}
-                        partnerDescription={t("partners_slider_2.text")}
-                    />
-
-                    <PartnersSectionBlock
-                        partnerImage={Tabletochki}
-                        partnerImageAlt={t("partners_slider_3.img_Alt")}
-                        partnerTitle={t("partners_slider_3.title")}
-                        partnerDescription={t("partners_slider_3.text")}
-                    />
-                </div>
-
-                <div className="partners-section-wrap">
-                    <PartnersSectionBlock
-                        partnerImage={childrenOfHeroes}
-                        partnerImageAlt={t("partners_slider_1.img_Alt")}
-                        partnerTitle={t("partners_slider_1.title")}
-                        partnerDescription={t("partners_slider_1.text")}
-                    />
-
-                    <PartnersSectionBlock
-                        partnerImage={supportUkrainians}
-                        partnerImageAlt={t("partners_slider_2.img_Alt")}
-                        partnerTitle={t("partners_slider_2.title")}
-                        partnerDescription={t("partners_slider_2.text")}
-                    />
-
-                    <PartnersSectionBlock
-                        partnerImage={Tabletochki}
-                        partnerImageAlt={t("partners_slider_3.img_Alt")}
-                        partnerTitle={t("partners_slider_3.title")}
-                        partnerDescription={t("partners_slider_3.text")}
-                    />
-                </div>
-            </Carousel>
+            <AliceCarousel mouseTracking items={items} autoPlay autoPlayInterval={1400} autoWidth infinite={true}/>
         </section>
     )
 }

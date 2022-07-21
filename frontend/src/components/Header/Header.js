@@ -34,12 +34,12 @@ const Header = () => {
 
           </div>
         </div>
-
-        <MediaQuery minWidth={768}>
-          <HeroVideo />
-          <SocialLinks style="header" />
-        </MediaQuery>
-      </header>
+      </div>
+      <MediaQuery minWidth={768}>
+        <HeroVideo />
+        <SocialLinks style="header" />
+      </MediaQuery>
+    </header>
   );
 };
 

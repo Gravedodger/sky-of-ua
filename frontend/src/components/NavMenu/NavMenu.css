@@ -3,7 +3,6 @@
   position: absolute;
   top: 84px;
   left: -15px;
-  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
   background: linear-gradient(rgba(255, 255, 255) 40%, rgba(60, 60, 60) 100%);
@@ -50,7 +49,8 @@
   border-bottom: 1px solid #ffffff;
 }
 
-.nav-link-header, .nav-link-footer {
+.nav-link-header,
+.nav-link-footer {
   text-decoration: none;
 }
 

@@ -1,12 +1,51 @@
 .about-us-section-wrap {
+  padding: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-section-wrap {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-us-section-wrap {
+    padding: 80px 0;
+  }
+}
+
+.section-title {
+  position: relative;
+  margin-left: 72px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title {
+    margin-bottom: 40px;
+  }
+}
+
+.section-title::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -72px;
+  width: 56px;
+  height: 2px;
+  background-color: #4c94ff;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-content-wrap {
     display: flex;
-    margin: 42px 0 160px;
     justify-content: space-evenly;
+  }
 }
 
 .vertical-line {
-    width: 2px;
-    height: 260px;
-    margin: 0 40px;
-    background: #828282;
+  width: 2px;
+  height: 260px;
+  margin: 0 40px;
+  background: #828282;
 }

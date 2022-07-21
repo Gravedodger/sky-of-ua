@@ -4,7 +4,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -14,10 +16,6 @@ body {
   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-main {
-  margin: 80px 0;
 }
 
 ul {
@@ -30,7 +28,14 @@ a {
   text-decoration: none;
 }
 
-a, h1, h2, h3, h4, h5, h6, p {
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
   padding: 0;
 }
@@ -56,10 +61,4 @@ a, h1, h2, h3, h4, h5, h6, p {
     width: 1440px;
     padding: 0 80px;
   }
-}
-
-.section-title {
-  display: flex;
-  margin-bottom: 40px;
-  align-items: center;
 }

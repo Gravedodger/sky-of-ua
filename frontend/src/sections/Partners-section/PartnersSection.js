@@ -6,10 +6,9 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import { useTranslation } from 'react-i18next';
 import '../../i18n';
-
-import childrenOfHeroes from '../../assets/images/children-of-heroes.png';
-import supportUkrainians from '../../assets/images/support-ukrainians.png';
-import Tabletochki from '../../assets/images/tabletochki.png';
+import childrenOfHeroes from "../../assets/images/children-of-heroes.png";
+import supportUkrainians from "../../assets/images/support-ukrainians.png";
+import Tabletochki from "../../assets/images/tabletochki.png";
 
 const PartnersSection = () => {
     const { t } = useTranslation();
@@ -80,13 +79,11 @@ const PartnersSection = () => {
         </div>,
     ];
 
-    return (
-        <section>
-            <div className="section-title">
-                <SectionTitleBar />
-                <SectionTitleText>{t("partners_section_title")}</SectionTitleText>
-            </div>
-
+return (
+    <section>
+      <div className="section-title">
+        <SectionTitleText>{t("partners_section_title")}</SectionTitleText>
+      </div>
             <AliceCarousel mouseTracking items={items} autoPlay autoPlayInterval={1400} autoWidth infinite={true}/>
         </section>
     )

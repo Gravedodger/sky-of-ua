@@ -1,26 +1,25 @@
 .our-team-section-wrap {
-    margin-bottom: 160px;
+  padding: 80px 0;
 }
 
 .our-team-section-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  text-align: center;
 }
 
 .our-team-img {
-    width: 100%;
-}
-
-.our-team-description {
-    text-align: center;
+  margin-bottom: 24px;
 }
 
 .our-team-description-title {
-    margin: 24px 0 16px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .our-team-description-text {
-    width: 740px;
-    text-align: center;
+  margin: 0 auto;
+  width: 740px;
+  font-size: 14px;
+  line-height: 22px;
 }

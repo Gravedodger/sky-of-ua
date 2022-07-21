@@ -23,7 +23,7 @@ const AboutUsPage = () => {
       <main>
         <div className="main-container">
           <AboutUsSection />
-          {/* <OurTeamSection /> */}
+          <OurTeamSection />
           {/* <PartnersSection /> */}
           <ReportsSection />
         </div>

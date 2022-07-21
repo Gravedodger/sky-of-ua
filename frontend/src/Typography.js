@@ -15,21 +15,35 @@ export const NavText = styled.p`
 
 export const PartnerBlockTitle = styled.h3`
   margin-left: 30px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   text-align: left;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 20px;
+    line-height: 24px;
+  }
 `;
 
 export const PartnerBlockText = styled.p`
-  width: 357px;
   margin-left: 30px;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
   text-align: left;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 22px;
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 32px;
+    font-size: 14px;
+    line-height: 24px;
+  }
 `;
 
 export const CardTitle = styled.h4`
@@ -87,12 +101,16 @@ export const Placeholder = styled.p`
 `;
 
 export const Button = styled.button`
-  width: 296px;
+  display: block;
+  width: 206px;
   height: 51px;
-  margin-left: 60px;
+  margin: 0 auto;
   border: 1px solid #4c94ff;
   cursor: pointer;
   background: #ffffff;
+  @media screen and (min-width: 1440px) {
+    width: 296px;
+  }
 `;
 
 export const ButtonText = styled.p`
@@ -103,21 +121,23 @@ export const ButtonText = styled.p`
 `;
 
 export const ProjectCardTitle = styled.h3`
-    margin-top: 16px;
-    margin-bottom: 8px;
-    margin-left: 24px;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 22px;
-    color: #272727;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #272727;
 `;
 
 export const ProjectCardText = styled.p`
+  margin-bottom: 24px;
+  margin-left: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #83868b;
+  @media screen and (min-width: 1440px) {
     width: 357px;
-    margin-bottom: 24px;
-    margin-left: 24px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 160%;
-    color: #83868B;
+  }
 `;

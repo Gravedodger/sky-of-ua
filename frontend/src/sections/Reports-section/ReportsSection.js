@@ -2,7 +2,7 @@ import React from "react";
 import "./ReportsSection.css";
 import { SectionTitleText } from "../../Typography";
 import { useTranslation } from "react-i18next";
-import '../../i18n';
+import "../../i18n";
 import ladiesWithRubbish from "../../assets/images/ladies-with-rubbish.png";
 import boxWithItems from "../../assets/images/box-with-items.png";
 import pushbedAndLadies from "../../assets/images/pushbed-and-ladies.png";
@@ -13,7 +13,9 @@ const ReportsSection = () => {
 
   return (
     <div className="reports-wrap">
-      <SectionTitleText className="reports-title">{t("reports_section_title")}</SectionTitleText>
+      <SectionTitleText className="reports-title">
+        {t("reports_section_title")}
+      </SectionTitleText>
 
       <div className="reports-content">
         <div className="card-wrap-main">
@@ -40,12 +42,12 @@ const ReportsSection = () => {
           </div>
         </div>
 
-        <ul className="card-list">
-          <li className="card-item">
+        <ul className="report-card-list">
+          <li className="report-card-item">
             <img
-                src={boxWithItems}
-                alt={t("reports_post_1.img_Alt")}
-                className="card-img-add"
+              src={boxWithItems}
+              alt={t("reports_post_1.img_Alt")}
+              className="card-img-add"
             />
             <div className="card-descr-add">
               <time dateTime={28072022} className="card-date-add">
@@ -54,17 +56,15 @@ const ReportsSection = () => {
               <h4 className="card-title-add">
                 {t("reports_post_1.post_title")}
               </h4>
-              <p className="card-text-add">
-                {t("reports_post_1.post_text")}
-              </p>
+              <p className="card-text-add">{t("reports_post_1.post_text")}</p>
             </div>
           </li>
 
-          <li className="card-item">
+          <li className="report-card-item">
             <img
-                src={pushbedAndLadies}
-                alt={t("reports_post_2.img_Alt")}
-                className="card-img-add"
+              src={pushbedAndLadies}
+              alt={t("reports_post_2.img_Alt")}
+              className="card-img-add"
             />
             <div className="card-descr-add">
               <time dateTime={28072022} className="card-date-add">
@@ -73,17 +73,15 @@ const ReportsSection = () => {
               <h4 className="card-title-add">
                 {t("reports_post_2.post_title")}
               </h4>
-              <p className="card-text-add">
-                {t("reports_post_2.post_text")}
-              </p>
+              <p className="card-text-add">{t("reports_post_2.post_text")}</p>
             </div>
           </li>
 
-          <li className="card-item">
+          <li className="report-card-item">
             <img
-                src={foodWithMilitary}
-                alt={t("reports_post_3.img_Alt")}
-                className="card-img-add"
+              src={foodWithMilitary}
+              alt={t("reports_post_3.img_Alt")}
+              className="card-img-add"
             />
             <div className="card-descr-add">
               <time dateTime={28072022} className="card-date-add">
@@ -92,15 +90,13 @@ const ReportsSection = () => {
               <h4 className="card-title-add">
                 {t("reports_post_3.post_title")}
               </h4>
-              <p className="card-text-add">
-                {t("reports_post_3.post_text")}
-              </p>
+              <p className="card-text-add">{t("reports_post_3.post_text")}</p>
             </div>
           </li>
         </ul>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default ReportsSection;

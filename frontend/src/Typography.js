@@ -131,11 +131,13 @@ export const ProjectCardTitle = styled.h3`
 `;
 
 export const ProjectCardText = styled.p`
-  width: 357px;
   margin-bottom: 24px;
   margin-left: 24px;
   font-size: 14px;
   font-weight: 400;
   line-height: 160%;
   color: #83868b;
+  @media screen and (min-width: 1440px) {
+    width: 357px;
+  }
 `;

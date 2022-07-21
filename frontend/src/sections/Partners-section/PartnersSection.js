@@ -103,8 +103,8 @@ const PartnersSection = () => {
       <AliceCarousel
         mouseTracking
         items={items}
-        // autoPlay
-        // autoPlayInterval={1400}
+        autoPlay
+        autoPlayInterval={1400}
         infinite={true}
         responsive={responsive}
         disableButtonsControls

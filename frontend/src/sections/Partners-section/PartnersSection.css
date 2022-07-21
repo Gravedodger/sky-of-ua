@@ -1,6 +1,14 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
 .partners-section-wrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 223px;
+}
+
+.partners-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

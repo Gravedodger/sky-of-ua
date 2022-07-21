@@ -8,7 +8,7 @@ const SocialLinks = (props) => {
   const style = props.style;
 
   return (
-    <ul className="socialLinks-list">
+    <ul className={`socialLinks-list-${style}`}>
       <li className="socialLinks-item">
         <a
           href="https://t.me/the_sky_of_ukraine"

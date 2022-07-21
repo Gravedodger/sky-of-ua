@@ -1,18 +1,33 @@
 .block-container {
-    margin-top: 20px;
+  position: relative;
+  padding: 24px;
+  width: 33.33%;
+}
+.block-container:not(:last-child) {
+  margin-right: 32px;
+}
+
+.block-container:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -16px;
+  width: 2px;
+  height: 260px;
+  background-color: #828282;
 }
 
 .block-title {
-    margin-bottom: 20px;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    color: #272727;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #272727;
 }
 
 .block-text {
-    width: 357px;
-    font-weight: 400;
-    font-size: 14px;
-    color: #83868B;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #83868b;
 }

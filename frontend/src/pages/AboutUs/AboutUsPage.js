@@ -13,39 +13,25 @@ const AboutUsPage = () => {
 
   return (
     <>
-      <Helmet>
-        <title>
-          {t("site_name")} || {t("nav_about_us")}
-        </title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="Ukraine, war, charity, help" />
-      </Helmet>
+        <Helmet>
+            <title>
+                {t("site_name")} || {t("nav_about_us")}
+            </title>
+            <meta name="description" content="" />
+            <meta name="keywords" content="Ukraine, war, charity, help" />
+        </Helmet>
 
-<<<<<<< HEAD
-          <main>
+        <main>
             <div className="main-container">
-              <AboutUsSection />
-              <OurTeamSection />
-              <PartnersSection />
-              <CurrentProjectsSection />
-              <ReportsSection />
+                <AboutUsSection />
+                <OurTeamSection />
+                <PartnersSection />
+                <CurrentProjectsSection />
+                <ReportsSection />
             </div>
-          </main>
-        </>
-    )
-}
-=======
-      <main>
-        <div className="main-container">
-          <AboutUsSection />
-          <OurTeamSection />
-          <PartnersSection />
-          <ReportsSection />
-        </div>
-      </main>
+        </main>
     </>
-  );
-};
->>>>>>> 43f9a9b5076172ea6e377fc36925f9764c30e470
+  )
+}
 
 export default AboutUsPage;

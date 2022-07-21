@@ -81,7 +81,6 @@ const CurrentProjectsSection = () => {
     return (
         <section className="current-projects-section-wrap">
             <div className="section-title">
-                <SectionTitleBar />
                 <SectionTitleText>{t("current_projects_section_title")}</SectionTitleText>
             </div>
 

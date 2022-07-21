@@ -1,11 +1,29 @@
 .about-us-section-wrap {
-  padding: 80px 0;
+  padding: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-section-wrap {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-us-section-wrap {
+    padding: 80px 0;
+  }
 }
 
 .section-title {
   position: relative;
   margin-left: 72px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title {
+    margin-bottom: 40px;
+  }
 }
 
 .section-title::before {
@@ -18,9 +36,11 @@
   background-color: #4c94ff;
 }
 
-.about-us-content-wrap {
-  display: flex;
-  justify-content: space-evenly;
+@media screen and (min-width: 768px) {
+  .about-us-content-wrap {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 
 .vertical-line {

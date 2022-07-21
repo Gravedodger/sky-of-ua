@@ -1,20 +1,39 @@
 .block-container {
   position: relative;
-  padding: 24px;
-  width: 33.33%;
+  padding: 12px;
 }
-.block-container:not(:last-child) {
-  margin-right: 32px;
+
+@media screen and (min-width: 768px) {
+  .block-container {
+    padding: 24px;
+    width: 33.33%;
+  }
+
+  .block-container:not(:last-child) {
+    margin-right: 32px;
+  }
 }
 
 .block-container:not(:last-child)::after {
   content: "";
   position: absolute;
-  top: 0;
-  right: -16px;
-  width: 2px;
-  height: 260px;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
   background-color: #828282;
+}
+
+@media screen and (min-width: 768px) {
+  .block-container:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -16px;
+    width: 2px;
+    height: 100%;
+    background-color: #828282;
+  }
 }
 
 .block-title {

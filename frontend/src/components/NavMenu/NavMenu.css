@@ -1,18 +1,18 @@
 /* HEADER STYLES */
 .nav-list-header {
   position: absolute;
-  top: 84px;
+  top: 57px;
   left: -15px;
+  padding-bottom: 2px;
   display: flex;
-  flex-direction: column;
-  background: linear-gradient(rgba(255, 255, 255) 40%, rgba(60, 60, 60) 100%);
+  justify-content: center;
+  width: calc(100% + 30px);
+  background: linear-gradient(rgba(0, 0, 0, 0) 59.49%, rgba(0, 0, 0, 0.5) 100%);
 }
 
 @media screen and (min-width: 768px) {
   .nav-list-header {
     position: static;
-    flex-direction: row;
-    justify-content: center;
     background: none;
   }
 }
@@ -30,10 +30,6 @@
   .nav-text-header {
     color: #c3c3c3;
   }
-}
-
-.active .nav-text-header {
-  margin-right: 16px;
 }
 
 .active .nav-text-header {

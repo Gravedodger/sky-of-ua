@@ -7,6 +7,7 @@ import OurTeamSection from "../../sections/OurTeam-section";
 import PartnersSection from "../../sections/Partners-section/PartnersSection";
 import ReportsSection from "../../sections/Reports-section";
 import CurrentProjectsSection from "../../sections/CurrentProjects-section";
+import StarterHeader from "../../components/StarterHeader/StarterHeader";
 
 const AboutUsPage = () => {
   const { t } = useTranslation();
@@ -20,7 +21,7 @@ const AboutUsPage = () => {
         <meta name="description" content="" />
         <meta name="keywords" content="Ukraine, war, charity, help" />
       </Helmet>
-
+        <StarterHeader />
       <main>
         <div className="main-container">
           <AboutUsSection />

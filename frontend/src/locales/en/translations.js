@@ -2,6 +2,12 @@ export const TRANSLATIONS_EN = {
     // SITE NAME
     site_name: "Sky of UA",
 
+    // STARTER HEADER
+    organization: {
+        name: "The Sky of Ukraine Charity Foundation",
+        description: "We help communities, medical institutions, IDPs, and military personnel who are fighting for the territorial integrity, victory and bright future of Ukraine",
+    },
+
     // HEADER
     nav: "Navigation",
     nav_about_us: "About",
@@ -86,10 +92,10 @@ export const TRANSLATIONS_EN = {
         text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv"
     },
 
-
     // MISC
     read_more: "Read more",
     month_june: "June",
     details: "Details",
-    support: "Support"
+    support: "Support",
+    request_assistance: "Request assistance",
 }

@@ -8,7 +8,6 @@ import LanguageSwitch from "../LanguageSwitch";
 const Header = () => {
   const [menuOn, setMenuOn] = useState(false);
   const onClickBurger = () => {
-    console.log("clici");
     setMenuOn((prevState) => !prevState);
     document.querySelector(".header-burger").classList.toggle("active");
   };

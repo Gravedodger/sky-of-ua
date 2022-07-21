@@ -91,3 +91,8 @@
   text-decoration: none;
   color: #83868b;
 }
+
+.nav-text-footer:hover {
+  font-weight: 600;
+  color: #4c94ff;
+}

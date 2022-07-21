@@ -12,7 +12,7 @@ export const TRANSLATIONS_EN = {
     // FOOTER
     partners: "Partners",
     partner: "Partner",
-    supported_by: "Aided by",
+    supported_by: "Supported by",
 
     // ABOUT US SECTION
     about_us_section_title: "About us",

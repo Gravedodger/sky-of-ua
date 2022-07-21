@@ -278,6 +278,12 @@
   text-overflow: ellipsis;
 }
 
+.card-title-add:hover {
+  margin-bottom: 6px;
+  cursor: pointer;
+  border-bottom: 2px solid #4c94ff;
+}
+
 @media screen and (min-width: 768px) {
   .card-title-add {
     width: 240px;

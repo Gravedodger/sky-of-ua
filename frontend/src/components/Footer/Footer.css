@@ -70,12 +70,20 @@
   font-style: normal;
 }
 
+.footer-address:hover {
+  color: #4c94ff;
+}
+
 .contacts-link {
   display: block;
   margin-bottom: 16px;
   font-size: 18px;
   line-height: 22px;
   color: #83868b;
+}
+
+.contacts-link:hover {
+  color: #4c94ff;
 }
 
 .contacts-link + .contacts-link {

@@ -3,7 +3,6 @@ import { SectionTitleText } from "../../Typography";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
 import '../../i18n';
-import Header from "../../components/Header";
 
 const ReportsPage = () => {
     const { t } = useTranslation();
@@ -15,8 +14,6 @@ const ReportsPage = () => {
                 <meta name="description" content=""/>
                 <meta name="keywords" content="Ukraine, war, charity, reports" />
             </Helmet>
-
-            <Header />
 
             <main>
                 <div className="main-container">

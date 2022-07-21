@@ -14,8 +14,20 @@ const PartnersSection = () => {
   const { t } = useTranslation();
   const handleDragStart = (e) => e.preventDefault();
 
+  const responsive = {
+    0: {
+      items: 1,
+    },
+    738: {
+      items: 2,
+    },
+    1280: {
+      items: 3,
+    },
+  };
+
   const items = [
-    <div className="partners-section-container">
+    <div className="partners-card-wrap">
       <PartnersCard
         className="item"
         partnerImage={childrenOfHeroes}
@@ -25,7 +37,8 @@ const PartnersSection = () => {
         onDragStart={handleDragStart}
         role="presentation"
       />
-
+    </div>,
+    <div className="partners-card-wrap">
       <PartnersCard
         className="item"
         partnerImage={supportUkrainians}
@@ -35,7 +48,8 @@ const PartnersSection = () => {
         onDragStart={handleDragStart}
         role="presentation"
       />
-
+    </div>,
+    <div className="partners-card-wrap">
       <PartnersCard
         className="item"
         partnerImage={Tabletochki}
@@ -46,8 +60,7 @@ const PartnersSection = () => {
         role="presentation"
       />
     </div>,
-
-    <div className="partners-section-container">
+    <div className="partners-card-wrap">
       <PartnersCard
         className="item"
         partnerImage={childrenOfHeroes}
@@ -57,7 +70,8 @@ const PartnersSection = () => {
         onDragStart={handleDragStart}
         role="presentation"
       />
-
+    </div>,
+    <div className="partners-card-wrap">
       <PartnersCard
         className="item"
         partnerImage={supportUkrainians}
@@ -67,7 +81,8 @@ const PartnersSection = () => {
         onDragStart={handleDragStart}
         role="presentation"
       />
-
+    </div>,
+    <div className="partners-card-wrap">
       <PartnersCard
         className="item"
         partnerImage={Tabletochki}
@@ -88,10 +103,11 @@ const PartnersSection = () => {
       <AliceCarousel
         mouseTracking
         items={items}
-        autoPlay
-        autoPlayInterval={1400}
-        autoWidth
+        // autoPlay
+        // autoPlayInterval={1400}
         infinite={true}
+        responsive={responsive}
+        disableButtonsControls
       />
     </section>
   );

@@ -1,5 +1,6 @@
-.partners-block-container {
+.partners-card-container {
     display: flex;
+    padding-bottom: 24px;
     flex-direction: column;
     justify-content: space-evenly;
     cursor: pointer;
@@ -12,4 +13,9 @@
 .partner-image-pic {
     object-fit: contain;
     margin-bottom: 16px;
+}
+
+.partners-card-button {
+    margin-top: 33px;
+    background: #f5f5f0;
 }

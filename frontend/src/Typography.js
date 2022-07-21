@@ -109,3 +109,23 @@ export const ButtonText = styled.p`
     line-height: 19px;
     color: #4C94FF;
 `;
+
+export const ProjectCardTitle = styled.h3`
+    margin-top: 16px;
+    margin-bottom: 8px;
+    margin-left: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #272727;
+`;
+
+export const ProjectCardText = styled.p`
+    width: 357px;
+    margin-bottom: 24px;
+    margin-left: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #83868B;
+`;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './PartnersSection.css';
 import { SectionTitleBar, SectionTitleText } from '../../Typography';
-import PartnersSectionBlock from '../../blocks/PartnersSection-block';
+import PartnersCard from '../../components/PartnersCard';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import { useTranslation } from 'react-i18next';
@@ -14,9 +14,10 @@ import Tabletochki from '../../assets/images/tabletochki.png';
 const PartnersSection = () => {
     const { t } = useTranslation();
     const handleDragStart = (e) => e.preventDefault();
+
     const items = [
         <div className="partners-section-container">
-            <PartnersSectionBlock
+            <PartnersCard
                 className="item"
                 partnerImage={childrenOfHeroes}
                 partnerImageAlt={t("partners_slider_1.img_Alt")}
@@ -26,7 +27,7 @@ const PartnersSection = () => {
                 role="presentation"
             />
 
-            <PartnersSectionBlock
+            <PartnersCard
                 className="item"
                 partnerImage={supportUkrainians}
                 partnerImageAlt={t("partners_slider_2.img_Alt")}
@@ -36,7 +37,7 @@ const PartnersSection = () => {
                 role="presentation"
             />
 
-            <PartnersSectionBlock
+            <PartnersCard
                 className="item"
                 partnerImage={Tabletochki}
                 partnerImageAlt={t("partners_slider_3.img_Alt")}
@@ -48,7 +49,7 @@ const PartnersSection = () => {
         </div>,
 
         <div className="partners-section-container">
-            <PartnersSectionBlock
+            <PartnersCard
                 className="item"
                 partnerImage={childrenOfHeroes}
                 partnerImageAlt={t("partners_slider_1.img_Alt")}
@@ -58,7 +59,7 @@ const PartnersSection = () => {
                 role="presentation"
             />
 
-            <PartnersSectionBlock
+            <PartnersCard
                 className="item"
                 partnerImage={supportUkrainians}
                 partnerImageAlt={t("partners_slider_2.img_Alt")}
@@ -68,7 +69,7 @@ const PartnersSection = () => {
                 role="presentation"
             />
 
-            <PartnersSectionBlock
+            <PartnersCard
                 className="item"
                 partnerImage={Tabletochki}
                 partnerImageAlt={t("partners_slider_3.img_Alt")}

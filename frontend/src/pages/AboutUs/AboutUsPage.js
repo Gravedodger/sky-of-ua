@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import '../../i18n';
 import OurTeamSection from "../../sections/OurTeam-section";
 import PartnersSection from "../../sections/Partners-section";
+import CurrentProjectsSection from "../../sections/CurrentProjects-section";
 
 const AboutUsPage = () => {
     const { t } = useTranslation();
@@ -23,6 +24,7 @@ const AboutUsPage = () => {
               <AboutUsSection />
               <OurTeamSection />
               <PartnersSection />
+              <CurrentProjectsSection />
               <ReportsSection />
             </div>
           </main>

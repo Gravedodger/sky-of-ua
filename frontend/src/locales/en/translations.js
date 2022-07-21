@@ -78,8 +78,18 @@ export const TRANSLATIONS_EN = {
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan velit vitae ligula tristique viverra. Ut blandit aliquet mollis. ",
     },
 
+    // CURRENT PROJECTS SECTION
+    current_projects_section_title: "Current Projects",
+    project_card_common: {
+        img_Alt: "bottle of water",
+        title: "Drinking water for the citizens of Mykolayiv",
+        text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv"
+    },
+
+
     // MISC
     read_more: "Read more",
     month_june: "June",
-    details: "Details"
+    details: "Details",
+    support: "Support"
 }

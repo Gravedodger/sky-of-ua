@@ -1,0 +1,9 @@
+.current-projects-section-wrap {
+    margin: 160px 0 188px;
+}
+
+.current-projects-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

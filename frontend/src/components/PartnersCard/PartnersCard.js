@@ -1,24 +1,24 @@
 import React from 'react';
-import './PartnersSectionBlock.css';
+import './PartnersCard.css';
 import { PartnerBlockText, PartnerBlockTitle, Button, ButtonText } from "../../Typography";
 import { useTranslation } from "react-i18next";
 import '../../i18n';
 
-const PartnersSectionBlock = ({partnerImage, partnerImageAlt, partnerTitle, partnerDescription}) => {
+const PartnersCard = ({partnerImage, partnerImageAlt, partnerTitle, partnerDescription}) => {
     const { t } = useTranslation();
 
     return (
-        <div className="partners-block-container">
+        <div className="partners-card-container">
             <div className="partner-image">
                 <img src={partnerImage} alt={partnerImageAlt} className="partner-image-pic" />
             </div>
             <PartnerBlockTitle>{partnerTitle}</PartnerBlockTitle>
             <PartnerBlockText>{partnerDescription}</PartnerBlockText>
-            <Button>
+            <Button className="partners-card-button">
                 <ButtonText>{t("details")}</ButtonText>
             </Button>
         </div>
     )
 }
 
-export default PartnersSectionBlock;
+export default PartnersCard;

@@ -78,8 +78,18 @@ export const TRANSLATIONS_UK = {
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan velit vitae ligula tristique viverra. Ut blandit aliquet mollis. ",
     },
 
+    // CURRENT PROJECTS SECTION
+    current_projects_section_title: "Актуальні Проекти",
+    project_card_common: {
+        img_Alt: "бутилка води",
+        title: "Питна вода для мешканців Миколаїва",
+        text: "Оголошується збір на закупівлю питної води у бутлях (500л) для мешканців Миколаєва"
+    },
+
+
     // MISC
     read_more: "Читати більше",
     month_june: "Червень",
-    details: "Деталі"
+    details: "Деталі",
+    support: "Підтримати"
 }

@@ -7,6 +7,7 @@ import Spinner from "./components/Spinner";
 
 const App = React.lazy(() => import('./App'));
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
     <Suspense fallback={<Spinner />}>
       <App />

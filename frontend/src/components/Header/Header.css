@@ -1,3 +1,19 @@
+@media screen and (min-width: 768px) {
+  .header {
+    position: relative;
+    z-index: 1;
+    margin-bottom: calc(432px - 85px);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    position: relative;
+    z-index: 1;
+    margin-bottom: calc(810px - 85px);
+  }
+}
+
 .header-gradient {
   background: linear-gradient(rgba(0, 0, 0, 0.5) 59.49%, rgba(0, 0, 0, 0) 100%);
 }

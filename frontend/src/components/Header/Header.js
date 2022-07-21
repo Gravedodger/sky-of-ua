@@ -4,6 +4,8 @@ import "./Header.css";
 import Logo from "../Logo";
 import NavMenu from "../NavMenu";
 import LanguageSwitch from "../LanguageSwitch";
+import HeroVideo from "../HeroVideo/HeroVideo";
+import SocialLinks from "../SocialLinks";
 
 const Header = () => {
   const [menuOn, setMenuOn] = useState(false);
@@ -27,8 +29,12 @@ const Header = () => {
           </div>
         </div>
       </div>
+      <MediaQuery minWidth={768}>
+        <HeroVideo />
+        <SocialLinks style="header" />
+      </MediaQuery>
     </header>
-  )
-}
+  );
+};
 
 export default Header;

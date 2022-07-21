@@ -4,24 +4,24 @@ import { SectionTitleText } from "../../Typography";
 import { useTranslation } from "react-i18next";
 import '../../i18n';
 
-const ProjectsPage = () => {
+const MarketplacePage = () => {
     const { t } = useTranslation();
 
     return (
         <>
             <Helmet>
-                <title>{t("site_name")} || {t("nav_projects")}</title>
-                <meta name="description" content=""/>
-                <meta name="keywords" content="Ukraine, war, charity, projects"/>
+                <title>{t("site_name")} || {t("nav_marketplace")}</title>
+                <meta name="description" content="" />
+                <meta name="keywords" content="Ukraine, war, charity, marketplace" />
             </Helmet>
 
             <main>
                 <div className="main-container">
-                    <SectionTitleText>Welcome to the Projects Page!</SectionTitleText>
+                    <SectionTitleText>Welcome to the Marketplace Page!</SectionTitleText>
                 </div>
             </main>
         </>
     )
 }
 
-export default ProjectsPage;
+export default MarketplacePage;

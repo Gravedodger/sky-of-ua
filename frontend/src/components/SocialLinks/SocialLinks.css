@@ -1,8 +1,17 @@
-.socialLinks-list {
-  display: flex;
-  width: 168px;
-  justify-content: space-between;
-  align-items: center;
+@media screen and (min-width: 768px) {
+  .socialLinks-list-header {
+    position: absolute;
+    top: 240px;
+    left: calc(50% + 339px);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .socialLinks-list-header {
+    position: absolute;
+    top: 615px;
+    left: calc(50% + 605px);
+  }
 }
 
 .socialLinks-link {
@@ -10,7 +19,14 @@
 }
 
 .socialLinks-icon-header * {
-  stroke: red;
+  stroke: #ffffff;
+}
+
+.socialLinks-list-footer {
+  display: flex;
+  width: 168px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .socialLinks-icon-footer * {

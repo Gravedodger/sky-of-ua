@@ -1,0 +1,19 @@
+.lang-switch {
+}
+
+.lang-btn {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #ffffff;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .lang-switch {
+        font-size: 15px;
+        line-height: 18px;
+    }
+}

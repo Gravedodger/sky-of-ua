@@ -3,7 +3,7 @@ import './AboutUsSection.css';
 import { SectionTitleBar, SectionTitleText } from "../../Typography";
 import AboutUsBlock from "../../blocks/AboutUs-block";
 import { useTranslation } from "react-i18next";
-import "./../../i18n";
+import "../../i18n";
 
 const AboutUsSection = () => {
     const { t } = useTranslation();

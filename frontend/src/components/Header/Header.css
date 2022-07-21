@@ -61,18 +61,3 @@
     display: none;
   }
 }
-
-.header-language {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  color: #fff;
-  cursor: pointer;
-}
-
-@media screen and (min-width: 768px) {
-  .header-language {
-    font-size: 15px;
-    line-height: 18px;
-  }
-}

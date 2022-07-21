@@ -1,6 +1,6 @@
 .section-wrap {
     display: flex;
-    align-items: center;
+    margin-top: 42px;
     justify-content: space-evenly;
 }
 

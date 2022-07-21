@@ -37,11 +37,18 @@
 }
 
 .block-title {
+  text-align: center;
   margin-bottom: 20px;
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
   color: #272727;
+}
+
+@media screen and (min-width: 768px) {
+  .block-title {
+    text-align: start;
+  }
 }
 
 .block-text {

@@ -1,5 +1,16 @@
 .our-team-section-wrap {
-  padding: 80px 0;
+  padding: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .our-team-section-wrap {
+    padding: 40px 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .our-team-section-wrap {
+    padding: 80px 0;
+  }
 }
 
 .our-team-section-container {
@@ -8,18 +19,47 @@
 
 .our-team-img {
   margin-bottom: 24px;
+  width: 100%;
 }
 
 .our-team-description-title {
-  margin-bottom: 16px;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .our-team-description-title {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .our-team-description-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
 }
 
 .our-team-description-text {
   margin: 0 auto;
+  max-width: 100%;
   width: 740px;
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .our-team-description-text {
+    line-height: 22px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .our-team-description-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
 }

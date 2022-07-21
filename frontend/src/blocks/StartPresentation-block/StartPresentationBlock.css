@@ -1,0 +1,54 @@
+.start-presentation {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    top: 500px;
+    left: 320px;
+}
+
+.start-presentation-info {
+    color: #ffffff;
+}
+
+.start-presentation-title {
+    margin-bottom: 16px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.start-presentation-description {
+    width: 547px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.start-presentation-btn-container {
+}
+
+.start-presentation-request-btn {
+    padding: 16px 72px;
+    background: transparent;
+    border: 1px solid #4c94ff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.start-presentation-support-btn {
+    margin-left: 32px;
+    padding: 16px 101px;
+    background: #4c94ff;
+    border: 1px solid #4c94ff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.start-presentation-request-btn {
+    font-weight: 500;
+}
+
+.start-presentation-support-btn-text {
+    font-weight: 500;
+    color: #ffd600 !important;
+}

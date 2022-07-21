@@ -2,6 +2,12 @@ export const TRANSLATIONS_UK = {
   // SITE NAME
   site_name: "Небо України",
 
+  // START PRESENTATION
+  start_presentation: {
+    title: "Благодійни фонд Небо України",
+    description: "Допомагаємо громадам, медичним закладам, ВПО та військовим, які борються за територіальну цілісність, перемогу та світле майбутнє України",
+  },
+
   // HEADER
   nav: "Навігація",
   nav_about_us: "Про нас",
@@ -95,5 +101,6 @@ export const TRANSLATIONS_UK = {
   read_more: "Читати більше",
   month_june: "Червень",
   details: "Деталі",
-  support: "Підтримати"
+  support: "Підтримати",
+  request_support: "Потрібна допомога"
 };

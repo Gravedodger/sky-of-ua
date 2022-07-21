@@ -8,11 +8,10 @@ const HeroVideo = () => {
       src={heroVideo}
       autoPlay
       loop={true}
-      controls
       muted
       className="hero-video"
-    ></video>
-  );
-};
+    />
+  )
+}
 
 export default HeroVideo;

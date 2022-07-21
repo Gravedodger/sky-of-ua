@@ -18,6 +18,7 @@ const SocialLinks = (props) => {
           <IconTelegram className={`socialLinks-icon-${style}`} />
         </a>
       </li>
+
       <li className="socialLinks-item">
         <a
           href="https://instagram.com/the_sky_of_ukraine?igshid=YmMyMTA2M2Y="
@@ -27,6 +28,7 @@ const SocialLinks = (props) => {
           <IconInstagram className={`socialLinks-icon-${style}`} />
         </a>
       </li>
+
       <li className="socialLinks-item">
         <a
           href="https://www.facebook.com/groups/neboukrainu"
@@ -37,7 +39,7 @@ const SocialLinks = (props) => {
         </a>
       </li>
     </ul>
-  );
-};
+  )
+}
 
 export default SocialLinks;

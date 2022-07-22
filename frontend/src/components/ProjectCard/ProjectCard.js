@@ -6,6 +6,7 @@ import {
   ProjectCardText,
   ProjectCardTitle,
 } from "../../Typography";
+import FundraisingProgress from "../FundraisingProgress";
 
 const ProjectCard = ({
   projectCardImage,
@@ -23,6 +24,7 @@ const ProjectCard = ({
       />
       <ProjectCardTitle>{projectCardTitle}</ProjectCardTitle>
       <ProjectCardText>{projectCardText}</ProjectCardText>
+        <FundraisingProgress />
       <Button>
         <ButtonText>{buttonText}</ButtonText>
       </Button>

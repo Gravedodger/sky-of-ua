@@ -123,6 +123,10 @@ export const TRANSLATIONS_EN = {
         text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv"
     },
 
+    // FUNDRAISING
+    sum_required: "Required sum",
+    sum_remains: "Sum remains",
+
     // MISC
     read_more: "Read more",
     month_june: "June",

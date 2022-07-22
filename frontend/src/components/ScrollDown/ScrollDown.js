@@ -2,10 +2,6 @@ import React from 'react';
 import './ScrollDown.css';
 
 const ScrollDown = () => {
-    setInterval(function() {
-        $("a.scrolldown").toggleClass('active');
-        }, 1000);
-
     return (
         <div className="scroll-down">
             <a href="#section-1" className="scrolldown">

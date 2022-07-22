@@ -128,6 +128,10 @@ export const TRANSLATIONS_UK = {
     text: "Оголошується збір на закупівлю питної води у бутлях (500л) для мешканців Миколаєва"
   },
 
+  // FUNDRAISING
+  sum_required: "Сумма збору",
+  sum_remains: "Залишилось",
+
   // MISC
   read_more: "Читати більше",
   month_june: "Червень",

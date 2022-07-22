@@ -1,0 +1,45 @@
+.progress-wrap {
+    margin-bottom: 33px;
+}
+
+.progress-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 8px;
+}
+
+.progress-target {
+    display: flex;
+    flex-direction: column;
+}
+
+.progress-target-label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.progress-target-sum {
+    font-size: 18px;
+    font-weight: 500;
+    color: #272727;
+}
+
+.progress-remains {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.progress-remaining-sum {
+    font-size: 18px;
+    font-weight: 500;
+    color: #4C94FF;
+}
+
+.line-progress-bar {
+    margin-left: 24px;
+}

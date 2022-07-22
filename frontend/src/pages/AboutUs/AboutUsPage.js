@@ -8,6 +8,7 @@ import PartnersSection from "../../sections/Partners-section/PartnersSection";
 import ReportsSection from "../../sections/Reports-section";
 import CurrentProjectsSection from "../../sections/CurrentProjects-section";
 import HelpSection from "../../sections/Help-section";
+import JoinUsSection from "../../sections/JoinUs-section";
 
 const AboutUsPage = () => {
   const { t } = useTranslation();
@@ -28,6 +29,7 @@ const AboutUsPage = () => {
           <OurTeamSection />
           <PartnersSection />
           <HelpSection />
+          <JoinUsSection />
           <CurrentProjectsSection />
           <ReportsSection />
         </div>

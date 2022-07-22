@@ -1,0 +1,74 @@
+.join-us-section-wrap {
+    margin-top: 156px;
+    margin-bottom: 160px;
+}
+
+.join-us-section-container {
+    display: flex;
+}
+
+.join-us-section-container--right {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-item-one {
+    width: 624px;
+    height: 624px;
+    background: url("../../assets/images/plastic-forms.png");
+    background-size: contain;
+    cursor: pointer;
+}
+
+.card-item-two {
+    width: 624px;
+    height: 296px;
+    margin-bottom: 32px;
+    background: url("../../assets/images/box-with-items.png");
+    background-size: contain;
+    cursor: pointer;
+}
+
+.card-item-three {
+    width: 624px;
+    height: 296px;
+    background: url("../../assets/images/military-photo.png");
+    background-size: contain;
+    cursor: pointer;
+}
+
+.card-info-one {
+    padding-top: 519px;
+    padding-left: 24px;
+}
+
+.card-info-two {
+    padding-top: 191px;
+    padding-left: 24px;
+}
+
+.card-divider {
+    width: 56px;
+    height: 2px;
+    margin-top: 13px;
+    margin-bottom: 16px;
+    padding-left: 24px;
+    background: #4C94FF;
+    border-radius: 2px;
+}
+
+.card-description {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.card-info-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.join-us-section-container--right {
+    margin-left: 32px;
+}

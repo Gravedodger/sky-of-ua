@@ -100,6 +100,21 @@ export const TRANSLATIONS_EN = {
         label_bottom: "Aid to the Military",
     },
 
+    // JOIN US SECTION
+    join_us_section_title: "How to join us",
+    larger_card: {
+        title: "Projects",
+        text: "Join our team",
+    },
+    top_card: {
+        title: "Help",
+        text: "Join our team",
+    },
+    bottom_card: {
+        title: "Join us",
+        text: "Join our team",
+    },
+
     // CURRENT PROJECTS SECTION
     current_projects_section_title: "Current Projects",
     project_card_common: {

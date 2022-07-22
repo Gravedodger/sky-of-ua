@@ -105,6 +105,21 @@ export const TRANSLATIONS_UK = {
     label_bottom: "Допомога Військовим",
   },
 
+  // JOIN US SECTION
+  join_us_section_title: "Як до нас приєднатися",
+  larger_card: {
+    title: "Проекти",
+    text: "Приєднайся до нашої команди",
+  },
+  top_card: {
+    title: "Допомога",
+    text: "Приєднайся до нашої команди  ",
+  },
+  bottom_card: {
+    title: "Приєднатися до нас",
+    text: "Приєднайся до нашої команди  ",
+  },
+
   // CURRENT PROJECTS SECTION
   current_projects_section_title: "Актуальні Проекти",
   project_card_common: {

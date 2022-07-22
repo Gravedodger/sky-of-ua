@@ -1,0 +1,108 @@
+.scroll-down {
+    position: relative;
+    top: 630px;
+    left: 52%;
+}
+
+.scrolldown {
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    background: #2c3e50;
+    background: rgba(44,62,80,.7);
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    -webkit-transition: -webkit-transform ease-out .1s,background .2s;
+    -moz-transition: -moz-transform ease-out .1s,background .2s;
+    transition: transform ease-out .1s,background .2s;
+}
+
+.scrolldown:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+.scrolldown .fui-arrow-right {
+    color: #fff;
+    font-size: 1.5em;
+    margin-left: 2px
+}
+
+.scrolldown:after {
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: -1;
+    box-shadow: 0 0 0 2px rgba(255,255,255,.1);
+    opacity: 0
+}
+
+.no-touch .scrolldown.active {
+    color: #fff
+}
+
+.scrolldown.active:after {
+    -webkit-animation: sonarEffect 1.3s ease-out 75ms;
+    -moz-animation: sonarEffect 1.3s ease-out 75ms;
+    animation: sonarEffect 1.3s ease-out 75ms
+}
+
+@-webkit-keyframes sonarEffect {
+    0% {
+        opacity: .3
+    }
+
+    40% {
+        opacity: .5;
+        box-shadow: 0 0 0 2px rgba(255,255,255,.4),0 0 10px 10px #344453,0 0 0 10px rgba(255,255,255,.8)
+    }
+
+    100% {
+        box-shadow: 0 0 0 2px rgba(255,255,255,.4),0 0 10px 10px #344453,0 0 0 10px rgba(255,255,255,.8);
+        -webkit-transform: scale(1.5);
+        opacity: 0
+    }
+}
+
+@-moz-keyframes sonarEffect {
+    0% {
+        opacity: .3
+    }
+
+    40% {
+        opacity: .5;
+        box-shadow: 0 0 0 2px rgba(255,255,255,.4),0 0 10px 10px #344453,0 0 0 10px rgba(255,255,255,.8)
+    }
+
+    100% {
+        box-shadow: 0 0 0 2px rgba(255,255,255,.4),0 0 10px 10px #344453,0 0 0 10px rgba(255,255,255,.8);
+        -moz-transform: scale(1.5);
+        opacity: 0
+    }
+}
+
+@keyframes sonarEffect {
+    0% {
+        opacity: .3
+    }
+
+    40% {
+        opacity: .5;
+        box-shadow: 0 0 0 2px rgba(255,255,255,.4),0 0 10px 10px #344453,0 0 0 10px rgba(255,255,255,.8)
+    }
+
+    100% {
+        box-shadow: 0 0 0 2px rgba(255,255,255,.4),0 0 10px 10px #344453,0 0 0 10px rgba(255,255,255,.8);
+        transform: scale(1.5);
+        opacity: 0
+    }
+}

@@ -7,6 +7,7 @@ import LanguageSwitch from "../LanguageSwitch";
 import HeroVideo from "../HeroVideo/HeroVideo";
 import SocialLinks from "../SocialLinks";
 import StartPresentationBlock from "../../blocks/StartPresentation-block";
+import ScrollDown from "../ScrollDown";
 
 const Header = () => {
   const [menuOn, setMenuOn] = useState(false);
@@ -33,6 +34,7 @@ const Header = () => {
       <MediaQuery minWidth={768}>
         <HeroVideo />
         <StartPresentationBlock />
+        <ScrollDown />
         <SocialLinks style="header" />
       </MediaQuery>
     </header>

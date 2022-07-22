@@ -1,0 +1,68 @@
+.help-section-wrap {
+    margin-top: 200px;
+}
+
+.section-title {
+    margin-bottom: 42px;
+}
+
+.help-section-container {
+    display: flex;
+}
+
+.help-section-images {
+    margin-right: 36px;
+}
+
+.help-section-title {
+    margin-bottom: 16px;
+    color: #272727 !important;
+}
+
+.help-section-description {
+    width: 516px;
+    margin-bottom: 36px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #83868B;
+}
+
+.icons-with-labels {
+    display: flex;
+    margin-bottom: 46px;
+    flex-direction: column;
+}
+
+.icons-with-labels-row {
+    display: flex;
+    margin-bottom: 26px;
+    align-items: center;
+}
+
+.help-icn {
+    margin-right: 20px;
+}
+
+.help-label {
+
+}
+
+.top-pic {
+    margin-bottom: 24px;
+}
+
+.help-pic-1 {
+
+}
+
+.help-pic-2 {
+    margin-right: 24px;
+}
+
+.help-pic-3 {
+    padding-bottom: 63px;
+}
+
+.help-section-buttons-container {
+
+}

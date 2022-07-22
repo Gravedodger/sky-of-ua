@@ -7,6 +7,7 @@ import OurTeamSection from "../../sections/OurTeam-section";
 import PartnersSection from "../../sections/Partners-section/PartnersSection";
 import ReportsSection from "../../sections/Reports-section";
 import CurrentProjectsSection from "../../sections/CurrentProjects-section";
+import HelpSection from "../../sections/Help-section";
 
 const AboutUsPage = () => {
   const { t } = useTranslation();
@@ -22,10 +23,11 @@ const AboutUsPage = () => {
       </Helmet>
 
       <main>
-        <div className="main-container">
+        <div className="main-container" id="section-1">
           <AboutUsSection />
           <OurTeamSection />
           <PartnersSection />
+          <HelpSection />
           <CurrentProjectsSection />
           <ReportsSection />
         </div>

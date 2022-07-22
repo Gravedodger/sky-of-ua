@@ -84,6 +84,22 @@ export const TRANSLATIONS_EN = {
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan velit vitae ligula tristique viverra. Ut blandit aliquet mollis. ",
     },
 
+    // HELP SECTION
+    help_section_title: "Help",
+    help_section: {
+        img_1_Alt: "military exercise",
+        img_2_Alt: "plastic forms",
+        img_3_Alt: "holding a hand at hospital",
+        title: "We work on many different fronts",
+        description: "We purchase and search for various products, from personal hygiene products to military equipment",
+        icn_top_Alt: "praying hands icon",
+        label_top: "Humanitarian Aid",
+        icn_middle_Alt: "first aid kit icon",
+        label_middle: "Assistance to Medical Institutions",
+        icn_bottom_Alt: "serviceman icon",
+        label_bottom: "Aid to the Military",
+    },
+
     // CURRENT PROJECTS SECTION
     current_projects_section_title: "Current Projects",
     project_card_common: {
@@ -92,11 +108,11 @@ export const TRANSLATIONS_EN = {
         text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv"
     },
 
-
     // MISC
     read_more: "Read more",
     month_june: "June",
     details: "Details",
     support: "Support",
-    request_support: "Request support"
+    request_support: "Request support",
+    take_part: "Take part"
 }

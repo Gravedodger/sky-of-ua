@@ -89,6 +89,22 @@ export const TRANSLATIONS_UK = {
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan velit vitae ligula tristique viverra. Ut blandit aliquet mollis. ",
   },
 
+  // HELP SECTION
+  help_section_title: "Допомога",
+  help_section: {
+    img_1_Alt: "військові навчання",
+    img_2_Alt: "пластикові форми",
+    img_3_Alt: "тримаючи руку в госпіталі",
+    title: "Ми працюємо на різні фронти",
+    description: "Займаємось закупівлею і пошуком різних продуктів починаючи з засобів особистої гігієни до військового екіпірування",
+    icn_top_Alt: "іконка долонь складених в молитві",
+    label_top: "Гуманітарна Допомога",
+    icn_middle_Alt: "іконка першої допомоги",
+    label_middle: "Допомога Медичним Закладам",
+    icn_bottom_Alt: "іконка військовослужбовця",
+    label_bottom: "Допомога Військовим",
+  },
+
   // CURRENT PROJECTS SECTION
   current_projects_section_title: "Актуальні Проекти",
   project_card_common: {
@@ -102,5 +118,6 @@ export const TRANSLATIONS_UK = {
   month_june: "Червень",
   details: "Деталі",
   support: "Підтримати",
-  request_support: "Потрібна допомога"
+  request_support: "Потрібна допомога",
+  take_part: "Долучитися"
 };

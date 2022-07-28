@@ -64,7 +64,7 @@
 .card-info-main {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   margin-bottom: 16px;
   background-image: url(../../assets/images/ladies-with-rubbish.png);
   background-size: contain;
@@ -86,7 +86,7 @@
 .card-info-bottom {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   height: calc(50% - 4px);
   background-size: contain;
   border-radius: 3px;

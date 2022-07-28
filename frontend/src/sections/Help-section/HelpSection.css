@@ -1,68 +1,156 @@
 .help-section-wrap {
-    margin-top: 200px;
+  padding: 80px 0;
 }
 
-.section-title {
-    margin-bottom: 42px;
+@media screen and (min-width: 768px) {
 }
 
-.help-section-container {
+@media screen and (min-width: 1440px) {
+  .help-section-content {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 }
 
-.help-section-images {
-    margin-right: 36px;
-}
+/* .help-section-images {
+  flex: 1;
+} */
 
 .help-section-title {
-    margin-bottom: 16px;
-    color: #272727 !important;
-}
-
-.help-section-description {
-    width: 516px;
-    margin-bottom: 36px;
-    font-size: 14px;
-    font-weight: 400;
-    color: #83868B;
-}
-
-.icons-with-labels {
-    display: flex;
-    margin-bottom: 46px;
-    flex-direction: column;
-}
-
-.icons-with-labels-row {
-    display: flex;
-    margin-bottom: 26px;
-    align-items: center;
-}
-
-.help-icn {
-    margin-right: 20px;
-}
-
-.help-label {
-
-}
-
-.top-pic {
-    margin-bottom: 24px;
+  margin-bottom: 16px;
+  color: #272727 !important;
 }
 
 .help-pic-1 {
+  display: block;
+  margin-bottom: 24px;
+  max-width: 100%;
+}
 
+@media screen and (min-width: 768px) {
+  .help-section-images-additional {
+    display: flex;
+    align-items: start;
+  }
 }
 
 .help-pic-2 {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .help-pic-2 {
+    margin-left: 0;
     margin-right: 24px;
+    margin-bottom: 0;
+  }
 }
 
 .help-pic-3 {
-    padding-bottom: 63px;
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
 }
 
-.help-section-buttons-container {
+@media screen and (min-width: 768px) {
+  .help-pic-3 {
+    margin-left: 0;
+  }
+}
 
+.help-section-text {
+  margin-top: 40px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .help-section-text {
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .help-section-text {
+    text-align: unset;
+  }
+}
+
+.help-section-description {
+  margin-bottom: 36px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #83868b;
+}
+
+@media screen and (min-width: 768px) {
+  .help-section-description {
+    width: 516px;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .help-section-description {
+    margin-left: 0;
+  }
+}
+
+.help-section-links {
+  margin-bottom: 46px;
+}
+
+.help-section-item:not(:last-child) {
+  margin-bottom: 26px;
+}
+
+.help-label-humanitarian,
+.help-label-medical,
+.help-label-military {
+  position: relative;
+  margin-left: 50px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4c94ff;
+}
+.help-label-humanitarian::before,
+.help-label-medical:before,
+.help-label-military:before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: -50px;
+  width: 32px;
+  height: 32px;
+}
+
+.help-label-humanitarian::before {
+  background-image: url(../../assets/icons/icn-hands.svg);
+}
+
+.help-label-medical:before {
+  background-image: url(../../assets/icons/icn-aid.svg);
+}
+
+.help-label-military:before {
+  background-image: url(../../assets/icons/icn-military.svg);
+}
+
+.start-presentation-request-btn {
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .start-presentation-request-btn {
+    margin-right: 32px;
+  }
+}
+
+.start-presentation-support-btn {
+  margin: 0 auto;
 }

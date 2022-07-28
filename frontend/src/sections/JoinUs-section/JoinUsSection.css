@@ -1,74 +1,144 @@
 .join-us-section-wrap {
-    margin-top: 156px;
-    margin-bottom: 160px;
+  padding: 20px 0;
 }
 
-.join-us-section-container {
+@media screen and (min-width: 768px) {
+  .join-us-section-wrap {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .join-us-section-wrap {
+    padding: 80px 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .join-us-section-content {
     display: flex;
+    justify-content: space-between;
+  }
 }
 
-.join-us-section-container--right {
+.card-info-main,
+.card-info-add {
+  margin: 0 auto;
+  width: 290px;
+  height: 290px;
+}
+
+@media screen and (min-width: 400px) {
+  .card-info-main,
+  .card-info-add {
+    width: 370px;
+    height: 370px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .card-info-main,
+  .card-info-add {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card-info-main,
+  .card-info-add {
+    margin: 0;
+    width: 364px;
+    height: 364px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card-info-main,
+  .card-info-add {
+    width: calc(50% - 16px);
+    height: 624px;
+  }
+}
+
+.card-info-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 16px;
+  background-image: url(../../assets/images/ladies-with-rubbish.png);
+  background-size: contain;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-info-main {
+    margin-bottom: 0;
+  }
+  .card-info-add {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
-.card-item-one {
-    width: 624px;
-    height: 624px;
-    background: url("../../assets/images/plastic-forms.png");
-    background-size: contain;
-    cursor: pointer;
+.card-info-top,
+.card-info-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: calc(50% - 4px);
+  background-size: contain;
+  border-radius: 3px;
 }
 
-.card-item-two {
-    width: 624px;
-    height: 296px;
-    margin-bottom: 32px;
-    background: url("../../assets/images/box-with-items.png");
-    background-size: contain;
-    cursor: pointer;
+@media screen and (min-width: 1440px) {
+  .card-info-top,
+  .card-info-bottom {
+    height: calc(50% - 16px);
+  }
 }
 
-.card-item-three {
-    width: 624px;
-    height: 296px;
-    background: url("../../assets/images/military-photo.png");
-    background-size: contain;
-    cursor: pointer;
+.card-info-top {
+  background-image: url(../../assets/images/food-with-military.png);
+  margin-bottom: 16px;
 }
 
-.card-info-one {
-    padding-top: 519px;
-    padding-left: 24px;
+@media screen and (min-width: 768px) {
+  .card-info-top {
+    margin-bottom: 0;
+  }
 }
 
-.card-info-two {
-    padding-top: 191px;
-    padding-left: 24px;
-}
-
-.card-divider {
-    width: 56px;
-    height: 2px;
-    margin-top: 13px;
-    margin-bottom: 16px;
-    padding-left: 24px;
-    background: #4C94FF;
-    border-radius: 2px;
+.card-info-bottom {
+  background-image: url(../../assets/images/box-with-items.png);
 }
 
 .card-description {
-    font-size: 14px;
-    font-weight: 400;
-    color: #ffffff;
+  padding: 24px;
 }
 
 .card-info-title {
-    font-size: 20px;
-    font-weight: 600;
-    color: #ffffff;
+  position: relative;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
 }
 
-.join-us-section-container--right {
-    margin-left: 32px;
+.card-info-title::after {
+  content: "";
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+  width: 56px;
+  height: 2px;
+  background-color: #4c94ff;
+}
+
+.card-info-text {
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
 }

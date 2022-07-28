@@ -1,8 +1,16 @@
 .help-section-wrap {
-  padding: 80px 0;
+  padding: 20px 0;
 }
 
 @media screen and (min-width: 768px) {
+  .help-section-wrap {
+    padding: 40px 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .help-section-wrap {
+    padding: 80px 0;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -12,10 +20,6 @@
     flex-wrap: wrap;
   }
 }
-
-/* .help-section-images {
-  flex: 1;
-} */
 
 .help-section-title {
   margin-bottom: 16px;

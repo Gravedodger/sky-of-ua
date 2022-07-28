@@ -35,7 +35,7 @@
 @media screen and (min-width: 768px) {
   .help-section-images-additional {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
   }
 }
 

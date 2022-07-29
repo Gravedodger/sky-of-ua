@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="main-container header-gradient">
+      <div className="main-container ">
         <div className="header-wrap">
           <Logo style="header" />
           <MediaQuery maxWidth={767}>
@@ -38,7 +38,7 @@ const Header = () => {
         <SocialLinks style="header" />
       </MediaQuery>
     </header>
-  )
-}
+  );
+};
 
 export default Header;

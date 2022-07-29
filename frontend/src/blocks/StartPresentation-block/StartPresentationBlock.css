@@ -1,54 +1,89 @@
 .start-presentation {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    top: 500px;
-    left: 320px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  top: calc(50% - 120px);
+  left: calc(50% - 354px);
+}
+
+@media screen and (min-width: 1440px) {
+  .start-presentation {
+    top: calc(50% - 120px);
+    left: calc(50% - 640px);
+  }
 }
 
 .start-presentation-info {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .start-presentation-title {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 1440px) {
+  .start-presentation-title {
     font-size: 28px;
-    font-weight: 500;
+  }
 }
 
 .start-presentation-description {
-    width: 547px;
-    margin-bottom: 24px;
-    font-size: 16px;
-    font-weight: 400;
+  width: 347px;
+  margin-bottom: 24px;
+  font-size: 14px;
+  font-weight: 400;
 }
 
-.start-presentation-btn-container {
+@media screen and (min-width: 1440px) {
+  .start-presentation-description {
+    width: 547px;
+    font-size: 16px;
+  }
 }
 
 .start-presentation-request-btn {
-    padding: 16px 72px;
-    background: transparent;
-    border: 1px solid #4c94ff;
-    border-radius: 6px;
-    cursor: pointer;
+  display: block;
+  width: 196px;
+  margin-bottom: 16px;
+  padding: 12px;
+  font-weight: 400;
+  background: transparent;
+  border: 1px solid #4c94ff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+  .start-presentation-request-btn {
+    display: inline;
+    width: 296px;
+    margin-right: 32px;
+    margin-bottom: 0;
+    padding: 16px;
+    font-weight: 500;
+  }
 }
 
 .start-presentation-support-btn {
-    margin-left: 32px;
-    padding: 16px 101px;
-    background: #4c94ff;
-    border: 1px solid #4c94ff;
-    border-radius: 6px;
-    cursor: pointer;
+  width: 196px;
+  padding: 10px;
+  background: #4c94ff;
+  border: 1px solid #4c94ff;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
-.start-presentation-request-btn {
-    font-weight: 500;
+@media screen and (min-width: 1440px) {
+  .start-presentation-support-btn {
+    width: 296px;
+    padding: 16px;
+  }
 }
 
 .start-presentation-support-btn-text {
-    font-weight: 500;
-    color: #ffd600 !important;
+  font-weight: 500;
+  color: #ffd600 !important;
 }

@@ -32,7 +32,7 @@ const Header = () => {
       </div>
       <MediaQuery minWidth={768}>
         <HeroVideo />
-        <StartPresentationBlock />
+
         <ScrollDown />
       </MediaQuery>
     </header>

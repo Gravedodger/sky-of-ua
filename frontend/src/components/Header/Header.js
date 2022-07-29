@@ -5,7 +5,6 @@ import Logo from "../Logo";
 import NavMenu from "../NavMenu";
 import LanguageSwitch from "../LanguageSwitch";
 import HeroVideo from "../HeroVideo/HeroVideo";
-import SocialLinks from "../SocialLinks";
 import StartPresentationBlock from "../../blocks/StartPresentation-block";
 import ScrollDown from "../ScrollDown";
 
@@ -35,7 +34,6 @@ const Header = () => {
         <HeroVideo />
         <StartPresentationBlock />
         <ScrollDown />
-        <SocialLinks style="header" />
       </MediaQuery>
     </header>
   );

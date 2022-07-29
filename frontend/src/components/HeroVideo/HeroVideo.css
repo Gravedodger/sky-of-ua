@@ -1,4 +1,8 @@
 @media screen and (min-width: 768px) {
+  .hero-video-wrap {
+    position: relative;
+  }
+
   .hero-video {
     position: relative;
     overflow: hidden;

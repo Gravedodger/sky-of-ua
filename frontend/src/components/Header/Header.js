@@ -5,9 +5,6 @@ import Logo from "../Logo";
 import NavMenu from "../NavMenu";
 import LanguageSwitch from "../LanguageSwitch";
 import HeroVideo from "../HeroVideo/HeroVideo";
-import SocialLinks from "../SocialLinks";
-import StartPresentationBlock from "../../blocks/StartPresentation-block";
-import ScrollDown from "../ScrollDown";
 
 const Header = () => {
   const [menuOn, setMenuOn] = useState(false);
@@ -18,7 +15,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="main-container header-gradient">
+      <div className="main-container ">
         <div className="header-wrap">
           <Logo style="header" />
           <MediaQuery maxWidth={767}>
@@ -33,12 +30,9 @@ const Header = () => {
       </div>
       <MediaQuery minWidth={768}>
         <HeroVideo />
-        <StartPresentationBlock />
-        <ScrollDown />
-        <SocialLinks style="header" />
       </MediaQuery>
     </header>
-  )
-}
+  );
+};
 
 export default Header;

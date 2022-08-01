@@ -144,17 +144,28 @@
   background-image: url(../../assets/icons/icn-military.svg);
 }
 
-.start-presentation-request-btn {
-  margin: 0 auto;
+.help-us-button-support-wrap {
   margin-bottom: 16px;
 }
 
 @media screen and (min-width: 768px) {
-  .start-presentation-request-btn {
-    margin-right: 32px;
+  .help-section-buttons-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .help-us-button-support-wrap {
+    margin-right: 16px;
+    margin-bottom: 0;
   }
 }
 
-.start-presentation-support-btn {
-  margin: 0 auto;
+@media screen and (min-width: 1440px) {
+  .help-section-buttons-container {
+    justify-content: flex-start;
+  }
+
+  .help-us-button-support-wrap {
+    margin-right: 32px;
+  }
 }

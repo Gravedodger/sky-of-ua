@@ -1,16 +1,18 @@
 @media screen and (min-width: 768px) {
   .socialLinks-list-header {
     position: absolute;
-    top: 240px;
-    left: calc(50% + 339px);
+    bottom: 20px;
+    right: calc(50% - 354px);
+    width: 144px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .socialLinks-list-header {
-    position: absolute;
-    top: 615px;
-    left: calc(50% + 605px);
+    right: calc(50% - 640px);
   }
 }
 

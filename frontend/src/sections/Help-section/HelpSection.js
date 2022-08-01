@@ -1,6 +1,7 @@
 import React from "react";
 import "./HelpSection.css";
-import { ButtonText, SectionTitleText } from "../../Typography";
+import { SectionTitleText } from "../../Typography";
+import { ButtonRequestSupport, ButtonTakePart } from "../../components/Buttons";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
 
@@ -66,21 +67,12 @@ const HelpSection = () => {
           </ul>
 
           <div className="help-section-buttons-container">
-            <a href="/">
-              <button className="start-presentation-request-btn" type="button">
-                <ButtonText className="start-presentation-request-btn-text">
-                  {t("request_support")}
-                </ButtonText>
-              </button>
-            </a>
-
-            <a href="/projects">
-              <button className="start-presentation-support-btn" type="button">
-                <ButtonText className="start-presentation-support-btn-text">
-                  {t("take_part")}
-                </ButtonText>
-              </button>
-            </a>
+            <div className="help-us-button-support-wrap">
+              <ButtonRequestSupport />
+            </div>
+            <div className="help-us-button-take-part-wrap">
+              <ButtonTakePart />
+            </div>
           </div>
         </div>
       </div>

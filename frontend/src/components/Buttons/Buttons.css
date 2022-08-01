@@ -1,0 +1,44 @@
+/* BUTTON REQUEST SUPPORT STYLES */
+
+.button-request-support {
+  width: 196px;
+  padding: 10px;
+  font-weight: 400;
+  background: transparent;
+  border: 1px solid #4c94ff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+  .button-request-support {
+    display: inline;
+    width: 296px;
+    padding: 16px;
+    font-weight: 500;
+  }
+}
+
+/* BUTTON TAKE PART STYLES */
+
+.button-take-part {
+  width: 196px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #4c94ff;
+  border: 1px solid #4c94ff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+  .button-take-part {
+    width: 296px;
+    padding: 16px;
+  }
+}
+
+.button-take-part-text {
+  font-weight: 500;
+  color: #ffd600 !important;
+}

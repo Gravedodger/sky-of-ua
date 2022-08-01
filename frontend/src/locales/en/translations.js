@@ -145,6 +145,9 @@ export const TRANSLATIONS_EN = {
   // MODAL
   modal_title: "Ask for help",
   modal_form: {
+    alert_fail: "All fields must be filled in",
+    alert_success:
+      "Your application has been accepted, an operator will contact you to clarify the details",
     name: "Name",
     name_placeholder: "Enter Name",
     phone: "Phone number",

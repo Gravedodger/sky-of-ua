@@ -145,6 +145,9 @@ export const TRANSLATIONS_UK = {
   // MODAL
   modal_title: "Звернутись за допомогою",
   modal_form: {
+    alert_fail: "Необхідно заповнити усі поля",
+    alert_success:
+      "Ваша заявка прийнята, з Вами зв'яжеться оператор для уточнення деталей",
     name: "Ім’я",
     name_placeholder: "Введіть Ім’я",
     phone: "Номер телефону",

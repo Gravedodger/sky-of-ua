@@ -5,7 +5,7 @@ import SocialLinks from "../SocialLinks";
 import StartPresentationBlock from "../../blocks/StartPresentation-block";
 import ScrollDown from "../ScrollDown";
 
-const HeroVideo = () => {
+const HeroVideo = ({ setModalActive }) => {
   return (
     <div className="hero-video-wrap">
       <video
@@ -16,7 +16,7 @@ const HeroVideo = () => {
         className="hero-video"
       />
       <SocialLinks style="header" />
-      <StartPresentationBlock />
+      <StartPresentationBlock setModalActive={setModalActive} />
       <ScrollDown />
     </div>
   );

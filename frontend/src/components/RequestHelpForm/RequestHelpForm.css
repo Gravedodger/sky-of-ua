@@ -1,0 +1,56 @@
+.request-help-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.request-help-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #272727;
+}
+
+@media screen and (min-width: 768px) {
+  .request-help-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .request-help-title {
+    margin-bottom: 24px;
+  }
+}
+
+.request-help-label {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .request-help-label {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.request-help-input {
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 1440px) {
+  .request-help-input {
+    margin-bottom: 24px;
+  }
+}
+
+.type_of_help_placeholder {
+  color: #83868b;
+}

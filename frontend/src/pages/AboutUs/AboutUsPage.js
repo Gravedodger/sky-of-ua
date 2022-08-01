@@ -10,7 +10,7 @@ import CurrentProjectsSection from "../../sections/CurrentProjects-section";
 import HelpSection from "../../sections/Help-section";
 import JoinUsSection from "../../sections/JoinUs-section";
 
-const AboutUsPage = () => {
+const AboutUsPage = ({ setModalActive }) => {
   const { t } = useTranslation();
 
   return (
@@ -28,7 +28,7 @@ const AboutUsPage = () => {
           <AboutUsSection />
           <OurTeamSection />
           <PartnersSection />
-          <HelpSection />
+          <HelpSection setModalActive={setModalActive} />
           <JoinUsSection />
           <CurrentProjectsSection />
           <ReportsSection />

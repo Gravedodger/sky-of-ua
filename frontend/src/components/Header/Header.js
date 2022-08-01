@@ -6,7 +6,7 @@ import NavMenu from "../NavMenu";
 import LanguageSwitch from "../LanguageSwitch";
 import HeroVideo from "../HeroVideo/HeroVideo";
 
-const Header = () => {
+const Header = ({ setModalActive }) => {
   const [menuOn, setMenuOn] = useState(false);
   const onClickBurger = () => {
     setMenuOn((prevState) => !prevState);
@@ -29,7 +29,7 @@ const Header = () => {
         </div>
       </div>
       <MediaQuery minWidth={768}>
-        <HeroVideo />
+        <HeroVideo setModalActive={setModalActive} />
       </MediaQuery>
     </header>
   );

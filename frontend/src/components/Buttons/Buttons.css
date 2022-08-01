@@ -38,7 +38,25 @@
   }
 }
 
-.button-take-part-text {
+.button-take-part-text,
+.button-submit-text {
   font-weight: 500;
   color: #ffd600 !important;
+}
+
+.button-submit {
+  width: 196px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #4c94ff;
+  border: 1px solid #4c94ff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+  .button-submit {
+    width: 296px;
+    padding: 16px;
+  }
 }

@@ -9,7 +9,7 @@ import MilitaryExercise from "../../assets/images/military-photo.png";
 import PlasticForms from "../../assets/images/plastic-forms.png";
 import HoldingHand from "../../assets/images/sick-child.png";
 
-const HelpSection = () => {
+const HelpSection = ({ setModalActive }) => {
   const { t } = useTranslation();
 
   return (
@@ -68,7 +68,7 @@ const HelpSection = () => {
 
           <div className="help-section-buttons-container">
             <div className="help-us-button-support-wrap">
-              <ButtonRequestSupport />
+              <ButtonRequestSupport setModalActive={setModalActive} />
             </div>
             <div className="help-us-button-take-part-wrap">
               <ButtonTakePart />

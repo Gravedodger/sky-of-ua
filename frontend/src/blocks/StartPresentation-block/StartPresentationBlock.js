@@ -5,7 +5,7 @@ import "../../i18n";
 import { ButtonRequestSupport, ButtonTakePart } from "../../components/Buttons";
 import { ButtonText } from "../../Typography";
 
-const StartPresentationBlock = () => {
+const StartPresentationBlock = ({ setModalActive }) => {
   const { t } = useTranslation();
 
   return (
@@ -20,7 +20,7 @@ const StartPresentationBlock = () => {
       </div>
       <div className="start-presentation-btn-container">
         <div className="start-presentation-button-request">
-          <ButtonRequestSupport />
+          <ButtonRequestSupport setModalActive={setModalActive} />
         </div>
         <div className="start-presentation-button-take-part">
           <ButtonTakePart />

@@ -32,7 +32,7 @@ const AppRoutes = () => {
       <Footer />
 
       <Modal active={modalActive} setActive={setModalActive}>
-        <RequestHelpForm />
+        <RequestHelpForm setModalActive={setModalActive} />
       </Modal>
     </BrowserRouter>
   );

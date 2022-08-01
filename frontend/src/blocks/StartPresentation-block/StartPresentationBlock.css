@@ -44,46 +44,17 @@
   }
 }
 
-.start-presentation-request-btn {
-  display: block;
-  width: 196px;
-  margin-bottom: 16px;
-  padding: 12px;
-  font-weight: 400;
-  background: transparent;
-  border: 1px solid #4c94ff;
-  border-radius: 6px;
-  cursor: pointer;
+@media screen and (min-width: 768px) {
+  .start-presentation-btn-container {
+    display: flex;
+  }
+  .start-presentation-button-request {
+    margin-right: 16px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-  .start-presentation-request-btn {
-    display: inline;
-    width: 296px;
+  .start-presentation-button-request {
     margin-right: 32px;
-    margin-bottom: 0;
-    padding: 16px;
-    font-weight: 500;
   }
-}
-
-.start-presentation-support-btn {
-  width: 196px;
-  padding: 10px;
-  background: #4c94ff;
-  border: 1px solid #4c94ff;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-@media screen and (min-width: 1440px) {
-  .start-presentation-support-btn {
-    width: 296px;
-    padding: 16px;
-  }
-}
-
-.start-presentation-support-btn-text {
-  font-weight: 500;
-  color: #ffd600 !important;
 }

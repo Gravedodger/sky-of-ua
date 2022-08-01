@@ -17,7 +17,7 @@ const LanguageSwitch = () => {
         UA
       </button>
       <button value="en" className="lang-btn" onClick={handleOnClick}>
-        ENG
+        EN
       </button>
     </div>
   );

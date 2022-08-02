@@ -1,7 +1,7 @@
 .scrolldown {
-  position: relative;
+  position: absolute;
   left: calc(50% - 25px);
-  bottom: 65px;
+  bottom: 55px;
 
   display: block;
   text-align: center;
@@ -15,12 +15,6 @@
   -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
   -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
   transition: transform ease-out 0.1s, background 0.2s;
-}
-
-@media screen and (min-width: 1440px) {
-  .scrolldown {
-    bottom: 105px;
-  }
 }
 
 .scrolldown:after {

@@ -9,9 +9,20 @@
 
 .map-ukraine-list {
   position: relative;
-  margin: 0 auto;
+  margin: -170px -140px;
   width: 966px;
   height: 687px;
+  transform: scale(0.5);
+}
+
+@media screen and (min-width: 1440px) {
+  .map-ukraine-list {
+    position: relative;
+    margin: 0 auto;
+    width: 966px;
+    height: 687px;
+    transform: scale(1);
+  }
 }
 
 .map-ukraine-item {

@@ -22,7 +22,6 @@ const AboutUsPage = ({ setModalActive }) => {
         <meta name="description" content="" />
         <meta name="keywords" content="Ukraine, war, charity, help" />
       </Helmet>
-
       <main>
         <div className="main-container" id="section-1">
           <AboutUsSection />

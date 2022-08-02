@@ -1,3 +1,7 @@
+.hero-video-wrap {
+  background-color:rgba(0, 0, 0, 0.1);
+}
+
 @media screen and (min-width: 768px) {
   .hero-video-wrap {
     position: relative;
@@ -5,11 +9,10 @@
 
   .hero-video {
     position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: -87px;
     overflow: hidden;
     z-index: -100;
-    position: relative;
-    margin-top: -87px;
-    height: 100%;
-    width: 100%;
   }
 }

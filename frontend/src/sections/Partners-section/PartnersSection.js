@@ -1,11 +1,14 @@
 import React from "react";
 import "./PartnersSection.css";
-import { SectionTitleBar, SectionTitleText } from "../../Typography";
+import { SectionTitleText } from "../../Typography";
 import PartnersCard from "../../components/PartnersCard";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
+
+import chevronLeft from "../../assets/icons/icn-chevronLeft.svg";
+import chevronRight from "../../assets/icons/icn-chevronRight.svg";
 import childrenOfHeroes from "../../assets/images/children-of-heroes.png";
 import supportUkrainians from "../../assets/images/support-ukrainians.png";
 import Tabletochki from "../../assets/images/tabletochki.png";
@@ -98,7 +101,9 @@ const PartnersSection = () => {
   return (
     <section className="partners-section-wrap">
       <div className="section-title">
-        <SectionTitleText>{t("partners_section_title")}</SectionTitleText>
+        <SectionTitleText>
+          {t("partners_section_title")}
+        </SectionTitleText>
       </div>
       <AliceCarousel
         mouseTracking
@@ -110,7 +115,7 @@ const PartnersSection = () => {
         disableButtonsControls
       />
     </section>
-  );
-};
+  )
+}
 
 export default PartnersSection;

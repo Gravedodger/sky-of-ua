@@ -178,6 +178,11 @@ export const TRANSLATIONS_EN = {
   request_support: "Request support",
   take_part: "Take part",
 
+  // PROJECTS PAGE
+  humanitarian_assistance: "Humanitarian Assistance",
+  help_for_medics: "Help for Medics",
+  help_for_military: "Help for the Military",
+
   // MODAL
   modal_title: "Ask for help",
   modal_form: {

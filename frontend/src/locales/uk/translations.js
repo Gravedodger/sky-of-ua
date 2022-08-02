@@ -178,6 +178,11 @@ export const TRANSLATIONS_UK = {
   request_support: "Потрібна допомога",
   take_part: "Долучитися",
 
+  // PROJECTS PAGE
+  humanitarian_assistance: "Гуманітарна Допомога",
+  help_for_medics: "Допомога Медикам",
+  help_for_military: "Допомога Військовим",
+
   // MODAL
   modal_title: "Звернутись за допомогою",
   modal_form: {

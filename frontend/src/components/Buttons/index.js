@@ -1,1 +1,1 @@
-export { ButtonRequestSupport, ButtonTakePart, ButtonSubmit } from "./Buttons";
+export { ButtonRequestSupport, ButtonTakePart, ButtonSubmit, SliderButtonLeft, SliderButtonRight } from "./Buttons";

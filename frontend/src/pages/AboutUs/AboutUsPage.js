@@ -17,29 +17,31 @@ const AboutUsPage = ({ setModalActive }) => {
 
   return (
     <>
-      <Helmet>
-        <title>
-          {t("site_name")} || {t("nav_about_us")}
-        </title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="Ukraine, war, charity, help" />
-      </Helmet>
-      <MediaQuery minWidth={768}>
-        <HeroVideo setModalActive={setModalActive} />
-      </MediaQuery>
-      <main>
-        <div className="main-container" id="section-1">
-          <AboutUsSection />
-          <OurTeamSection />
-          <PartnersSection />
-          <HelpSection setModalActive={setModalActive} />
-          <JoinUsSection />
-          <CurrentProjectsSection />
-          <ReportsSection />
-        </div>
-      </main>
+        <Helmet>
+            <title>
+                {t("site_name")} || {t("nav_about_us")}
+            </title>
+            <meta name="description" content="" />
+            <meta name="keywords" content="Ukraine, war, charity, help" />
+        </Helmet>
+
+        <MediaQuery minWidth={768}>
+            <HeroVideo setModalActive={setModalActive} />
+        </MediaQuery>
+
+        <main>
+            <div className="main-container" id="section-1">
+                <AboutUsSection />
+                <OurTeamSection />
+                <PartnersSection />
+                <HelpSection setModalActive={setModalActive} />
+                <JoinUsSection />
+                <CurrentProjectsSection />
+                <ReportsSection />
+            </div>
+        </main>
     </>
-  );
+  )
 };
 
 export default AboutUsPage;

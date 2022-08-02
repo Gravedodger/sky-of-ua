@@ -8,6 +8,7 @@ import AboutUsSection from "../../sections/AboutUs-section";
 import OurTeamSection from "../../sections/OurTeam-section";
 import PartnersSection from "../../sections/Partners-section/PartnersSection";
 import ReportsSection from "../../sections/Reports-section";
+import dataCurrentProjects from "../../sections/CurrentProjects-section/dataCurrentProjects";
 import CurrentProjectsSection from "../../sections/CurrentProjects-section";
 import HelpSection from "../../sections/Help-section";
 import JoinUsSection from "../../sections/JoinUs-section";
@@ -34,7 +35,10 @@ const AboutUsPage = ({ setModalActive }) => {
           <PartnersSection />
           <HelpSection setModalActive={setModalActive} />
           <JoinUsSection />
-          <CurrentProjectsSection />
+          <CurrentProjectsSection
+            sectionTitle={"cur_proj_section_title"}
+            dataFileName={dataCurrentProjects}
+          />
           <ReportsSection />
         </div>
       </main>

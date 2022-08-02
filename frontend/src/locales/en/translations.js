@@ -122,6 +122,42 @@ export const TRANSLATIONS_EN = {
     text: "Join our team",
   },
 
+  // MAP UKRAINE SECTION
+  map_ukraine: {
+    title: "Map of Ukraine",
+    description:
+      "Use the map to track projects in the regions (which are in the process and which have already been completed)",
+  },
+  region: {
+    ua07: "Volynsk region",
+    ua56: "Rivno region",
+    ua18: "Zhytomyr region",
+    ua32: "Kyiv region",
+    ua30: "Kyiv city",
+    ua74: "Chernigiv region",
+    ua59: "Summy region",
+    ua46: "Lviv region",
+    ua61: "Ternopil region",
+    ua68: "Khmelnytskyy region",
+    ua05: "Vinnytsya region",
+    ua71: "Cherkasy region",
+    ua53: "Poltava region",
+    ua63: "Kharkiv region",
+    ua21: "Zakarpattya region",
+    ua26: "Ivano-Frankivsk region",
+    ua77: "Chernivetkiy region",
+    ua35: "Kirovohradskyy region",
+    ua12: "Dniprovskyy region",
+    ua14: "Donetskyy region",
+    ua09: "Lyhanskyy region",
+    ua51: "Odesskyy region",
+    ua48: "Mykolayivskyy region",
+    ua65: "Khersonskyy region",
+    ua23: "Zaporizskyy region",
+    ua43: "Republic Crimea",
+    ua40: "Sevastopol City",
+  },
+
   // CURRENT PROJECTS SECTION
   current_projects_section_title: "Current Projects",
   project_card_common: {

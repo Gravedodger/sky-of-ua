@@ -7,23 +7,26 @@ import Footer from "./components/Footer";
 import AboutUsPage from "./pages/AboutUs/AboutUsPage";
 import ProjectsPage from "./pages/Projects";
 import ReportsPage from "./pages/Reports";
-import NoMatchPage from "./pages/NoMatch/NoMatchPage";
+import Page404 from "./pages/NoMatch/NoMatchPage";
 
 import RequestHelpForm from "./components/RequestHelpForm";
 import Modal from "./components/Modal/Modal";
 
 const AppRoutes = () => {
   const [modalActive, setModalActive] = useState(false);
-
   return (
     <BrowserRouter>
       <Header setModalActive={setModalActive} />
 
       <Routes>
-        <Route exact path="/" element={<AboutUsPage setModalActive={setModalActive} />} />
+        <Route
+          exact
+          path="/"
+          element={<AboutUsPage setModalActive={setModalActive} />}
+        />
         <Route exact path="/projects" element={<ProjectsPage />} />
         <Route exact path="/reports" element={<ReportsPage />} />
-        <Route path="*" element={<NoMatchPage />} />
+        <Route path="" element={<Page404 />} />
       </Routes>
 
       <Footer />
@@ -31,7 +34,6 @@ const AppRoutes = () => {
       <Modal active={modalActive} setActive={setModalActive}>
         <RequestHelpForm setModalActive={setModalActive} />
       </Modal>
-
     </BrowserRouter>
   );
 };

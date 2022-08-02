@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./MapUraine.css";
 import { SectionTitleText } from "../../Typography";
-import { useTranslation } from "react-i18next";
 import dataMapUkraine from "./dataMapUkraine";
+import { useTranslation } from "react-i18next";
 import "../../i18n";
 
 const MapUkraine = () => {
@@ -17,13 +18,19 @@ const MapUkraine = () => {
         {dataMapUkraine.map((item) => {
           const { id, src, styles } = item;
           return (
-            <li key={id} style={styles} className={"map-ukraine-item"}>
-              <img
-                src={src}
-                alt={t(`region.${id}`)}
-                className={"map-ukraine-image"}
-              ></img>
-              <p className="map-ukraine-region-name">{t(`region.${id}`)}</p>
+            <li key={id}>
+              <Link
+                to={`region-${id}`}
+                style={styles}
+                className={"map-ukraine-link"}
+              >
+                <img
+                  src={src}
+                  alt={t(`region.${id}`)}
+                  className={"map-ukraine-image"}
+                ></img>
+                <p className="map-ukraine-region-name">{t(`region.${id}`)}</p>
+              </Link>
             </li>
           );
         })}

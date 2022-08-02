@@ -159,8 +159,131 @@ export const TRANSLATIONS_EN = {
   },
 
   // CURRENT PROJECTS SECTION
-  current_projects_section_title: "Current Projects",
-  project_card_common: {
+  cur_proj_section_title: "Current Projects",
+  cur_proj_01: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  cur_proj_02: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  cur_proj_03: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  cur_proj_04: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  cur_proj_05: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  cur_proj_06: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+
+  // HUMANITARIAN AID SECTION
+  hum_proj_section_title: "Humanitarian Aid",
+  hum_proj_01: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  hum_proj_02: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  hum_proj_03: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  hum_proj_04: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  hum_proj_05: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  hum_proj_06: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+
+  // MEDICAL AID SECTION
+  med_proj_section_title: "Medical Aid",
+  med_proj_01: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  med_proj_02: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  med_proj_03: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  med_proj_04: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  med_proj_05: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  med_proj_06: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  // MILITARY AID SECTION
+  mil_proj_section_title: "Military Aid",
+  mil_proj_01: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  mil_proj_02: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  mil_proj_03: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  mil_proj_04: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  mil_proj_05: {
+    img_Alt: "bottle of water",
+    title: "Drinking water for the citizens of Mykolayiv",
+    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+  },
+  mil_proj_06: {
     img_Alt: "bottle of water",
     title: "Drinking water for the citizens of Mykolayiv",
     text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",

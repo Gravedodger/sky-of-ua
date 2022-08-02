@@ -21,11 +21,12 @@
   }
 }
 
-.map-ukraine-item {
+.map-ukraine-link {
   position: relative;
+  color: black;
 }
 
-.map-ukraine-item:hover {
+.map-ukraine-link:hover {
   transition: 0.5s;
   transform: scale(1.2);
 }
@@ -40,7 +41,7 @@
   display: none;
 }
 
-.map-ukraine-item:hover > .map-ukraine-region-name {
+.map-ukraine-link:hover > .map-ukraine-region-name {
   display: inline-block;
   position: absolute;
   top: 50%;

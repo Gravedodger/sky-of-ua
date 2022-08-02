@@ -1,4 +1,5 @@
 import React from "react";
+import MediaQuery from "react-responsive";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
 import MapUkraine from "../../sections/MapUkraine-section";
@@ -24,7 +25,9 @@ const ProjectsPage = () => {
 
       <main>
         <div className="main-container">
-          <MapUkraine />
+          <MediaQuery minWidth={768}>
+            <MapUkraine />
+          </MediaQuery>
           <CurrentProjectsSection
             sectionTitle={"hum_proj_section_title"}
             dataFileName={dataHumanitarianAid}

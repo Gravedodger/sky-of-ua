@@ -1,4 +1,4 @@
-import React, { Suspense, useState } from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Header from "./components/Header";
@@ -11,6 +11,7 @@ import Page404 from "./pages/NoMatch/NoMatchPage";
 
 import RequestHelpForm from "./components/RequestHelpForm";
 import Modal from "./components/Modal/Modal";
+import RegionInfoSection from "./sections/RegionInfo-section";
 
 const AppRoutes = () => {
   const [modalActive, setModalActive] = useState(false);
@@ -24,7 +25,9 @@ const AppRoutes = () => {
           path="/"
           element={<AboutUsPage setModalActive={setModalActive} />}
         />
-        <Route exact path="/projects" element={<ProjectsPage />} />
+        <Route exact path="/projects" element={<ProjectsPage />}>
+          <Route path="region-:id" element={<RegionInfoSection />} />
+        </Route>
         <Route exact path="/reports" element={<ReportsPage />} />
         <Route path="" element={<Page404 />} />
       </Routes>

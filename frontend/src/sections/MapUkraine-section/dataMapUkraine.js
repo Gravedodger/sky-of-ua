@@ -1,30 +1,30 @@
-import ua07 from "../../assets/mapUkraine/UA-07.png";
-import ua56 from "../../assets/mapUkraine/UA-56.png";
-import ua18 from "../../assets/mapUkraine/UA-18.png";
-import ua32 from "../../assets/mapUkraine/UA-32.png";
-import ua30 from "../../assets/mapUkraine/UA-30.png";
-import ua74 from "../../assets/mapUkraine/UA-74.png";
-import ua59 from "../../assets/mapUkraine/UA-59.png";
-import ua46 from "../../assets/mapUkraine/UA-46.png";
-import ua61 from "../../assets/mapUkraine/UA-61.png";
-import ua68 from "../../assets/mapUkraine/UA-68.png";
-import ua05 from "../../assets/mapUkraine/UA-05.png";
-import ua71 from "../../assets/mapUkraine/UA-71.png";
-import ua53 from "../../assets/mapUkraine/UA-53.png";
-import ua63 from "../../assets/mapUkraine/UA-63.png";
-import ua21 from "../../assets/mapUkraine/UA-21.png";
-import ua26 from "../../assets/mapUkraine/UA-26.png";
-import ua77 from "../../assets/mapUkraine/UA-77.png";
-import ua35 from "../../assets/mapUkraine/UA-35.png";
-import ua12 from "../../assets/mapUkraine/UA-12.png";
-import ua14 from "../../assets/mapUkraine/UA-14.png";
-import ua09 from "../../assets/mapUkraine/UA-09.png";
-import ua51 from "../../assets/mapUkraine/UA-51.png";
-import ua48 from "../../assets/mapUkraine/UA-48.png";
-import ua65 from "../../assets/mapUkraine/UA-65.png";
-import ua23 from "../../assets/mapUkraine/UA-23.png";
-import ua43 from "../../assets/mapUkraine/UA-43.png";
-import ua40 from "../../assets/mapUkraine/UA-40.png";
+import ua07 from "../../assets/mapUkraine/UA-07.svg";
+import ua56 from "../../assets/mapUkraine/UA-56.svg";
+import ua18 from "../../assets/mapUkraine/UA-18.svg";
+import ua32 from "../../assets/mapUkraine/UA-32.svg";
+import ua30 from "../../assets/mapUkraine/UA-30.svg";
+import ua74 from "../../assets/mapUkraine/UA-74.svg";
+import ua59 from "../../assets/mapUkraine/UA-59.svg";
+import ua46 from "../../assets/mapUkraine/UA-46.svg";
+import ua61 from "../../assets/mapUkraine/UA-61.svg";
+import ua68 from "../../assets/mapUkraine/UA-68.svg";
+import ua05 from "../../assets/mapUkraine/UA-05.svg";
+import ua71 from "../../assets/mapUkraine/UA-71.svg";
+import ua53 from "../../assets/mapUkraine/UA-53.svg";
+import ua63 from "../../assets/mapUkraine/UA-63.svg";
+import ua21 from "../../assets/mapUkraine/UA-21.svg";
+import ua26 from "../../assets/mapUkraine/UA-26.svg";
+import ua77 from "../../assets/mapUkraine/UA-77.svg";
+import ua35 from "../../assets/mapUkraine/UA-35.svg";
+import ua12 from "../../assets/mapUkraine/UA-12.svg";
+import ua14 from "../../assets/mapUkraine/UA-14.svg";
+import ua09 from "../../assets/mapUkraine/UA-09.svg";
+import ua51 from "../../assets/mapUkraine/UA-51.svg";
+import ua48 from "../../assets/mapUkraine/UA-48.svg";
+import ua65 from "../../assets/mapUkraine/UA-65.svg";
+import ua23 from "../../assets/mapUkraine/UA-23.svg";
+import ua43 from "../../assets/mapUkraine/UA-43.svg";
+import ua40 from "../../assets/mapUkraine/UA-40.svg";
 
 const dataMapUraine = [
   {
@@ -38,6 +38,11 @@ const dataMapUraine = [
       top: "39.14px",
       left: "78.93px",
     },
+    statistic: {
+      collectedFunds: "100,250.00",
+      completedProjects: "30",
+      volonteersCount: "70",
+    },
   },
   {
     id: "ua56",
@@ -49,6 +54,11 @@ const dataMapUraine = [
       height: "158.51px",
       top: "40.86px",
       left: "158.51px",
+    },
+    statistic: {
+      collectedFunds: "200,250.50",
+      completedProjects: "20",
+      volonteersCount: "30",
     },
   },
   {
@@ -62,6 +72,11 @@ const dataMapUraine = [
       top: "65.45px",
       left: "271.5px",
     },
+    statistic: {
+      collectedFunds: "120,250.00",
+      completedProjects: "40",
+      volonteersCount: "30",
+    },
   },
   {
     id: "ua32",
@@ -73,6 +88,11 @@ const dataMapUraine = [
       height: "209.66px",
       top: "79.47px",
       left: "383.12px",
+    },
+    statistic: {
+      collectedFunds: "130,250.00",
+      completedProjects: "34",
+      volonteersCount: "74",
     },
   },
   {
@@ -86,6 +106,11 @@ const dataMapUraine = [
       top: "164.45px",
       left: "434.94px",
     },
+    statistic: {
+      collectedFunds: "90,250.00",
+      completedProjects: "20",
+      volonteersCount: "13",
+    },
   },
   {
     id: "ua74",
@@ -97,6 +122,11 @@ const dataMapUraine = [
       height: "185.28px",
       top: "1.04px",
       left: "448.61px",
+    },
+    statistic: {
+      collectedFunds: "67,250.00",
+      completedProjects: "10",
+      volonteersCount: "20",
     },
   },
   {
@@ -110,6 +140,11 @@ const dataMapUraine = [
       top: "2.07px",
       left: "580.76px",
     },
+    statistic: {
+      collectedFunds: "2,200,250.00",
+      completedProjects: "30",
+      volonteersCount: "170",
+    },
   },
   {
     id: "ua46",
@@ -121,6 +156,11 @@ const dataMapUraine = [
       height: "170.87px",
       top: "157.77px",
       left: "27.06px",
+    },
+    statistic: {
+      collectedFunds: "330,333.00",
+      completedProjects: "21",
+      volonteersCount: "54",
     },
   },
   {
@@ -134,6 +174,11 @@ const dataMapUraine = [
       top: "193.26px",
       left: "138.58px",
     },
+    statistic: {
+      collectedFunds: "32,400,250.00",
+      completedProjects: "30",
+      volonteersCount: "333",
+    },
   },
   {
     id: "ua68",
@@ -145,6 +190,11 @@ const dataMapUraine = [
       height: "187.55px",
       top: "164.1px",
       left: "214.69px",
+    },
+    statistic: {
+      collectedFunds: "32,324,250.00",
+      completedProjects: "20",
+      volonteersCount: "55",
     },
   },
   {
@@ -158,6 +208,11 @@ const dataMapUraine = [
       top: "226.7px",
       left: "281.29px",
     },
+    statistic: {
+      collectedFunds: "122,333,250.00",
+      completedProjects: "43",
+      volonteersCount: "77",
+    },
   },
   {
     id: "ua71",
@@ -169,6 +224,11 @@ const dataMapUraine = [
       height: "155.01px",
       top: "196.64px",
       left: "401.39px",
+    },
+    statistic: {
+      collectedFunds: "800,250.00",
+      completedProjects: "16",
+      volonteersCount: "130",
     },
   },
   {
@@ -182,6 +242,11 @@ const dataMapUraine = [
       top: "167.7px",
       left: "534.82px",
     },
+    statistic: {
+      collectedFunds: "500,450.00",
+      completedProjects: "20",
+      volonteersCount: "40",
+    },
   },
   {
     id: "ua63",
@@ -193,6 +258,11 @@ const dataMapUraine = [
       height: "168.69px",
       top: "176.2px",
       left: "683.54px",
+    },
+    statistic: {
+      collectedFunds: "232,250.00",
+      completedProjects: "42",
+      volonteersCount: "23",
     },
   },
   {
@@ -206,6 +276,11 @@ const dataMapUraine = [
       top: "296px",
       left: "0",
     },
+    statistic: {
+      collectedFunds: "4,240,250.00",
+      completedProjects: "320",
+      volonteersCount: "32",
+    },
   },
   {
     id: "ua26",
@@ -217,6 +292,11 @@ const dataMapUraine = [
       height: "157.83px",
       top: "255.72px",
       left: "75.55px",
+    },
+    statistic: {
+      collectedFunds: "700,250.00",
+      completedProjects: "55",
+      volonteersCount: "44",
     },
   },
   {
@@ -230,6 +310,11 @@ const dataMapUraine = [
       top: "332.47px",
       left: "148.82px",
     },
+    statistic: {
+      collectedFunds: "7,800,250.00",
+      completedProjects: "30",
+      volonteersCount: "120",
+    },
   },
   {
     id: "ua35",
@@ -241,6 +326,11 @@ const dataMapUraine = [
       height: "128.37px",
       top: "283.09px",
       left: "409.11px",
+    },
+    statistic: {
+      collectedFunds: "32,250.00",
+      completedProjects: "9",
+      volonteersCount: "11",
     },
   },
   {
@@ -254,6 +344,11 @@ const dataMapUraine = [
       top: "287.65px",
       left: "581.62px",
     },
+    statistic: {
+      collectedFunds: "999,125.00",
+      completedProjects: "1",
+      volonteersCount: "99",
+    },
   },
   {
     id: "ua14",
@@ -265,6 +360,11 @@ const dataMapUraine = [
       height: "201.43px",
       top: "283.96px",
       left: "774.19px",
+    },
+    statistic: {
+      collectedFunds: "1,000,250.00",
+      completedProjects: "13",
+      volonteersCount: "67",
     },
   },
   {
@@ -278,6 +378,11 @@ const dataMapUraine = [
       top: "209.17px",
       left: "843.78px",
     },
+    statistic: {
+      collectedFunds: "80,250.00",
+      completedProjects: "20",
+      volonteersCount: "115",
+    },
   },
   {
     id: "ua51",
@@ -289,6 +394,11 @@ const dataMapUraine = [
       height: "250.84px",
       top: "370.37px",
       left: "326.41px",
+    },
+    statistic: {
+      collectedFunds: "1,300,250.00",
+      completedProjects: "17",
+      volonteersCount: "154",
     },
   },
   {
@@ -302,6 +412,11 @@ const dataMapUraine = [
       top: "370.42px",
       left: "433.8px",
     },
+    statistic: {
+      collectedFunds: "1,400,550.00",
+      completedProjects: "19",
+      volonteersCount: "412",
+    },
   },
   {
     id: "ua65",
@@ -313,6 +428,11 @@ const dataMapUraine = [
       height: "150.41px",
       top: "423.96px",
       left: "503.87px",
+    },
+    statistic: {
+      collectedFunds: "1,200,320.00",
+      completedProjects: "13",
+      volonteersCount: "143",
     },
   },
   {
@@ -326,6 +446,11 @@ const dataMapUraine = [
       top: "377.84px",
       left: "644.96px",
     },
+    statistic: {
+      collectedFunds: "1,200,250.00",
+      completedProjects: "22",
+      volonteersCount: "88",
+    },
   },
   {
     id: "ua43",
@@ -338,6 +463,11 @@ const dataMapUraine = [
       top: "537.97px",
       left: "555.74px",
     },
+    statistic: {
+      collectedFunds: "1,400,250.00",
+      completedProjects: "33",
+      volonteersCount: "77",
+    },
   },
   {
     id: "ua40",
@@ -349,6 +479,11 @@ const dataMapUraine = [
       height: "33.86px",
       top: "652.94px",
       left: "604.02px",
+    },
+    statistic: {
+      collectedFunds: "613,000,250.99",
+      completedProjects: "303",
+      volonteersCount: "1700",
     },
   },
 ];

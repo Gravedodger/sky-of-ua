@@ -1,7 +1,9 @@
 import React from "react";
+import MediaQuery from "react-responsive";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
+import HeroVideo from "../../components/HeroVideo";
 import AboutUsSection from "../../sections/AboutUs-section";
 import OurTeamSection from "../../sections/OurTeam-section";
 import PartnersSection from "../../sections/Partners-section/PartnersSection";
@@ -22,7 +24,9 @@ const AboutUsPage = ({ setModalActive }) => {
         <meta name="description" content="" />
         <meta name="keywords" content="Ukraine, war, charity, help" />
       </Helmet>
-
+      <MediaQuery minWidth={768}>
+        <HeroVideo setModalActive={setModalActive} />
+      </MediaQuery>
       <main>
         <div className="main-container" id="section-1">
           <AboutUsSection />

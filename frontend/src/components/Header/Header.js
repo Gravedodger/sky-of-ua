@@ -28,9 +28,6 @@ const Header = ({ setModalActive }) => {
           </div>
         </div>
       </div>
-      <MediaQuery minWidth={768}>
-        <HeroVideo setModalActive={setModalActive} />
-      </MediaQuery>
     </header>
   );
 };

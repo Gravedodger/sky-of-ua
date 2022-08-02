@@ -1,0 +1,55 @@
+.map-ukraine-wrap {
+  padding: 80px 0;
+}
+
+.section-descriprion {
+  margin-bottom: 32px;
+  width: 474px;
+}
+
+.map-ukraine-list {
+  position: relative;
+  margin: -170px -140px;
+  width: 966px;
+  height: 687px;
+  transform: scale(0.5);
+}
+
+@media screen and (min-width: 1440px) {
+  .map-ukraine-list {
+    position: relative;
+    margin: 0 auto;
+    width: 966px;
+    height: 687px;
+    transform: scale(1);
+  }
+}
+
+.map-ukraine-item {
+  position: relative;
+}
+
+.map-ukraine-item:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+
+.map-ukraine-image {
+  position: relative;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.map-ukraine-region-name {
+  display: none;
+}
+
+.map-ukraine-item:hover > .map-ukraine-region-name {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  pointer-events: none;
+}

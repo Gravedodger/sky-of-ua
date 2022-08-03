@@ -10,10 +10,6 @@
   cursor: pointer;
 }
 
-.button-request-support:hover {
-  box-shadow: #4C94FF 2px 2px 2px;
-}
-
 @media screen and (min-width: 1440px) {
   .button-request-support {
     display: inline;
@@ -35,10 +31,6 @@
   cursor: pointer;
 }
 
-.button-take-part:hover {
-  box-shadow: #c3c3c3 2px 2px 2px;
-}
-
 @media screen and (min-width: 1440px) {
   .button-take-part {
     width: 296px;
@@ -51,8 +43,6 @@
   font-weight: 500;
   color: #ffd600 !important;
 }
-
-/* BUTTON SUBMIT STYLES */
 
 .button-submit {
   width: 196px;
@@ -69,21 +59,4 @@
     width: 296px;
     padding: 16px;
   }
-}
-
-/* SLIDER BUTTON STYLES */
-
-.slider-btn {
-  padding: 10px;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.slider-btn-left {
-  background: #F5F5F0;
-}
-
-.slider-btn-right {
-  background: #4C94FF;
 }

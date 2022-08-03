@@ -301,11 +301,6 @@ export const TRANSLATIONS_UK = {
   request_support: "Потрібна допомога",
   take_part: "Долучитися",
 
-  // PROJECTS PAGE
-  humanitarian_assistance: "Гуманітарна Допомога",
-  help_for_medics: "Допомога Медикам",
-  help_for_military: "Допомога Військовим",
-
   // MODAL
   modal_title: "Звернутись за допомогою",
   modal_form: {
@@ -326,5 +321,12 @@ export const TRANSLATIONS_UK = {
     comment: "Коментарій",
     comment_placeholder: "Залиште Коментарій",
     button: "Далі",
+  },
+
+  // PAGE 404
+  four_oh_four: {
+    title: "Схоже, Ви заблукали",
+    description: "Сторінка, яку Ви шукаєте, недоступна!",
+    button: "Повернутися на головну сторінку",
   },
 };

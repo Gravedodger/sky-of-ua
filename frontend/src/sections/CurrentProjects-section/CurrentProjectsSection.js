@@ -6,6 +6,7 @@ import "react-alice-carousel/lib/alice-carousel.css";
 import ProjectCard from "../../components/ProjectCard";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
+import dataCurrentProjects from "./dataCurrentProjects";
 
 const CurrentProjectsSection = ({ sectionTitle, dataFileName }) => {
   const { t } = useTranslation();
@@ -23,8 +24,9 @@ const CurrentProjectsSection = ({ sectionTitle, dataFileName }) => {
     },
   };
 
-  const items = dataFileName.map((item) => {
+  const items = dataCurrentProjects.map((item) => {
     const { id, src } = item;
+
     return (
       <div key={id} className="current-projects-card-wrap">
         <ProjectCard

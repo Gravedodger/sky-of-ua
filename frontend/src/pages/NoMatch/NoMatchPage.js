@@ -1,31 +1,31 @@
 import React from 'react';
 import './NoMatchPage.css';
-import { Button, ButtonText, SectionTitleText } from "../../Typography";
+import { SectionTitleText } from "../../Typography";
+import { useTranslation } from "react-i18next";
+import "../../i18n";
 
-const NoMatchPage = () => {
+const Page404 = () => {
+    const { t } = useTranslation();
+
     return (
         <section className="page_404">
-            <div className="container">
+            <div>
                 <div>
                     <div>
-                        <div>
+                        <div className="four_zero_four">
                             <div className="four_zero_four_bg">
-                                <h1 className="page_404-title">404</h1>
+                                <SectionTitleText className="four_zero_four_text">404</SectionTitleText>
                             </div>
 
                             <div className="content_box_404">
-                                <SectionTitleText className="h2">
-                                    Looks like you're lost
-                                </SectionTitleText>
+                                <h3>{t("four_oh_four.title")}</h3>
 
-                                <p className="content_box_404-text">the page you are looking for is not available!</p>
+                                <p>{t("four_oh_four.description")}</p>
 
                                 <a href="/">
-                                    <Button className="link-home">
-                                        <ButtonText>
-                                            Return to Home
-                                        </ButtonText>
-                                    </Button>
+                                    <button className="link_404">
+                                        {t("four_oh_four.button")}
+                                    </button>
                                 </a>
                             </div>
                         </div>
@@ -34,6 +34,6 @@ const NoMatchPage = () => {
             </div>
         </section>
     )
-}
+};
 
-export default NoMatchPage;
+export default Page404;

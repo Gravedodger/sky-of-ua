@@ -301,11 +301,6 @@ export const TRANSLATIONS_EN = {
   request_support: "Request support",
   take_part: "Take part",
 
-  // PROJECTS PAGE
-  humanitarian_assistance: "Humanitarian Assistance",
-  help_for_medics: "Help for Medics",
-  help_for_military: "Help for the Military",
-
   // MODAL
   modal_title: "Ask for help",
   modal_form: {
@@ -326,5 +321,12 @@ export const TRANSLATIONS_EN = {
     comment: "Comment",
     comment_placeholder: "Enter the Comment",
     button: "Come on!",
+  },
+
+  // PAGE 404
+  four_oh_four: {
+    title: "Looks like you're lost",
+    description: "The page you are looking for is not available!",
+    button: "Return to the Home Page",
   },
 };

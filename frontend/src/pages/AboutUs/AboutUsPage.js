@@ -27,6 +27,7 @@ const AboutUsPage = ({ setModalActive }) => {
       <MediaQuery minWidth={768}>
         <HeroVideo setModalActive={setModalActive} />
       </MediaQuery>
+
       <main>
         <div className="main-container" id="section-1">
           <AboutUsSection />

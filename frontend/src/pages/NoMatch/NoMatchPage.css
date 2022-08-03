@@ -1,42 +1,54 @@
 .page_404 {
+    margin-top: 3%;
     padding: 40px 0;
     background: #ffffff;
-    font-family: inherit;
-}
-
-.page_404-title {
-    color: #4c94ff;
 }
 
 .page_404 img {
     width: 100%;
 }
 
-.four_zero_four_bg {
-    height: 550px;
-    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.four_zero_four_bg h1 {
-    font-size: 90px;
+.four_zero_four {
     text-align: center;
 }
 
-.four_zero_four_bg h3 {
-    font-size: 80px;
+.four_zero_four_text {
+    text-align: center;
+    font-size: 100px !important;
+}
+
+.four_zero_four_bg {
+    height: 500px;
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content_box_404 h3 {
+    font-size: 30px;
+}
+
+.content_box_404 p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.link_404 {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #4c94ff;
+    background: #ffffff;
+    border: #4c94ff 2px solid;
+    cursor: pointer;
+}
+
+.link_404:hover {
+    color: #fff !important;
+    background: #4c94ff;
 }
 
 .content_box_404 {
-    margin-top: -100px;
-    text-align: center;
-}
-
-.content_box_404-text {
-    margin-top: 10px;
-}
-
-.link-home {
-    margin-top: 20px !important;
+    margin-top: -80px;
 }

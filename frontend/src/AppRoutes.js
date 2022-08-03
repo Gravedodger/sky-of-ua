@@ -26,7 +26,7 @@ const AppRoutes = () => {
         />
         <Route exact path="/projects" element={<ProjectsPage />} />
         <Route exact path="/reports" element={<ReportsPage />} />
-        <Route path="" element={<Page404 />} />
+        <Route path="*" element={<Page404 />} />
       </Routes>
 
       <Footer />
@@ -35,7 +35,7 @@ const AppRoutes = () => {
         <RequestHelpForm setModalActive={setModalActive} />
       </Modal>
     </BrowserRouter>
-  );
+  )
 };
 
 export default AppRoutes;

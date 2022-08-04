@@ -10,11 +10,9 @@ const ProjectsPage = () => {
   return (
     <>
       <Helmet>
-        <title>
-          {t("site_name")} || {t("nav_projects")}
-        </title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="Ukraine, war, charity, projects" />
+        <meta name="description" content={t("meta_projects.description")} />
+        <meta name="keywords" content={t("meta_projects.keywords")} />
+        <title>{t("site_name")} || {t("nav_projects")}</title>
       </Helmet>
 
       <main>

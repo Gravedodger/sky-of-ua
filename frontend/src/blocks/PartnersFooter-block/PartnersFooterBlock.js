@@ -1,7 +1,7 @@
 import React from "react";
 import "./PartnersFooterBlock.css";
+import { useTranslation } from "react-i18next";
 import "./../../i18n";
-import {useTranslation} from "react-i18next";
 
 const partnersList = [
   {
@@ -36,6 +36,6 @@ const PartnersFooterBlock = () => {
       })}
     </ul>
   )
-}
+};
 
 export default PartnersFooterBlock;

@@ -323,10 +323,35 @@ export const TRANSLATIONS_EN = {
     button: "Come on!",
   },
 
+  ////// PAGES //////
+
   // PAGE 404
+  meta_four_oh_four: {
+    description: "Page not found",
+    keywords: "Ukraine, war, help, charity, not found",
+  },
+
   four_oh_four: {
     title: "Looks like you're lost",
-    description: "The page you are looking for is not available!",
+    description: "Page you are looking for is not available!",
     button: "Return to the Home Page",
+  },
+
+  // PAGE ABOUT US
+  meta_about_us: {
+    description: "Sky of Ukraine is a charitable fund for the provision of humanitarian assistance to Ukrainian citizens, medics, and  military",
+    keywords: "Ukraine, war, charity, help",
+  },
+
+  // PAGE PROJECTS
+  meta_projects: {
+    description: "The Sky of Ukraine current projects for the assistance of medics, military and citizens of Ukraine",
+    keywords: "Ukraine, war, help, projects",
+  },
+
+  // PAGE REPORTS
+  meta_reports: {
+    description: "The Sky of Ukraine reports for the accountability of the fund's work",
+    keywords: "Ukraine, war, help, reports, accountability",
   },
 };

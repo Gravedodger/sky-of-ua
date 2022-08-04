@@ -77,7 +77,7 @@ const HelpSection = ({ setModalActive }) => {
         </div>
       </div>
     </section>
-  );
+  )
 };
 
 export default HelpSection;

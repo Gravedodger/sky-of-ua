@@ -18,12 +18,11 @@ const AboutUsPage = ({ setModalActive }) => {
   return (
     <>
       <Helmet>
-        <title>
-          {t("site_name")} || {t("nav_about_us")}
-        </title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="Ukraine, war, charity, help" />
+        <meta name="description" content={t("meta_about_us.description")} />
+        <meta name="keywords" content={t("meta_about_us.keywords")} />
+        <title>{t("site_name")} || {t("nav_about_us")}</title>
       </Helmet>
+
       <MediaQuery minWidth={768}>
         <HeroVideo setModalActive={setModalActive} />
       </MediaQuery>
@@ -40,7 +39,7 @@ const AboutUsPage = ({ setModalActive }) => {
         </div>
       </main>
     </>
-  );
+  )
 };
 
 export default AboutUsPage;

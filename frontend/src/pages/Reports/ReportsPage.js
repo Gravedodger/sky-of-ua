@@ -5,23 +5,23 @@ import { useTranslation } from "react-i18next";
 import '../../i18n';
 
 const ReportsPage = () => {
-    const { t } = useTranslation();
+  const { t } = useTranslation();
 
-    return (
-        <>
-            <Helmet>
-                <title>{t("site_name")} || {t("nav_reports")}</title>
-                <meta name="description" content=""/>
-                <meta name="keywords" content="Ukraine, war, charity, reports" />
-            </Helmet>
+  return (
+    <>
+      <Helmet>
+        <meta name="description" content={t("meta_reports.description")} />
+        <meta name="keywords" content={t("meta_reports.keywords")} />
+        <title>{t("site_name")} || {t("nav_reports")}</title>
+      </Helmet>
 
-            <main>
-                <div className="main-container">
-                    <SectionTitleText>Welcome to the Reports Page!</SectionTitleText>
-                </div>
-            </main>
-        </>
-    )
-}
+      <main>
+        <div className="main-container">
+          <SectionTitleText>Welcome to the Reports Page!</SectionTitleText>
+        </div>
+      </main>
+    </>
+  )
+};
 
 export default ReportsPage;

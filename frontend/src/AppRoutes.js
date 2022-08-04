@@ -19,11 +19,7 @@ const AppRoutes = () => {
       <Header setModalActive={setModalActive} />
 
       <Routes>
-        <Route
-          exact
-          path="/"
-          element={<AboutUsPage setModalActive={setModalActive} />}
-        />
+        <Route exact path="/" element={<AboutUsPage setModalActive={setModalActive} />} />
         <Route exact path="/projects" element={<ProjectsPage />} />
         <Route exact path="/reports" element={<ReportsPage />} />
         <Route path="*" element={<Page404 />} />

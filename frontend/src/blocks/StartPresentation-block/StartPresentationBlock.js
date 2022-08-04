@@ -1,9 +1,8 @@
 import React from "react";
 import "./StartPresentationBlock.css";
+import { ButtonRequestSupport, ButtonTakePart } from "../../components/Buttons";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
-import { ButtonRequestSupport, ButtonTakePart } from "../../components/Buttons";
-import { ButtonText } from "../../Typography";
 
 const StartPresentationBlock = ({ setModalActive }) => {
   const { t } = useTranslation();
@@ -27,7 +26,7 @@ const StartPresentationBlock = ({ setModalActive }) => {
         </div>
       </div>
     </div>
-  );
+  )
 };
 
 export default StartPresentationBlock;

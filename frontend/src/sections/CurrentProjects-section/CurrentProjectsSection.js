@@ -4,9 +4,9 @@ import { SectionTitleText } from "../../Typography";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import ProjectCard from "../../components/ProjectCard";
+import dataCurrentProjects from "./dataCurrentProjects";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
-import dataCurrentProjects from "./dataCurrentProjects";
 
 const CurrentProjectsSection = ({ sectionTitle, dataFileName }) => {
   const { t } = useTranslation();
@@ -39,7 +39,7 @@ const CurrentProjectsSection = ({ sectionTitle, dataFileName }) => {
           role="presentation"
         />
       </div>
-    );
+    )
   });
 
   return (
@@ -58,7 +58,7 @@ const CurrentProjectsSection = ({ sectionTitle, dataFileName }) => {
         disableButtonsControls
       />
     </section>
-  );
+  )
 };
 
 export default CurrentProjectsSection;

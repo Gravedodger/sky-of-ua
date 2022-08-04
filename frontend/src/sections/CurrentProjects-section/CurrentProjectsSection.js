@@ -45,7 +45,7 @@ const CurrentProjectsSection = ({ sectionTitle, dataFileName }) => {
   return (
     <section className="current-projects-section-wrap">
       <div className="section-title">
-        <SectionTitleText>{t(`${sectionTitle}`)}</SectionTitleText>
+        <SectionTitleText>{t("cur_proj_section_title")}</SectionTitleText>
       </div>
 
       <AliceCarousel

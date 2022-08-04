@@ -26,11 +26,11 @@ import ua23 from "../../assets/mapUkraine/UA-23.svg";
 import ua43 from "../../assets/mapUkraine/UA-43.svg";
 import ua40 from "../../assets/mapUkraine/UA-40.svg";
 
-const dataMapUraine = [
+const dataMapUkraine = [
   {
     id: "ua07",
     src: ua07,
-    alt: "Volynsk region",
+    alt: "Volyn region",
     styles: {
       position: "absolute",
       width: "134.28px",
@@ -41,13 +41,14 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "100,250.00",
       completedProjects: "30",
-      volonteersCount: "70",
+      volunteerCount: "70",
     },
   },
+
   {
     id: "ua56",
     src: ua56,
-    alt: "Rivno region",
+    alt: "Rivne region",
     styles: {
       position: "absolute",
       width: "141.93px",
@@ -58,9 +59,10 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "200,250.50",
       completedProjects: "20",
-      volonteersCount: "30",
+      volunteerCount: "30",
     },
   },
+
   {
     id: "ua18",
     src: ua18,
@@ -75,9 +77,10 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "120,250.00",
       completedProjects: "40",
-      volonteersCount: "30",
+      volunteerCount: "30",
     },
   },
+
   {
     id: "ua32",
     src: ua32,
@@ -92,9 +95,10 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "130,250.00",
       completedProjects: "34",
-      volonteersCount: "74",
+      volunteerCount: "74",
     },
   },
+
   {
     id: "ua30",
     src: ua30,
@@ -109,13 +113,14 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "90,250.00",
       completedProjects: "20",
-      volonteersCount: "13",
+      volunteerCount: "13",
     },
   },
+
   {
     id: "ua74",
     src: ua74,
-    alt: "Chernigiv region",
+    alt: "Chernihiv region",
     styles: {
       position: "absolute",
       width: "161.98px",
@@ -126,9 +131,10 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "67,250.00",
       completedProjects: "10",
-      volonteersCount: "20",
+      volunteerCount: "20",
     },
   },
+
   {
     id: "ua59",
     src: ua59,
@@ -143,9 +149,10 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "2,200,250.00",
       completedProjects: "30",
-      volonteersCount: "170",
+      volunteerCount: "170",
     },
   },
+
   {
     id: "ua46",
     src: ua46,
@@ -160,9 +167,10 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "330,333.00",
       completedProjects: "21",
-      volonteersCount: "54",
+      volunteerCount: "54",
     },
   },
+
   {
     id: "ua61",
     src: ua61,
@@ -177,9 +185,10 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "32,400,250.00",
       completedProjects: "30",
-      volonteersCount: "333",
+      volunteerCount: "333",
     },
   },
+
   {
     id: "ua68",
     src: ua68,
@@ -194,9 +203,10 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "32,324,250.00",
       completedProjects: "20",
-      volonteersCount: "55",
+      volunteerCount: "55",
     },
   },
+
   {
     id: "ua05",
     src: ua05,
@@ -211,9 +221,10 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "122,333,250.00",
       completedProjects: "43",
-      volonteersCount: "77",
+      volunteerCount: "77",
     },
   },
+
   {
     id: "ua71",
     src: ua71,
@@ -228,9 +239,10 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "800,250.00",
       completedProjects: "16",
-      volonteersCount: "130",
+      volunteerCount: "130",
     },
   },
+
   {
     id: "ua53",
     src: ua53,
@@ -245,9 +257,10 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "500,450.00",
       completedProjects: "20",
-      volonteersCount: "40",
+      volunteerCount: "40",
     },
   },
+
   {
     id: "ua63",
     src: ua63,
@@ -262,9 +275,10 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "232,250.00",
       completedProjects: "42",
-      volonteersCount: "23",
+      volunteerCount: "23",
     },
   },
+
   {
     id: "ua21",
     src: ua21,
@@ -279,9 +293,10 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "4,240,250.00",
       completedProjects: "320",
-      volonteersCount: "32",
+      volunteerCount: "32",
     },
   },
+
   {
     id: "ua26",
     src: ua26,
@@ -296,13 +311,14 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "700,250.00",
       completedProjects: "55",
-      volonteersCount: "44",
+      volunteerCount: "44",
     },
   },
+
   {
     id: "ua77",
     src: ua77,
-    alt: "Chernivetkiy region",
+    alt: "Chernivtsy region",
     styles: {
       position: "absolute",
       width: "141.07px",
@@ -313,13 +329,14 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "7,800,250.00",
       completedProjects: "30",
-      volonteersCount: "120",
+      volunteerCount: "120",
     },
   },
+
   {
     id: "ua35",
     src: ua35,
-    alt: "Kirovohradskyy region",
+    alt: "Kirovohrad region",
     styles: {
       position: "absolute",
       width: "222.61px",
@@ -330,13 +347,14 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "32,250.00",
       completedProjects: "9",
-      volonteersCount: "11",
+      volunteerCount: "11",
     },
   },
+
   {
     id: "ua12",
     src: ua12,
-    alt: "Dniprovskyy region",
+    alt: "Dnipropetrovsk region",
     styles: {
       position: "absolute",
       width: "213.68px",
@@ -347,13 +365,14 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "999,125.00",
       completedProjects: "1",
-      volonteersCount: "99",
+      volunteerCount: "99",
     },
   },
+
   {
     id: "ua14",
     src: ua14,
-    alt: "Donetskyy region",
+    alt: "Donetsk region",
     styles: {
       position: "absolute",
       width: "136.99px",
@@ -364,13 +383,14 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "1,000,250.00",
       completedProjects: "13",
-      volonteersCount: "67",
+      volunteerCount: "67",
     },
   },
+
   {
     id: "ua09",
     src: ua09,
-    alt: "Lyhanskyy region",
+    alt: "Luhansk region",
     styles: {
       position: "absolute",
       width: "127.77px",
@@ -381,13 +401,14 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "80,250.00",
       completedProjects: "20",
-      volonteersCount: "115",
+      volunteerCount: "115",
     },
   },
+
   {
     id: "ua51",
     src: ua51,
-    alt: "Odesskyy region",
+    alt: "Odessa region",
     styles: {
       position: "absolute",
       width: "166.09px",
@@ -398,13 +419,14 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "1,300,250.00",
       completedProjects: "17",
-      volonteersCount: "154",
+      volunteerCount: "154",
     },
   },
+
   {
     id: "ua48",
     src: ua48,
-    alt: "Mykolayivskyy region",
+    alt: "Mykolayiv region",
     styles: {
       position: "absolute",
       width: "159.62px",
@@ -415,13 +437,14 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "1,400,550.00",
       completedProjects: "19",
-      volonteersCount: "412",
+      volunteerCount: "412",
     },
   },
+
   {
     id: "ua65",
     src: ua65,
-    alt: "Khersonskyy region",
+    alt: "Kherson region",
     styles: {
       position: "absolute",
       width: "192.7px",
@@ -432,13 +455,14 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "1,200,320.00",
       completedProjects: "13",
-      volonteersCount: "143",
+      volunteerCount: "143",
     },
   },
+
   {
     id: "ua23",
     src: ua23,
-    alt: "Zaporizskyy region",
+    alt: "Zaporizhia region",
     styles: {
       position: "absolute",
       width: "166.67px",
@@ -449,13 +473,14 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "1,200,250.00",
       completedProjects: "22",
-      volonteersCount: "88",
+      volunteerCount: "88",
     },
   },
+
   {
     id: "ua43",
     src: ua43,
-    alt: "Republic Crimea",
+    alt: "Autonomous Republic of Crimea",
     styles: {
       position: "absolute",
       width: "223.82px",
@@ -466,13 +491,14 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "1,400,250.00",
       completedProjects: "33",
-      volonteersCount: "77",
+      volunteerCount: "77",
     },
   },
+
   {
     id: "ua40",
     src: ua40,
-    alt: "Sevastopol city",
+    alt: "City of Sevastopil",
     styles: {
       position: "absolute",
       width: "29.45px",
@@ -483,8 +509,8 @@ const dataMapUraine = [
     statistic: {
       collectedFunds: "613,000,250.99",
       completedProjects: "303",
-      volonteersCount: "1700",
+      volunteerCount: "1700",
     },
   },
 ];
-export default dataMapUraine;
+export default dataMapUkraine;

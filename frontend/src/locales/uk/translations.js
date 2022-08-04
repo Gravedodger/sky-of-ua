@@ -300,6 +300,7 @@ export const TRANSLATIONS_UK = {
   support: "Підтримати",
   request_support: "Потрібна допомога",
   take_part: "Долучитися",
+  project: "проект",
 
   // MODAL
   modal_title: "Звернутись за допомогою",
@@ -323,6 +324,11 @@ export const TRANSLATIONS_UK = {
     button: "Далі",
   },
 
+  // MAP
+  region_info: {
+    return_to_map: "Повернутись до Карти",
+    mykolayiv_projects: "Проекти в Миколаївській області",
+  },
 
   ////// PAGES //////
 

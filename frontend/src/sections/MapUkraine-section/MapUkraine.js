@@ -8,15 +8,18 @@ import "../../i18n";
 
 const MapUkraine = () => {
   const { t } = useTranslation();
+
   return (
     <div className="map-ukraine-wrap">
       <div className="section-title">
         <SectionTitleText>{t("map_ukraine.title")}</SectionTitleText>
       </div>
-      <p className="section-descriprion">{t("map_ukraine.description")}</p>
+
+      <p className="section-description">{t("map_ukraine.description")}</p>
       <ul className="map-ukraine-list">
         {dataMapUkraine.map((item) => {
           const { id, src, styles } = item;
+
           return (
             <li key={id}>
               <Link
@@ -28,7 +31,7 @@ const MapUkraine = () => {
                   src={src}
                   alt={t(`region.${id}`)}
                   className={"map-ukraine-image"}
-                ></img>
+                />
                 <p className="map-ukraine-region-name">{t(`region.${id}`)}</p>
               </Link>
             </li>
@@ -36,7 +39,7 @@ const MapUkraine = () => {
         })}
       </ul>
     </div>
-  );
+  )
 };
 
 export default MapUkraine;

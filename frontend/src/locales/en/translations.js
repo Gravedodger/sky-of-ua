@@ -129,12 +129,12 @@ export const TRANSLATIONS_EN = {
       "Use the map to track projects in the regions (which are in the process and which have already been completed)",
   },
   region: {
-    ua07: "Volynsk region",
-    ua56: "Rivno region",
+    ua07: "Volyn region",
+    ua56: "Rivne region",
     ua18: "Zhytomyr region",
     ua32: "Kyiv region",
     ua30: "Kyiv city",
-    ua74: "Chernigiv region",
+    ua74: "Chernihiv region",
     ua59: "Summy region",
     ua46: "Lviv region",
     ua61: "Ternopil region",
@@ -145,17 +145,17 @@ export const TRANSLATIONS_EN = {
     ua63: "Kharkiv region",
     ua21: "Zakarpattya region",
     ua26: "Ivano-Frankivsk region",
-    ua77: "Chernivetkiy region",
-    ua35: "Kirovohradskyy region",
-    ua12: "Dniprovskyy region",
-    ua14: "Donetskyy region",
-    ua09: "Lyhanskyy region",
-    ua51: "Odesskyy region",
-    ua48: "Mykolayivskyy region",
-    ua65: "Khersonskyy region",
-    ua23: "Zaporizskyy region",
-    ua43: "Republic Crimea",
-    ua40: "Sevastopol City",
+    ua77: "Chernivtsy region",
+    ua35: "Kirovohrad region",
+    ua12: "Dnipropetrovsk region",
+    ua14: "Donetsk region",
+    ua09: "Luhansk region",
+    ua51: "Odessa region",
+    ua48: "Mykolayiv region",
+    ua65: "Kherson region",
+    ua23: "Zaporizhia region",
+    ua43: "Autonomous Republic of Crimea",
+    ua40: "City of Sevastopil",
   },
 
   // CURRENT PROJECTS SECTION
@@ -256,6 +256,7 @@ export const TRANSLATIONS_EN = {
     title: "Drinking water for the citizens of Mykolayiv",
     text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
   },
+
   // MILITARY AID SECTION
   mil_proj_section_title: "Military Aid",
   mil_proj_01: {
@@ -300,6 +301,7 @@ export const TRANSLATIONS_EN = {
   support: "Support",
   request_support: "Request support",
   take_part: "Take part",
+  project: "project",
 
   // MODAL
   modal_title: "Ask for help",
@@ -322,6 +324,13 @@ export const TRANSLATIONS_EN = {
     comment_placeholder: "Enter the Comment",
     button: "Come on!",
   },
+
+  // MAP
+  region_info: {
+    return_to_map: "Return to the Map",
+    mykolayiv_projects: "Mykolayiv region projects",
+  },
+
 
   ////// PAGES //////
 

@@ -28,8 +28,8 @@
 
 .help-pic-1 {
   display: block;
-  margin-bottom: 24px;
   max-width: 100%;
+  margin-bottom: 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -41,16 +41,13 @@
 
 .help-pic-2 {
   display: block;
-  margin: 0 auto;
-  margin-bottom: 24px;
+  margin: 0 auto 24px;
   max-width: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .help-pic-2 {
-    margin-left: 0;
-    margin-right: 24px;
-    margin-bottom: 0;
+    margin: 0 24px 0 0;
   }
 }
 

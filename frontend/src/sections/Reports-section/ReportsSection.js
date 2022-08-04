@@ -3,6 +3,7 @@ import "./ReportsSection.css";
 import { SectionTitleText } from "../../Typography";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
+
 import ladiesWithRubbish from "../../assets/images/ladies-with-rubbish.png";
 import boxWithItems from "../../assets/images/box-with-items.png";
 import pushbedAndLadies from "../../assets/images/pushbed-and-ladies.png";
@@ -96,7 +97,7 @@ const ReportsSection = () => {
         </ul>
       </div>
     </div>
-  );
+  )
 };
 
 export default ReportsSection;

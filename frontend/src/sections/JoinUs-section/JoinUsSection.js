@@ -12,6 +12,7 @@ const JoinUsSection = () => {
       <div className="section-title">
         <SectionTitleText>{t("join_us_section_title")}</SectionTitleText>
       </div>
+
       <div className="join-us-section-content">
         <div className="card-info-main">
           <div className="card-description">
@@ -35,7 +36,7 @@ const JoinUsSection = () => {
         </div>
       </div>
     </section>
-  );
+  )
 };
 
 export default JoinUsSection;

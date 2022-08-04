@@ -33,15 +33,15 @@
 
 .region-info-image {
   position: relative;
-  z-index: -1;
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
 
 .region-info-list {
   position: absolute;
-  left: 64px;
   bottom: 45px;
+  left: 64px;
   width: 100%;
   text-align: start;
 }
@@ -66,8 +66,8 @@
 .region-info-item:first-child::after {
   content: "Зібрано коштів";
   position: absolute;
-  left: 0;
   bottom: -20px;
+  left: 0;
   font-size: 14px;
   line-height: 17px;
   color: #83868b;
@@ -86,8 +86,8 @@
 .region-info-item:nth-child(2)::after {
   content: "Завершених проектів";
   position: absolute;
-  left: 0;
   bottom: -20px;
+  left: 0;
   font-size: 14px;
   line-height: 17px;
   color: #83868b;
@@ -106,16 +106,16 @@
 .region-info-item:last-child::after {
   content: "Волонтерів в регіоні";
   position: absolute;
-  left: 0;
   bottom: -20px;
+  left: 0;
   font-size: 14px;
   line-height: 17px;
   color: #83868b;
 }
 
 .region-info-text {
-  font-weight: 500;
   font-size: 18px;
+  font-weight: 500;
   line-height: 22px;
 }
 

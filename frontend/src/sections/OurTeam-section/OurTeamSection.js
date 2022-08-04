@@ -11,10 +11,9 @@ const OurTeamSection = () => {
   return (
     <section className="our-team-section-wrap">
       <div className="section-title">
-        <SectionTitleText>
-          {t("our_team_section.section_title")}
-        </SectionTitleText>
+        <SectionTitleText>{t("our_team_section.section_title")}</SectionTitleText>
       </div>
+
       <div className="our-team-section-container">
         <img
           src={peopleHiking}
@@ -29,7 +28,7 @@ const OurTeamSection = () => {
         </p>
       </div>
     </section>
-  );
+  )
 };
 
 export default OurTeamSection;

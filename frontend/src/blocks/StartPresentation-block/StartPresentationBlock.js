@@ -17,6 +17,7 @@ const StartPresentationBlock = ({ setModalActive }) => {
           {t("start_presentation.description")}
         </p>
       </div>
+
       <div className="start-presentation-btn-container">
         <div className="start-presentation-button-request">
           <ButtonRequestSupport setModalActive={setModalActive} />

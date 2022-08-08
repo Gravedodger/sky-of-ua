@@ -6,6 +6,7 @@ import SocialLinks from "../SocialLinks/SocialLinks";
 import PartnersFooterBlock from "../../blocks/PartnersFooter-block";
 import { useTranslation } from "react-i18next";
 import "./../../i18n";
+import AdminLogin from "../adminLogin";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -38,6 +39,8 @@ const Footer = () => {
               <PartnersFooterBlock />
             </div>
           </div>
+
+          <AdminLogin />
 
           <div className="footer-support">
             <h3 className="footer-title">{t("supported_by")}</h3>

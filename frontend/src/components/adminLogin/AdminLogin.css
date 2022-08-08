@@ -1,0 +1,11 @@
+.admin-login-container {
+    width: 150px;
+    height: 150px;
+    padding: 10% 0 0 20%;
+}
+
+.admin-login-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

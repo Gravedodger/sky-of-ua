@@ -51,9 +51,26 @@
   }
 }
 
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .block-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
 .block-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
+  text-align: justify;
   color: #83868b;
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .block-text {
+    margin-bottom: 5px;
+    font-size: 13px;
+  }
 }

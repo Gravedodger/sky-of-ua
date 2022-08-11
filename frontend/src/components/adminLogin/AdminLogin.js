@@ -2,6 +2,8 @@ import React from 'react';
 import './AdminLogin.css';
 import UserIcn from './../../assets/icons/user.png';
 
+import  CreateIcon from '@mui/icons-material/Create';
+
 const AdminLogin = () => {
 	return (
 		<div className="admin-login-container">
@@ -16,6 +18,9 @@ const AdminLogin = () => {
 				</span>
 			</a>
 
+			<a href="/ProjectsAdminPage" target="_blank">
+				<CreateIcon marginTop="10px" />
+			</a>
 		</div>
 	)
 };

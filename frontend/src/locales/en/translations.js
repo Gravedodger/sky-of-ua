@@ -302,6 +302,8 @@ export const TRANSLATIONS_EN = {
   request_support: "Request support",
   take_part: "Take part",
   project: "project",
+  add: "Add",
+  list: "All entries",
 
   // MODAL
   modal_title: "Ask for help",

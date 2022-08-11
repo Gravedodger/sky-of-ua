@@ -301,6 +301,8 @@ export const TRANSLATIONS_UK = {
   request_support: "Потрібна допомога",
   take_part: "Долучитися",
   project: "проект",
+  add: "Додати",
+  list: "Всі записи",
 
   // MODAL
   modal_title: "Звернутись за допомогою",

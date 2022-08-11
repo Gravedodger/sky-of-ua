@@ -4,7 +4,8 @@
   "info": {
     "singularName": "project-collection",
     "pluralName": "project-collections",
-    "displayName": "Project Collection"
+    "displayName": "Project",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -33,21 +34,22 @@
       "type": "text"
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       }
     },
-    "Required": {
+    "RequiredAmount": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -55,7 +57,7 @@
       },
       "type": "integer"
     },
-    "Collected": {
+    "CollectedAmount": {
       "pluginOptions": {
         "i18n": {
           "localized": true

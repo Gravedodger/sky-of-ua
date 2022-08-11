@@ -9,6 +9,8 @@ import ProjectsPage from "./pages/Projects";
 import ReportsPage from "./pages/Reports";
 import Page404 from "./pages/NoMatch/NoMatchPage";
 
+import ProjectsAdminPage from "./pages/ProjectsAdmin/ProjectsAdminPage";
+
 import RequestHelpForm from "./components/RequestHelpForm";
 import Modal from "./components/Modal/Modal";
 
@@ -20,8 +22,10 @@ const AppRoutes = () => {
 
       <Routes>
         <Route exact path="/" element={<AboutUsPage setModalActive={setModalActive} />} />
-        <Route exact path="/projects" element={<ProjectsPage />} />
-        <Route exact path="/reports" element={<ReportsPage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/reports" element={<ReportsPage />} />
+        <Route path="/project-admin" element={<ProjectsAdminPage />} />
+
         <Route path="*" element={<Page404 />} />
       </Routes>
 

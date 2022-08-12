@@ -19,11 +19,15 @@ const PartnersCard = ({
 
   return (
     <>
-      <img
-        src={partnerImage}
-        alt={partnerImageAlt}
-        className="partners-image"
-      />
+      <div className="partners-image-wrap">
+        <img
+          src={partnerImage}
+          alt={partnerImageAlt}
+          className="partners-image"
+        />
+        <p className="partners-image-copyrigth">{partnerTitle}</p>
+      </div>
+
       <PartnerBlockTitle>{partnerTitle}</PartnerBlockTitle>
       <PartnerBlockText>{partnerDescription}</PartnerBlockText>
       <Button>

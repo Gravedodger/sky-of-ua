@@ -1,10 +1,34 @@
-.partners-image {
+.partners-image-wrap {
+  position: relative;
   margin-bottom: 8px;
-  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  .partners-image {
+  .partners-image-wrap {
     margin-bottom: 16px;
   }
+}
+
+.partners-image {
+  width: 100%;
+}
+
+.partners-image-copyrigth {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .partners-image-copyrigth {
+    font-size: 14px;
+  }
+}
+
+.partners-image-copyrigth::after {
+  content: "\00A9";
+  position: absolute;
+  top: 1px;
+  right: -15px;
 }

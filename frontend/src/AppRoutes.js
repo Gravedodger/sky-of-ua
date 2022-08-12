@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import AboutUsPage from "./pages/AboutUs/AboutUsPage";
 import ProjectsPage from "./pages/Projects";
 import RegionInfoSection from "./sections/RegionInfo-section";
+import Project from "./pages/Project";
 
 import ReportsPage from "./pages/Reports";
 import Page404 from "./pages/NoMatch/NoMatchPage";
@@ -32,7 +33,7 @@ const AppRoutes = () => {
         <Route path="/projects" element={<ProjectsPage />}>
           <Route path=":regionId" element={<RegionInfoSection />} />
         </Route>
-
+        <Route path="/tmp-dev" element={<Project />} />
         <Route path="/reports" element={<ReportsPage />} />
         <Route path="/project-admin" element={<ProjectsAdminPage />} />
 

@@ -22,11 +22,7 @@ const MapUkraine = () => {
 
           return (
             <li key={id}>
-              <Link
-                to={`region-${id}`}
-                style={styles}
-                className={"map-ukraine-link"}
-              >
+              <Link to={`${id}`} style={styles} className={"map-ukraine-link"}>
                 <img
                   src={src}
                   alt={t(`region.${id}`)}
@@ -39,7 +35,7 @@ const MapUkraine = () => {
         })}
       </ul>
     </div>
-  )
+  );
 };
 
 export default MapUkraine;

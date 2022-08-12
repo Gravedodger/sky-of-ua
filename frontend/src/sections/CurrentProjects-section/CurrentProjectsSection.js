@@ -4,7 +4,6 @@ import { SectionTitleText } from "../../Typography";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import ProjectCard from "../../components/ProjectCard";
-import dataCurrentProjects from "./dataCurrentProjects";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
 
@@ -24,7 +23,7 @@ const CurrentProjectsSection = ({ sectionTitle, dataFileName }) => {
     },
   };
 
-  const items = dataCurrentProjects.map((item) => {
+  const items = dataFileName.map((item) => {
     const { id, src } = item;
 
     return (
@@ -39,13 +38,13 @@ const CurrentProjectsSection = ({ sectionTitle, dataFileName }) => {
           role="presentation"
         />
       </div>
-    )
+    );
   });
 
   return (
     <section className="current-projects-section-wrap">
       <div className="section-title">
-        <SectionTitleText>{t("cur_proj_section_title")}</SectionTitleText>
+        <SectionTitleText>{t(sectionTitle)}</SectionTitleText>
       </div>
 
       <AliceCarousel
@@ -58,7 +57,7 @@ const CurrentProjectsSection = ({ sectionTitle, dataFileName }) => {
         disableButtonsControls
       />
     </section>
-  )
+  );
 };
 
 export default CurrentProjectsSection;

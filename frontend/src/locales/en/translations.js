@@ -329,10 +329,9 @@ export const TRANSLATIONS_EN = {
 
   // MAP
   region_info: {
-    return_to_map: "Return to the Map",
+    return_to_map: "Back to the Map",
     mykolayiv_projects: "Mykolayiv region projects",
   },
-
 
   ////// PAGES //////
 
@@ -350,19 +349,22 @@ export const TRANSLATIONS_EN = {
 
   // PAGE ABOUT US
   meta_about_us: {
-    description: "Sky of Ukraine is a charitable fund for the provision of humanitarian assistance to Ukrainian citizens, medics, and  military",
+    description:
+      "Sky of Ukraine is a charitable fund for the provision of humanitarian assistance to Ukrainian citizens, medics, and  military",
     keywords: "Ukraine, war, charity, help",
   },
 
   // PAGE PROJECTS
   meta_projects: {
-    description: "The Sky of Ukraine current projects for the assistance of medics, military and citizens of Ukraine",
+    description:
+      "The Sky of Ukraine current projects for the assistance of medics, military and citizens of Ukraine",
     keywords: "Ukraine, war, help, projects",
   },
 
   // PAGE REPORTS
   meta_reports: {
-    description: "The Sky of Ukraine reports for the accountability of the fund's work",
+    description:
+      "The Sky of Ukraine reports for the accountability of the fund's work",
     keywords: "Ukraine, war, help, reports, accountability",
   },
 };

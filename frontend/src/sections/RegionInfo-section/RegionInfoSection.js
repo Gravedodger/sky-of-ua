@@ -1,26 +1,36 @@
 import React from "react";
+import { useParams, useNavigate } from "react-router-dom";
 import "./RegionInfoSection.css";
 import dataMapUkraine from "../MapUkraine-section/dataMapUkraine";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
 
-const RegionInfoSection = ({ id }) => {
+const RegionInfoSection = () => {
   const { t } = useTranslation();
-  const regionInfo = dataMapUkraine.filter((item) => item.id === id);
+  const { regionId } = useParams();
+  const navigate = useNavigate();
+  const backToMap = () => {
+    navigate("/projects");
+  };
+
+  const regionInfo = dataMapUkraine.filter((item) => item.id === regionId);
+
   const { src, statistic } = regionInfo[0];
   const { collectedFunds, completedProjects, volunteerCount } = statistic;
 
   return (
     <>
       <div className="region-info-section-wrap">
-        <button className="region-info-goToMap">{t("region_info.return_to_map")}</button>
+        <button onClick={backToMap} className="region-info-goToMap">
+          {t("region_info.return_to_map")}
+        </button>
         <div className="region-info-content">
           <div className="region-info-card">
-            <h3 className="region-info-title">{t(`region.${id}`)}</h3>
+            <h3 className="region-info-title">{t(`region.${regionId}`)}</h3>
             <div className="region-info-presentation">
               <img
                 src={src}
-                alt={t(`region.${id}`)}
+                alt={t(`region.${regionId}`)}
                 className="region-info-image"
               />
               <ul className="region-info-list">

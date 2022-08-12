@@ -21,7 +21,7 @@ const RegionInfoSection = () => {
   return (
     <>
       <div className="region-info-section-wrap">
-        <button onClick={backToMap} className="region-info-goToMap">
+        <button onClick={backToMap} className="region-info-back-to-map-btn">
           {t("region_info.return_to_map")}
         </button>
         <div className="region-info-content">

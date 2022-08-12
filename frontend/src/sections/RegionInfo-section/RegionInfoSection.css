@@ -2,8 +2,39 @@
   padding: 80px 0;
 }
 
-.region-info-goToMap {
+.region-info-back-to-map-btn {
+  position: relative;
+  margin-left: 48px;
   margin-bottom: 35px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4c94ff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.region-info-back-to-map-btn:hover,
+.region-info-back-to-map-btn:focus {
+  transition: 0.5s;
+  transform: scale(1.2);
+  outline: none;
+}
+
+.region-info-back-to-map-btn::before {
+  content: "";
+  position: absolute;
+  top: -14px;
+  left: -80px;
+  width: 56px;
+  height: 56px;
+
+  background-image: url(../../assets/icons/icn-chevronLeft.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #4c94ff;
+  border-radius: 50px;
 }
 
 .region-info-content {

@@ -1,7 +1,6 @@
 @import "react-alice-carousel/lib/alice-carousel.css";
 
 .partners-section-wrap {
-  position: relative;
   padding: 20px 0;
 }
 
@@ -19,11 +18,4 @@
 
 .partners-card-wrap {
   padding: 0 15px;
-}
-
-.partners-card-wrap::after {
-  content: "\00A9";
-  position: absolute;
-  top: 290px;
-  right: 20px;
 }

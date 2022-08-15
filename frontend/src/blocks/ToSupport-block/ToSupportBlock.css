@@ -1,0 +1,37 @@
+.to-support-block-wrap {
+  width: 405px;
+  height: 463px;
+  padding: 24px;
+  background-color: #f5f5f0;
+}
+
+.to-support-block-title {
+  margin-bottom: 21px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #4c94ff;
+}
+
+.to-support-block-text {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #272727;
+}
+
+.to-support-block-label {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #272727;
+}
+
+.to-support-block-option-wrap {
+  padding: 16px;
+}
+
+.to-support-block-option-wrap:last-of-type {
+  margin-bottom: 16px;
+}

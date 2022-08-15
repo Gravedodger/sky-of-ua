@@ -12,7 +12,7 @@ const ButtonRequestSupport = ({ setModalActive }) => {
       className="button-request-support"
       onClick={() => setModalActive(true)}
     >
-      <ButtonText>{t("request_support")}</ButtonText>
+      <ButtonText>{t("btn_request_support")}</ButtonText>
     </button>
   );
 };
@@ -23,7 +23,7 @@ const ButtonTakePart = () => {
     <a href="/projects">
       <button className="button-take-part">
         <ButtonText className="button-take-part-text">
-          {t("take_part")}
+          {t("btn_take_part")}
         </ButtonText>
       </button>
     </a>
@@ -34,11 +34,20 @@ const ButtonSubmit = () => {
   const { t } = useTranslation();
   return (
     <button type="submit" className="button-submit">
-      <ButtonText className="button-submit-text">
-        {t("modal_form.button")}
+      <ButtonText className="button-submit-text">{t("btn_modal")}</ButtonText>
+    </button>
+  );
+};
+
+const ButtonToSupport = () => {
+  const { t } = useTranslation();
+  return (
+    <button type="submit" className="button-to-support">
+      <ButtonText className="button-to-support-text">
+        {t("btn_to_support")}
       </ButtonText>
     </button>
   );
 };
 
-export { ButtonRequestSupport, ButtonTakePart, ButtonSubmit };
+export { ButtonRequestSupport, ButtonTakePart, ButtonSubmit, ButtonToSupport };

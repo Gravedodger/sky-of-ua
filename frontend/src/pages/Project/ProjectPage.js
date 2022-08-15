@@ -1,11 +1,30 @@
 import React from "react";
+import "./ProjectPage.css";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
 import HeroProject from "../../components/HeroProject";
+import ProjectDescriptionSection from "../../sections/ProjectDescription-section";
+
+// image for component
+import medicalStethoscope from "../../assets/images/medical-stethoscope.jpg";
 
 const ProjectPage = () => {
   const { t } = useTranslation();
+
+  // компонент має приймати наступні дані
+
+  // ДЛЯ ЗОБРАЖЕННЯ ПРОЕКТУ ТА ТАЙТЛУ
+  const title =
+    "Потрібно зібрати кошти на допомогу нашим медикам в Миколаївські області";
+  const text = "Зараз ми збераємо на першо чергові потреби. Залишилось:";
+  const value = "4,518.50";
+
+  // ДЛЯ ОПИСУ ПРОЕКТУ
+  const description =
+    "Оголошується збір на закупівлю питної води у бутлях (500л) для мешканців Миколаєва. Із-за загострення бойових дів на сході та массивних обстрілів м. Миколаєв, частина населення залишилась без питної води. Протягом тижня йде збір на закупівлю та доставку води у пункти, які потребують допомоги. Усі звіти можете побачити на сторінці “Звіти”.";
+  const image = medicalStethoscope;
+  const alt = "medical-stethoscope";
 
   return (
     <>
@@ -17,10 +36,16 @@ const ProjectPage = () => {
         </title>
       </Helmet> */}
 
-      <HeroProject />
+      <HeroProject title={title} text={text} value={value} />
       <main>
         <div className="main-container">
-          <h1> PROJECT CONTENT</h1>
+          <div className="project-content-wrap">
+            <ProjectDescriptionSection
+              description={description}
+              image={image}
+              alt={alt}
+            />
+          </div>
         </div>
       </main>
     </>

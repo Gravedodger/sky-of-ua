@@ -21,7 +21,9 @@
 
 /* BUTTON TAKE PART STYLES */
 
-.button-take-part {
+.button-take-part,
+.button-to-support {
+  display: block;
   width: 196px;
   margin: 0 auto;
   padding: 10px;
@@ -32,14 +34,16 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .button-take-part {
+  .button-take-part,
+  .button-to-support {
     width: 296px;
     padding: 16px;
   }
 }
 
 .button-take-part-text,
-.button-submit-text {
+.button-submit-text,
+.button-to-support-text {
   font-weight: 500;
   color: #ffd600 !important;
 }

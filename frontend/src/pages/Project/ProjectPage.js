@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import "../../i18n";
 import HeroProject from "../../components/HeroProject";
 import ProjectDescriptionSection from "../../sections/ProjectDescription-section";
+import ToSupportBlock from "../../blocks/ToSupport-block";
 
 // image for component
 import medicalStethoscope from "../../assets/images/medical-stethoscope.jpg";
@@ -45,6 +46,7 @@ const ProjectPage = () => {
               image={image}
               alt={alt}
             />
+            <ToSupportBlock />
           </div>
         </div>
       </main>

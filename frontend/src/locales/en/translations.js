@@ -9,6 +9,12 @@ export const TRANSLATIONS_EN = {
       "We help communities, medical institution, IDPs and military personnel who are fighting for the territorial integrity, victory and bright future of Ukraine",
   },
 
+  //BUTTONS
+  btn_request_support: "Request support",
+  btn_take_part: "Take part",
+  btn_modal: "Come on!",
+  btn_to_support: "To support",
+
   // HEADER
   nav: "Navigation",
   nav_about_us: "About",
@@ -299,8 +305,6 @@ export const TRANSLATIONS_EN = {
   month_june: "June",
   details: "Details",
   support: "Support",
-  request_support: "Request support",
-  take_part: "Take part",
   project: "project",
   add: "Add",
   list: "All entries",
@@ -324,7 +328,6 @@ export const TRANSLATIONS_EN = {
     option_3: "Aid to the Military",
     comment: "Comment",
     comment_placeholder: "Enter the Comment",
-    button: "Come on!",
   },
 
   // MAP

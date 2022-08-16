@@ -7,7 +7,10 @@ import ChartRange from "../ChartRange";
 const FundraisingProgress = ({ targetSum, collectedSum }) => {
   const { t } = useTranslation();
 
-  const lessSum = targetSum - collectedSum;
+  let lessSum = targetSum - collectedSum;
+  if (targetSum < collectedSum) {
+    lessSum = 0;
+  }
   const persents = (collectedSum / targetSum) * 100;
 
   return (

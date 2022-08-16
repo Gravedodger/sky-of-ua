@@ -1,7 +1,7 @@
 import React from "react";
 import "./ChartRange.css";
 
-const ChartRange = ({ persents }) => {
+const ChartRange = ({ persents = 50 }) => {
   return (
     <>
       <div className="chart-range-strip-bg">

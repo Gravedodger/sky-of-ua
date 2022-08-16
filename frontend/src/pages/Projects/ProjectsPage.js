@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
 import { useParams, Outlet } from "react-router-dom";
+import MediaQuery from "react-responsive";
 import MapUkraine from "../../sections/MapUkraine-section/MapUkraine";
 import CurrentProjectsSection from "../../sections/CurrentProjects-section";
 import dataHumanitarianAid from "../../sections/CurrentProjects-section/dataHumanitarianAid";
@@ -25,8 +26,11 @@ const ProjectsPage = () => {
 
       <main>
         <div className="main-container">
-          {!regionId && <MapUkraine />}
-          <Outlet />
+          <MediaQuery minWidth={768}>
+            {!regionId && <MapUkraine />}
+            <Outlet />
+          </MediaQuery>
+
           <CurrentProjectsSection
             sectionTitle={"hum_proj_section_title"}
             dataFileName={dataHumanitarianAid}

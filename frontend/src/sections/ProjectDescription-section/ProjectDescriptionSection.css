@@ -1,0 +1,23 @@
+.project-description-card-wrap {
+  padding: 24px;
+  width: 843px;
+  background-color: #f5f5f0;
+}
+
+.project-description-card-title {
+  margin-bottom: 16px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #272727;
+}
+
+.project-description-card-text {
+  margin-bottom: 16px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #83868b;
+}

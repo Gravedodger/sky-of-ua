@@ -13,3 +13,46 @@
     width: 100%;
   }
 }
+
+.project-image-description-wrap {
+  position: absolute;
+  top: 60%;
+  left: calc(50% - 640px);
+  width: 808px;
+}
+
+.project-image-description-title {
+  margin-bottom: 16px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.project-image-description-text {
+  margin-bottom: 16px;
+  width: 321px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.project-image-description-currency {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4c94ff;
+}
+
+.project-image-description-value {
+  display: inline;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4c94ff;
+}

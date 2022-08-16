@@ -2,19 +2,16 @@ import React from "react";
 import "./HeroProject.css";
 import projectPhoto from "../../assets/images/project-image.jpg";
 
-const HeroProject = () => {
-  // компонент має приймати з пропсів чи зі стору наступні дані
-  const projectTitle =
-    "Потрібно зібрати кошти на допомогу нашим медикам в Миколаївські області";
-  const projectText = "Зараз ми збераємо на першо чергові потреби. Залишилось:";
-  const projectValue = "4,518.50";
-
+const HeroProject = ({ title, text, value }) => {
   return (
     <div className="project-image-wrap">
-      <img src={projectPhoto} alt="" className="project-image" />
-      <h2 className="project-title">{projectTitle}</h2>
-      <p className="project-text">{projectText}</p>
-      <p className="project-value">{projectValue}</p>
+      <img src={projectPhoto} alt="project image" className="project-image" />
+      <div className="project-image-description-wrap">
+        <h2 className="project-image-description-title">{title}</h2>
+        <p className="project-image-description-text">{text}</p>
+        <span className="project-image-description-currency">&#8372; </span>
+        <p className="project-image-description-value">{value}</p>
+      </div>
     </div>
   );
 };

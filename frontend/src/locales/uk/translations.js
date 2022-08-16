@@ -9,6 +9,12 @@ export const TRANSLATIONS_UK = {
       "Допомагаємо громадам, медичним закладам, ВПО та військовим, які борються за територіальну цілісність, перемогу та світле майбутнє України",
   },
 
+  //BUTTONS
+  btn_request_support: "Потрібна допомога",
+  btn_take_part: "Долучитися",
+  btn_modal: "Далі",
+  btn_to_support: "Підтримати",
+
   // HEADER
   nav: "Навігація",
   nav_about_us: "Про нас",
@@ -298,8 +304,6 @@ export const TRANSLATIONS_UK = {
   month_june: "Червень",
   details: "Деталі",
   support: "Підтримати",
-  request_support: "Потрібна допомога",
-  take_part: "Долучитися",
   project: "проект",
   add: "Додати",
   list: "Всі записи",
@@ -323,7 +327,6 @@ export const TRANSLATIONS_UK = {
     option_3: "Допомога Військовим",
     comment: "Коментарій",
     comment_placeholder: "Залиште Коментарій",
-    button: "Далі",
   },
 
   // MAP

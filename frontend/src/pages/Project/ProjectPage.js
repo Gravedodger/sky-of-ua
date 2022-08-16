@@ -49,7 +49,7 @@ const ProjectPage = () => {
                 alt={alt}
               />
               <ProjectAmountReport
-                totalValue="25 43 2.14"
+                totalValue="25432.14"
                 currentValue="11254.01"
               />
             </div>

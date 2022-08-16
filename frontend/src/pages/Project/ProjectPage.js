@@ -4,9 +4,10 @@ import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
 import HeroProject from "../../components/HeroProject";
-import ProjectDescriptionSection from "../../sections/ProjectDescription-section";
+import ProjectDescription from "../../components/ProjectDescription";
 import ToSupportBlock from "../../blocks/ToSupport-block";
 import ProjectAmountReport from "../../components/ProjectAmountReport";
+import ProjectPartners from "../../components/ProjectPartners";
 
 // image for component
 import medicalStethoscope from "../../assets/images/medical-stethoscope.jpg";
@@ -42,8 +43,8 @@ const ProjectPage = () => {
       <main>
         <div className="main-container">
           <div className="project-content-wrap">
-            <div>
-              <ProjectDescriptionSection
+            <div className="project-content-main">
+              <ProjectDescription
                 description={description}
                 image={image}
                 alt={alt}
@@ -52,6 +53,7 @@ const ProjectPage = () => {
                 totalValue="25432.14"
                 currentValue="11254.01"
               />
+              <ProjectPartners />
             </div>
             <ToSupportBlock />
           </div>

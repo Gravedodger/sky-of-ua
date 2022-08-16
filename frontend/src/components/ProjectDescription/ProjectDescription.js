@@ -1,5 +1,5 @@
 import React from "react";
-import "./ProjectDescriptionSection.css";
+import "./ProjectDescription.css";
 
 const ProjectDescriptionSection = ({ description, image, alt }) => {
   return (

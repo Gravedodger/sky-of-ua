@@ -39,20 +39,29 @@ const RegionInfoSection = () => {
                     <span>&#8372; </span>
                     {collectedFunds}
                   </p>
+                  <p className="region-info-subscription">
+                    {t("funds_collected")}
+                  </p>
                 </li>
                 <li className="region-info-item">
                   <p className="region-info-text">{completedProjects}</p>
+                  <p className="region-info-subscription">
+                    {t("completed_projects")}
+                  </p>
                 </li>
                 <li className="region-info-item">
                   <p className="region-info-text">{volunteerCount}</p>
+                  <p className="region-info-subscription">
+                    {t("volonteers_in_the_region")}
+                  </p>
                 </li>
               </ul>
             </div>
           </div>
 
-          {/* ЦЕ ТРЕБА ВИНЕСТИ В ОКРЕМИЙ БЛОК І РЕНДЕРИТИ В ЗАЛЕЖНОСТІ ВІД РЕГІОНУ */}
+          {/* ЦЕ ТРЕБА ВИНЕСТИ В ОКРЕМИЙ КОМПОНЕНТ І РЕНДЕРИТИ В ЗАЛЕЖНОСТІ ВІД РЕГІОНУ */}
           <div className="region-info-projects">
-            <h4>{t("region_info.mykolayiv_projects")}</h4>
+            <h4>{t(`region.${regionId}p`)}</h4>
             <ul>
               <li>{t("project")} 1</li>
               <li>{t("project")} 2</li>

@@ -24,7 +24,7 @@ const ProjectCard = ({
       />
       <ProjectCardTitle>{projectCardTitle}</ProjectCardTitle>
       <ProjectCardText>{projectCardText}</ProjectCardText>
-        <FundraisingProgress />
+      <FundraisingProgress targetSum={35000.0} collectedSum={27000.0} />
       <Button>
         <ButtonText>{buttonText}</ButtonText>
       </Button>

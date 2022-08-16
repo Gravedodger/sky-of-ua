@@ -1,10 +1,16 @@
 .region-info-section-wrap {
-  padding: 80px 0;
+  padding: 40px 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .region-info-section-wrap {
+    padding: 80px 0;
+  }
 }
 
 .region-info-back-to-map-btn {
   position: relative;
-  margin-left: 48px;
+  margin-left: 78px;
   margin-bottom: 35px;
   font-weight: 600;
   font-size: 24px;
@@ -15,6 +21,13 @@
   cursor: pointer;
   transition: 0.5s;
 }
+
+@media screen and (min-width: 1440px) {
+  .region-info-back-to-map-btn {
+    margin-left: 48px;
+  }
+}
+
 .region-info-back-to-map-btn:hover,
 .region-info-back-to-map-btn:focus {
   transition: 0.5s;
@@ -48,11 +61,16 @@
 }
 
 .region-info-title {
-  margin-bottom: 24px;
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
   color: #272727;
+}
+
+@media screen and (min-width: 1440px) {
+  .region-info-title {
+    margin-bottom: 24px;
+  }
 }
 
 .region-info-presentation {
@@ -94,15 +112,6 @@
   height: 24px;
   background-image: url(../../assets/icons/icn-collectedFunds.svg);
 }
-.region-info-item:first-child::after {
-  content: "Зібрано коштів";
-  position: absolute;
-  bottom: -20px;
-  left: 0;
-  font-size: 14px;
-  line-height: 17px;
-  color: #83868b;
-}
 
 .region-info-item:nth-child(2)::before {
   content: "";
@@ -112,16 +121,6 @@
   width: 24px;
   height: 24px;
   background-image: url(../../assets/icons/icn-completedProjects.svg);
-}
-
-.region-info-item:nth-child(2)::after {
-  content: "Завершених проектів";
-  position: absolute;
-  bottom: -20px;
-  left: 0;
-  font-size: 14px;
-  line-height: 17px;
-  color: #83868b;
 }
 
 .region-info-item:last-child::before {
@@ -134,8 +133,7 @@
   background-image: url(../../assets/icons/icn-volonteersCount.svg);
 }
 
-.region-info-item:last-child::after {
-  content: "Волонтерів в регіоні";
+.region-info-subscription {
   position: absolute;
   bottom: -20px;
   left: 0;

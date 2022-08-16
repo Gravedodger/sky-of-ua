@@ -4,7 +4,6 @@ import "./Header.css";
 import Logo from "../Logo";
 import NavMenu from "../NavMenu";
 import LanguageSwitch from "../LanguageSwitch";
-import HeroVideo from "../HeroVideo/HeroVideo";
 
 const Header = ({ setModalActive }) => {
   const [menuOn, setMenuOn] = useState(false);

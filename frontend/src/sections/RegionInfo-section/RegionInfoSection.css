@@ -112,15 +112,6 @@
   height: 24px;
   background-image: url(../../assets/icons/icn-collectedFunds.svg);
 }
-.region-info-item:first-child::after {
-  content: "Зібрано коштів";
-  position: absolute;
-  bottom: -20px;
-  left: 0;
-  font-size: 14px;
-  line-height: 17px;
-  color: #83868b;
-}
 
 .region-info-item:nth-child(2)::before {
   content: "";
@@ -130,16 +121,6 @@
   width: 24px;
   height: 24px;
   background-image: url(../../assets/icons/icn-completedProjects.svg);
-}
-
-.region-info-item:nth-child(2)::after {
-  content: "Завершених проектів";
-  position: absolute;
-  bottom: -20px;
-  left: 0;
-  font-size: 14px;
-  line-height: 17px;
-  color: #83868b;
 }
 
 .region-info-item:last-child::before {
@@ -152,8 +133,7 @@
   background-image: url(../../assets/icons/icn-volonteersCount.svg);
 }
 
-.region-info-item:last-child::after {
-  content: "Волонтерів в регіоні";
+.region-info-subscription {
   position: absolute;
   bottom: -20px;
   left: 0;

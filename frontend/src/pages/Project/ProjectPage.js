@@ -6,6 +6,7 @@ import "../../i18n";
 import HeroProject from "../../components/HeroProject";
 import ProjectDescriptionSection from "../../sections/ProjectDescription-section";
 import ToSupportBlock from "../../blocks/ToSupport-block";
+import ProjectAmountReport from "../../components/ProjectAmountReport";
 
 // image for component
 import medicalStethoscope from "../../assets/images/medical-stethoscope.jpg";
@@ -41,11 +42,17 @@ const ProjectPage = () => {
       <main>
         <div className="main-container">
           <div className="project-content-wrap">
-            <ProjectDescriptionSection
-              description={description}
-              image={image}
-              alt={alt}
-            />
+            <div>
+              <ProjectDescriptionSection
+                description={description}
+                image={image}
+                alt={alt}
+              />
+              <ProjectAmountReport
+                totalValue="25 43 2.14"
+                currentValue="11254.01"
+              />
+            </div>
             <ToSupportBlock />
           </div>
         </div>

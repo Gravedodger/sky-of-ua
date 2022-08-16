@@ -1,0 +1,38 @@
+.project-amount-report-wrap {
+  margin-bottom: 24px;
+  padding: 24px;
+  background-color: #f5f5f0;
+}
+
+.project-amount-report-title {
+  margin-bottom: 18px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.project-amount-values-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.project-amount-value-current,
+.project-amount-value-less {
+  display: inline;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #4c94ff;
+}
+.project-amount-value-total {
+  display: inline;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.project-amount-text-less {
+  display: inline;
+  font-size: 16px;
+  line-height: 25px;
+}

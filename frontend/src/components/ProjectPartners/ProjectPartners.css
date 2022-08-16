@@ -1,0 +1,26 @@
+.project-partners-wrap {
+  margin-bottom: 24px;
+  padding: 24px 140px 24px 24px;
+  background-color: #f5f5f0;
+}
+
+.project-partners-title,
+.project-partners-name {
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.project-partners-content {
+  display: flex;
+}
+
+.project-partners-image {
+  margin-right: 24px;
+}
+
+.project-partners-description {
+  font-size: 14px;
+  line-height: 22px;
+}

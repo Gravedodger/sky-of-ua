@@ -164,6 +164,11 @@ export const TRANSLATIONS_UK = {
     ua40: "місто Севастополь",
   },
 
+  // REGION INFO SECTION
+  funds_collected: "Зібрано коштів",
+  completed_projects: "Завершених проектів",
+  volonteers_in_the_region: "Волонтерів в регіоні",
+
   // CURRENT PROJECTS SECTION
   cur_proj_section_title: "Актуальні Проекти",
   cur_proj_01: {

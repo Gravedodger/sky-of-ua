@@ -164,6 +164,11 @@ export const TRANSLATIONS_EN = {
     ua40: "City of Sevastopil",
   },
 
+  // REGION INFO SECTION
+  funds_collected: "Funds have been collected",
+  completed_projects: "Completed projects",
+  volonteers_in_the_region: "Volunteers in the region",
+
   // CURRENT PROJECTS SECTION
   cur_proj_section_title: "Current Projects",
   cur_proj_01: {

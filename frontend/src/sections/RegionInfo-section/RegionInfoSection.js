@@ -39,12 +39,21 @@ const RegionInfoSection = () => {
                     <span>&#8372; </span>
                     {collectedFunds}
                   </p>
+                  <p className="region-info-subscription">
+                    {t("funds_collected")}
+                  </p>
                 </li>
                 <li className="region-info-item">
                   <p className="region-info-text">{completedProjects}</p>
+                  <p className="region-info-subscription">
+                    {t("completed_projects")}
+                  </p>
                 </li>
                 <li className="region-info-item">
                   <p className="region-info-text">{volunteerCount}</p>
+                  <p className="region-info-subscription">
+                    {t("volonteers_in_the_region")}
+                  </p>
                 </li>
               </ul>
             </div>

@@ -50,7 +50,7 @@ const RegionInfoSection = () => {
             </div>
           </div>
 
-          {/* ЦЕ ТРЕБА ВИНЕСТИ В ОКРЕМИЙ БЛОК І РЕНДЕРИТИ В ЗАЛЕЖНОСТІ ВІД РЕГІОНУ */}
+          {/* ЦЕ ТРЕБА ВИНЕСТИ В ОКРЕМИЙ КОМПОНЕНТ І РЕНДЕРИТИ В ЗАЛЕЖНОСТІ ВІД РЕГІОНУ */}
           <div className="region-info-projects">
             <h4>{t("region_info.mykolayiv_projects")}</h4>
             <ul>

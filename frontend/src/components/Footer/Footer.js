@@ -40,8 +40,6 @@ const Footer = () => {
             </div>
           </div>
 
-          <AdminLogin />
-
           <div className="footer-support">
             <h3 className="footer-title">{t("supported_by")}</h3>
           </div>

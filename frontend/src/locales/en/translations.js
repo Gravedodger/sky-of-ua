@@ -340,6 +340,8 @@ export const TRANSLATIONS_EN = {
   project: "project",
   add: "Add",
   list: "All entries",
+  sign_up: "Sign Up",
+  sign_in: "Sign In",
 
   // MODAL
   modal_title: "Ask for help",
@@ -402,4 +404,16 @@ export const TRANSLATIONS_EN = {
       "The Sky of Ukraine reports for the accountability of the fund's work",
     keywords: "Ukraine, war, help, reports, accountability",
   },
+
+  // AUTHENTICATION
+  register: "Register",
+  login: "Login",
+  email: "email",
+  password: "password",
+  signIn: "Sign In",
+  signUp: "Sign Up",
+  invalidEmail: "Invalid email",
+  required: "required",
+  min: "min",
+  max: "max",
 };

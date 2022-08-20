@@ -16,6 +16,7 @@ import ProjectsAdminPage from "./pages/ProjectsAdmin/ProjectsAdminPage";
 
 import RequestHelpForm from "./components/RequestHelpForm";
 import Modal from "./components/Modal/Modal";
+import ProjectsListPage from "./client/ProjectList/pages/ToDoListPage";
 
 const AppRoutes = () => {
   const [modalActive, setModalActive] = useState(false);
@@ -35,6 +36,7 @@ const AppRoutes = () => {
         </Route>
         <Route path="/tmp-dev" element={<Project />} />
         <Route path="/reports" element={<ReportsPage />} />
+        <Route path="/admin" element={<ProjectsListPage />} />
 
         <Route path="*" element={<Page404 />} />
       </Routes>

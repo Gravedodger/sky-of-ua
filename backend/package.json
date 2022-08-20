@@ -1,0 +1,23 @@
+{
+  "name": "sky-of-ua--backend",
+  "version": "1.0.0",
+  "description": "Sky of Ukraine administration backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Sviatoslav Malyshevskyi",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "uuid": "^8.3.2"
+  }
+}

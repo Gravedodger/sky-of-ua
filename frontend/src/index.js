@@ -4,20 +4,14 @@ import './index.css';
 import './i18n';
 import reportWebVitals from './reportWebVitals';
 import Spinner from "./components/Spinner";
-import { ProjectProvider } from "./contexts/ProjectContext";
 
 const App = React.lazy(() => import('./App'));
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-    <Suspense fallback={<Spinner />}>
-      <ProjectProvider>
-        <App />
-      </ProjectProvider>
-    </Suspense>
+  <Suspense fallback={<Spinner />}>
+    <App />
+  </Suspense>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

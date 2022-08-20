@@ -35,7 +35,6 @@ const AppRoutes = () => {
         </Route>
         <Route path="/tmp-dev" element={<Project />} />
         <Route path="/reports" element={<ReportsPage />} />
-        <Route path="/project-admin" element={<ProjectsAdminPage />} />
 
         <Route path="*" element={<Page404 />} />
       </Routes>

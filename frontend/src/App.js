@@ -4,7 +4,7 @@ import ProjectsInterface from "./components/ADMIN/Projects/ProjectsInterface";
 
 function App() {
   return (
-      <AppRoutes />
+    <AppRoutes />
   )
 }
 

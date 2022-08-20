@@ -1,0 +1,10 @@
+.field-error {
+  background: rgba(237, 28, 36, 0.7);
+  color: #fff;
+  margin-bottom: 10px;
+  padding: 14px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=FieldErrorMsg.css.map */

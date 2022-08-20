@@ -1,0 +1,44 @@
+.tasker-list {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+.task {
+  margin: 0;
+  display: block;
+  position: relative;
+  padding: 14px 40px 14px 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font: 18px/1.25em Helvetica, Arial, Sans-serif;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:hover &-remove {
+    opacity: 1;
+  }
+
+  &.completed {
+    color: #cdcdcd;
+    text-decoration: line-through;
+  }
+
+  &-remove {
+    color: #cdcdcd;
+    margin: 14px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+
+    &:hover {
+      color: #ed1c24;
+    }
+  }
+
+  &-status-change {
+    margin-right: 10px;
+  }
+}

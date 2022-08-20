@@ -1,0 +1,14 @@
+@mixin flex($main-axis: flex-start, $cross-axis: stretch, $direction: row) {
+  display: flex;
+  flex-wrap: wrap;
+
+  @if $main-axis != flex-start {
+    justify-content: $main-axis;
+  }
+  @if $cross-axis != stretch {
+    align-items: $cross-axis;
+  }
+  @if $direction != row {
+    flex-direction: $direction;
+  }
+}

@@ -1,0 +1,40 @@
+.tasker-list {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+.task {
+  margin: 0;
+  display: block;
+  position: relative;
+  padding: 14px 40px 14px 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font: 18px/1.25em Helvetica, Arial, Sans-serif;
+}
+.task:last-child {
+  border-bottom: none;
+}
+.task:hover .task-remove {
+  opacity: 1;
+}
+.task.completed {
+  color: #cdcdcd;
+  text-decoration: line-through;
+}
+.task-remove {
+  color: #cdcdcd;
+  margin: 14px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+}
+.task-remove:hover {
+  color: #ed1c24;
+}
+.task-status-change {
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=ProjectList.css.map */

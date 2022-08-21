@@ -1,10 +1,14 @@
 import React from "react";
 import AppRoutes from "./AppRoutes";
-import ProjectsInterface from "./components/ADMIN/Projects/ProjectsInterface";
+import {Provider} from "react-redux";
+import {store} from "./client/auth/store/store";
+import {Routes} from "react-router-dom";
 
 function App() {
   return (
-    <AppRoutes />
+    <Provider store={store}>
+      <AppRoutes />
+    </Provider>
   )
 }
 

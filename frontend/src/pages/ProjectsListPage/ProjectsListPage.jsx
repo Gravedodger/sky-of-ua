@@ -1,12 +1,12 @@
 import React from 'react';
 import './ProjectsListPage.scss';
-import ProjectsList from "../../components/ProjectsList";
+import ProjectList from "../../client/ProjectList/components/ProjectList";
 
 const ProjectsListPage = () => {
   return (
     <div>
       <h1>PROJECTS:</h1>
-      <ProjectsList />
+      <ProjectList />
     </div>
   );
 };

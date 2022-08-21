@@ -31,12 +31,17 @@
     "react-responsive": "^9.0.0-beta.10",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
     "sass": "^1.54.4",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "install-peers": "^1.0.4"
+    "formik": "^2.2.9",
+    "install-peers": "^1.0.4",
+    "yup": "^0.32.11"
   },
   "browserslist": {
     "production": [

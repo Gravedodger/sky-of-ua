@@ -1,10 +1,10 @@
-.tasker-list {
+.project-action-list {
   margin: 0;
   padding: 0;
   background: #fff;
 }
 
-.task {
+.project {
   margin: 0;
   display: block;
   position: relative;
@@ -12,17 +12,17 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   font: 18px/1.25em Helvetica, Arial, Sans-serif;
 }
-.task:last-child {
+.project:last-child {
   border-bottom: none;
 }
-.task:hover .task-remove {
+.project:hover .project-remove {
   opacity: 1;
 }
-.task.completed {
+.project.completed {
   color: #cdcdcd;
   text-decoration: line-through;
 }
-.task-remove {
+.project-remove {
   color: #cdcdcd;
   margin: 14px;
   position: absolute;
@@ -30,10 +30,10 @@
   right: 0;
   opacity: 0;
 }
-.task-remove:hover {
+.project-remove:hover {
   color: #ed1c24;
 }
-.task-status-change {
+.project-status-change {
   margin-right: 10px;
 }
 

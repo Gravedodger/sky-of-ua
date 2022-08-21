@@ -1,3 +1,3 @@
 export const initialValues = {
-    taskName: ''
+    projectName: ''
 };

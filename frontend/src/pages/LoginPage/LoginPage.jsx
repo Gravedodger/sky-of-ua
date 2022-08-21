@@ -1,13 +1,12 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+import { unstable_HistoryRouter } from "react-router-dom";
 import { useSelector } from "react-redux";
-
-import LoginForm from "../../components/LoginForm";
+import LoginForm from "../../client/auth/components/LoginForm";
 
 const LoginPage = () => {
   const isAuthenticated = useSelector( state => state.auth.is_authenticated )
-  const history = useHistory();
-    
+  let history = unstable_HistoryRouter();
+
   if (isAuthenticated) {
     history.goBack();
   }

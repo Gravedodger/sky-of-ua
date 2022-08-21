@@ -1,6 +1,6 @@
 @import "src/client/shared/styles/scss/shared";
 
-.tasker {
+.project-action {
   &-header {
     @include flex(space-between);
     background: $primary-color;

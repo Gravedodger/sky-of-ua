@@ -1,22 +1,18 @@
 import React, { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-
 import AboutUsPage from "./pages/AboutUs/AboutUsPage";
 import ProjectsPage from "./pages/Projects";
 import RegionInfoSection from "./sections/RegionInfo-section";
 import Project from "./pages/Project";
-
 import ReportsPage from "./pages/Reports";
 import Page404 from "./pages/NoMatch/NoMatchPage";
-
-import ProjectsAdminPage from "./pages/ProjectsAdmin/ProjectsAdminPage";
-
 import RequestHelpForm from "./components/RequestHelpForm";
 import Modal from "./components/Modal/Modal";
-import ProjectsListPage from "./client/ProjectList/pages/ToDoListPage";
+import ProjectsListPage from "./pages/ProjectsListPage";
+import LoginPage from "./pages/LoginPage";
+import AuthProfile from "./client/auth/components/AuthProfile";
 
 const AppRoutes = () => {
   const [modalActive, setModalActive] = useState(false);
@@ -36,7 +32,11 @@ const AppRoutes = () => {
         </Route>
         <Route path="/tmp-dev" element={<Project />} />
         <Route path="/reports" element={<ReportsPage />} />
-        <Route path="/admin" element={<ProjectsListPage />} />
+
+        <Route path="/projects-list" element={<ProjectsListPage />} />
+
+        <Route path="/auth-profile" element={<AuthProfile />} />
+        <Route path="/login" element={<LoginPage />} />
 
         <Route path="*" element={<Page404 />} />
       </Routes>

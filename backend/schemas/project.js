@@ -19,11 +19,6 @@ const projectSchema = new Schema ({
 	minLength: 20
 	},
 
-	image: {
-		type: Image,
-		required: true,
-	},
-
 	requiredAmount: {
 		type: Number,
 		required: true,

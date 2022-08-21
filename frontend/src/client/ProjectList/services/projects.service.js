@@ -14,7 +14,7 @@ export default class ProjectsService extends BaseHttpService {
         return data;
     }
 
-    async removeTask(_id){
+    async removeProject(_id){
         const data = await this.delete(`${this._endpoint}/${_id}`);
         return data;
     }

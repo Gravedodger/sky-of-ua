@@ -9,9 +9,9 @@ const ProjectPartners = () => {
       <div className="project-partners-content">
         <img
           src={partnerImage}
-          alt="project-partner-image"
+          alt="project partner"
           className="project-partners-image"
-        ></img>
+        />
         <div className="project-partners-sub">
           <h4 className="project-partners-name">Таблеточкка</h4>
           <p className="project-partners-description">

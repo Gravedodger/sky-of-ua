@@ -7,6 +7,7 @@ import PartnersFooterBlock from "../../blocks/PartnersFooter-block";
 import { useTranslation } from "react-i18next";
 import "./../../i18n";
 import { NavLink } from "react-router-dom";
+import { LoginButton } from "../Buttons/Buttons";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -16,7 +17,7 @@ const Footer = () => {
       <footer>
         <div className="footer-wrap">
           <div className="footer-contacts">
-            <Logo style="footer" />
+            <Logo />
             <address className="footer-address">
               <a href="mailto:skyofukraine@gmail.com" className="contacts-link">
                 skyofukraine@gmail.com
@@ -25,13 +26,13 @@ const Footer = () => {
                 +380 98 56 84 325
               </a>
             </address>
-            <SocialLinks style="footer" />
+            <SocialLinks />
           </div>
 
           <div className="footer-middle">
             <div className="footer-nav">
               <h3 className="footer-title">{t("nav")}</h3>
-              <NavMenu style="footer" />
+              <NavMenu />
             </div>
 
             <div className="footer-partners">
@@ -39,9 +40,6 @@ const Footer = () => {
               <PartnersFooterBlock />
             </div>
           </div>
-
-          <NavLink to="/projects-list">PROJECT LIST</NavLink>
-          <NavLink to="/auth-profile">ADMIN</NavLink>
 
           <div className="footer-support">
             <h3 className="footer-title">{t("supported_by")}</h3>

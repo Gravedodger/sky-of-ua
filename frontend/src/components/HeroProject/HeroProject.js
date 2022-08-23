@@ -5,7 +5,7 @@ import projectPhoto from "../../assets/images/project-image.jpg";
 const HeroProject = ({ title, text, value }) => {
   return (
     <div className="project-image-wrap">
-      <img src={projectPhoto} alt="project image" className="project-image" />
+      <img src={projectPhoto} alt="project" className="project-image" />
       <div className="project-image-description-wrap">
         <h2 className="project-image-description-title">{title}</h2>
         <p className="project-image-description-text">{text}</p>

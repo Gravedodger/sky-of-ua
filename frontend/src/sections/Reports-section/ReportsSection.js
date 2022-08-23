@@ -33,7 +33,7 @@ const ReportsSection = () => {
               {t("reports_post_large.post_text")}
             </p>
             <div className="card-footer-main">
-              <a href="#" className="card-link-main">
+              <a href="/" className="card-link-main">
                 {t("read_more")}
               </a>
               <time className="card-date-main" dateTime="2022-06-28">

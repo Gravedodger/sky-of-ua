@@ -2,8 +2,8 @@ import React from "react";
 import "./Buttons.css";
 import { ButtonText } from "../../Typography";
 import { useTranslation } from "react-i18next";
-
 import "../../i18n";
+import { useAuth0 } from "@auth0/auth0-react";
 
 const ButtonRequestSupport = ({ setModalActive }) => {
   const { t } = useTranslation();
@@ -50,4 +50,19 @@ const ButtonToSupport = () => {
   );
 };
 
-export { ButtonRequestSupport, ButtonTakePart, ButtonSubmit, ButtonToSupport };
+
+const LoginButton = () => {
+  const {loginWithRedirect} = useAuth0();
+  return <button onClick={() => loginWithRedirect()}>Log In</button>;
+}
+
+const LogoutButton = () => {
+  const { logout } = useAuth0();
+  return (
+    <button onClick={() => logout({ returnTo: window.location.origin })}>
+      Log Out
+    </button>
+  );
+};
+
+export { ButtonRequestSupport, ButtonTakePart, ButtonSubmit, ButtonToSupport, LoginButton, LogoutButton };

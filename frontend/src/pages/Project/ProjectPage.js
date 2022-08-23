@@ -1,7 +1,5 @@
 import React from "react";
 import "./ProjectPage.css";
-import { Helmet } from "react-helmet";
-import { useTranslation } from "react-i18next";
 import "../../i18n";
 import HeroProject from "../../components/HeroProject";
 import ProjectDescription from "../../components/ProjectDescription";
@@ -13,7 +11,7 @@ import ProjectPartners from "../../components/ProjectPartners";
 import medicalStethoscope from "../../assets/images/medical-stethoscope.jpg";
 
 const ProjectPage = () => {
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
 
   // компонент має приймати наступні дані
 

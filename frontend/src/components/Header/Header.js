@@ -16,11 +16,11 @@ const Header = ({ setModalActive }) => {
     <header className="header">
       <div className="main-container ">
         <div className="header-wrap">
-          <Logo style="header" />
+          <Logo />
           <MediaQuery maxWidth={767}>
-            {menuOn && <NavMenu style="header" />}
+            {menuOn && <NavMenu />}
           </MediaQuery>
-          <MediaQuery minWidth={768}>{<NavMenu style="header" />}</MediaQuery>
+          <MediaQuery minWidth={768}>{<NavMenu />}</MediaQuery>
           <LanguageSwitch />
           <div className="header-burger" onClick={onClickBurger}>
             <span />

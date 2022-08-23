@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./RequestHelpForm.css";
 import initialState from "./initialState";
 import { ButtonSubmit } from "../Buttons";

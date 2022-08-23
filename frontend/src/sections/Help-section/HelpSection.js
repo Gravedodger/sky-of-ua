@@ -50,17 +50,17 @@ const HelpSection = ({ setModalActive }) => {
 
           <ul className="help-section-links">
             <li className="help-section-item">
-              <a href="#" className="help-label-humanitarian">
+              <a href="/" className="help-label-humanitarian">
                 {t("help_section.label_top")}
               </a>
             </li>
             <li className="help-section-item">
-              <a href="#" className="help-label-medical">
+              <a href="/" className="help-label-medical">
                 {t("help_section.label_middle")}
               </a>
             </li>
             <li className="help-section-item">
-              <a href="#" className="help-label-military">
+              <a href="/" className="help-label-military">
                 {t("help_section.label_bottom")}
               </a>
             </li>

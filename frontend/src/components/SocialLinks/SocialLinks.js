@@ -13,7 +13,7 @@ const SocialLinks = (props) => {
         <a
           href="https://t.me/the_sky_of_ukraine"
           className="socialLinks-link"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           <IconTelegram className={`socialLinks-icon-${style}`} />
         </a>
@@ -23,7 +23,7 @@ const SocialLinks = (props) => {
         <a
           href="https://instagram.com/the_sky_of_ukraine?igshid=YmMyMTA2M2Y="
           className="socialLinks-link"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           <IconInstagram className={`socialLinks-icon-${style}`} />
         </a>
@@ -33,7 +33,7 @@ const SocialLinks = (props) => {
         <a
           href="https://www.facebook.com/groups/neboukrainu"
           className="socialLinks-link"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           <IconFacebook className={`socialLinks-icon-${style}`} />
         </a>

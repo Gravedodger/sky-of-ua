@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './NoMatchPage.css';
 import { Helmet } from "react-helmet";
 import { SectionTitleText } from "../../Typography";

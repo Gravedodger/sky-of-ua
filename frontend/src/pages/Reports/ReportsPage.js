@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { SectionTitleText } from "../../Typography";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";

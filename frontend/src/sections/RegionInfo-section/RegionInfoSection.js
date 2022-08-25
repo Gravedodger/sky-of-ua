@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import "./RegionInfoSection.css";
 import dataMapUkraine from "../MapUkraine-section/dataMapUkraine";

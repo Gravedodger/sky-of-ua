@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <Suspense fallback={<Spinner />}>
-    <App />
+      <App />
   </Suspense>
 );
 

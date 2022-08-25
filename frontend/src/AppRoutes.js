@@ -9,29 +9,44 @@ import ReportsPage from "./pages/Reports";
 import Page404 from "./pages/NoMatch/NoMatchPage";
 import RequestHelpForm from "./components/RequestHelpForm";
 import Modal from "./components/Modal/Modal";
-import ProjectsPage from "./pages/Projects";
+import ProjectsPage from "./pages/Projects"
+import Login from "./components/Login";
+import Dashboard from "./pages/Dashboard";
+import useToken from "./useToken";
+
+function setToken(userToken) {
+  sessionStorage.setItem('token', JSON.stringify(userToken));
+}
+
+function getToken() {
+  const tokenString = sessionStorage.getItem('token');
+  const userToken = JSON.parse(tokenString);
+  return userToken?.token
+}
 
 const AppRoutes = () => {
   const [modalActive, setModalActive] = useState(false);
 
-  return (
-    <BrowserRouter>
-      <Header setModalActive={setModalActive} />
+  const { token, setToken } = useToken();
+  if(!token) {
+    return <Login setToken={setToken} />
+  }
 
+  return (
+    <BrowserRouter history={history}>
+      <Header setModalActive={setModalActive} />
       <Routes>
-        <Route
-          exact
-          path="/"
-          element={<AboutUsPage setModalActive={setModalActive} />}
-        />
-        <Route path="/projects" element={<ProjectsPage />}>
-          <Route path=":regionId" element={<RegionInfoSection />} />
-        </Route>
+        <Route exact path="/" element={<AboutUsPage setModalActive={setModalActive} />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path=":regionId" element={<RegionInfoSection />} />
         <Route path="/tmp-dev" element={<Project />} />
         <Route path="/reports" element={<ReportsPage />} />
+        <Route path="*" element={<Page404 />} />+
 
-        <Route path="*" element={<Page404 />} />
+        <Route path="/login" element={<Login setToken={setToken} />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
+
 
       <Footer />
 

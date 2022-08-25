@@ -6,8 +6,6 @@ import SocialLinks from "../SocialLinks/SocialLinks";
 import PartnersFooterBlock from "../../blocks/PartnersFooter-block";
 import { useTranslation } from "react-i18next";
 import "./../../i18n";
-import { NavLink } from "react-router-dom";
-import { LoginButton } from "../Buttons/Buttons";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -39,6 +37,10 @@ const Footer = () => {
               <h3 className="footer-title">{t("partners")}</h3>
               <PartnersFooterBlock />
             </div>
+          </div>
+
+          <div>
+            <a href="/login">LOGIN</a>
           </div>
 
           <div className="footer-support">

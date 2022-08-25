@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "./ProjectPage.css";
 import "../../i18n";
 import HeroProject from "../../components/HeroProject";

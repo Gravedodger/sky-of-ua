@@ -1,5 +1,5 @@
 import React from "react";
-import "./NavMenu.css";
+import "./NavMenu.scss";
 import { NavLink } from "react-router-dom";
 import { NavText } from "../../Typography";
 import { useTranslation } from "react-i18next";

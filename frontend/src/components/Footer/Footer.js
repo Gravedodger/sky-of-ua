@@ -30,7 +30,7 @@ const Footer = () => {
           <div className="footer-middle">
             <div className="footer-nav">
               <h3 className="footer-title">{t("nav")}</h3>
-              <NavMenu />
+              <NavMenu style={"footer"} />
             </div>
 
             <div className="footer-partners">

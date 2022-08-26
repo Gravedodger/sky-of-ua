@@ -10,27 +10,12 @@ import Page404 from "./pages/NoMatch/NoMatchPage";
 import RequestHelpForm from "./components/RequestHelpForm";
 import Modal from "./components/Modal/Modal";
 import ProjectsPage from "./pages/Projects"
-import Login from "./components/Login";
-import Dashboard from "./pages/Dashboard";
-import useToken from "./useToken";
-
-function setToken(userToken) {
-  sessionStorage.setItem('token', JSON.stringify(userToken));
-}
-
-function getToken() {
-  const tokenString = sessionStorage.getItem('token');
-  const userToken = JSON.parse(tokenString);
-  return userToken?.token
-}
+import LoginPage from "./Login";
+import AdminPage from "./AdminPage";
+import checkAuth from './authProvider';
 
 const AppRoutes = () => {
   const [modalActive, setModalActive] = useState(false);
-
-  const { token, setToken } = useToken();
-  if(!token) {
-    return <Login setToken={setToken} />
-  }
 
   return (
     <BrowserRouter history={history}>
@@ -41,12 +26,11 @@ const AppRoutes = () => {
         <Route path=":regionId" element={<RegionInfoSection />} />
         <Route path="/tmp-dev" element={<Project />} />
         <Route path="/reports" element={<ReportsPage />} />
-        <Route path="*" element={<Page404 />} />+
+        <Route path="*" element={<Page404 />} />
 
-        <Route path="/login" element={<Login setToken={setToken} />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/admin/*" element={<AdminPage />} />
       </Routes>
-
 
       <Footer />
 

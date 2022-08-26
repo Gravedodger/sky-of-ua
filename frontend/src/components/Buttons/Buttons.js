@@ -3,10 +3,6 @@ import "./Buttons.css";
 import { ButtonText } from "../../Typography";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
-import MenuItem from "@material-ui/core/MenuItem";
-import Button from "@material-ui/core/Button";
-import {connect} from "react-redux";
-import ExitIcon from '@material-ui/icons/PowerSettingsNew';
 
 const ButtonRequestSupport = ({ setModalActive }) => {
   const { t } = useTranslation();

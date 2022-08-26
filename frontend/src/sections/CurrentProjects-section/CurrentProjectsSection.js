@@ -25,7 +25,6 @@ const CurrentProjectsSection = ({ sectionTitle, dataFileName }) => {
 
   const items = dataFileName.map((item) => {
     const { id, src } = item;
-
     return (
       <div key={id} className="current-projects-card-wrap">
         <ProjectCard

@@ -67,7 +67,7 @@
   justify-content: flex-end;
   margin-bottom: 16px;
   background-image: url(../../assets/images/ladies-with-rubbish.png);
-  background-size: contain;
+  background-size: cover;
   border-radius: 5px;
 }
 
@@ -102,6 +102,7 @@
 .card-info-top {
   margin-bottom: 16px;
   background-image: url(../../assets/images/food-with-military.png);
+  background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
@@ -112,6 +113,7 @@
 
 .card-info-bottom {
   background-image: url(../../assets/images/box-with-items.png);
+  background-size: cover;
 }
 
 .card-description {

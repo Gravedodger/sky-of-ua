@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div>
+          <div style={{ display: "none" }}>
             <a href="/login">LOGIN</a>
           </div>
 

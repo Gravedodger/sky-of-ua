@@ -38,7 +38,7 @@ const AboutUsPage = ({ setModalActive }) => {
           <HelpSection setModalActive={setModalActive} />
           <JoinUsSection />
           <CurrentProjectsSection
-            sectionTitle={t("cur_proj_section_title")}
+            sectionTitle={"cur_proj_section_title"}
             dataFileName={dataCurrentProjects}
           />
           <ReportsSection />

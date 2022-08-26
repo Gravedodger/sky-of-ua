@@ -18,9 +18,9 @@ const Header = ({ setModalActive }) => {
         <div className="header-wrap">
           <Logo />
           <MediaQuery maxWidth={767}>
-            {menuOn && <NavMenu />}
+            {menuOn && <NavMenu style={"header"} />}
           </MediaQuery>
-          <MediaQuery minWidth={768}>{<NavMenu />}</MediaQuery>
+          <MediaQuery minWidth={768}>{<NavMenu style={"header"} />}</MediaQuery>
           <LanguageSwitch />
           <div className="header-burger" onClick={onClickBurger}>
             <span />

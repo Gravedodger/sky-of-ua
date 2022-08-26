@@ -36,7 +36,7 @@ const JoinUsSection = () => {
         </div>
       </div>
     </section>
-  )
+  );
 };
 
 export default JoinUsSection;

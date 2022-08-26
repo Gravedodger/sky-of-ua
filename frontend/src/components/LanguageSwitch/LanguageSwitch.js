@@ -3,10 +3,9 @@ import "./LanguageSwitch.css";
 import i18n from "../../i18n";
 
 const LanguageSwitch = () => {
-  const setLanguage = useState("uk");
+  const [language, setLanguage] = useState("uk");
 
   const handleOnClick = (e) => {
-    e.preventDefault();
     setLanguage(e.target.value);
     i18n.changeLanguage(e.target.value);
   };

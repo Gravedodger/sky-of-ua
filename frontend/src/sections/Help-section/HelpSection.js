@@ -1,6 +1,5 @@
 import React from "react";
 import "./HelpSection.css";
-import { SectionTitleText } from "../../Typography";
 import { ButtonRequestSupport, ButtonTakePart } from "../../components/Buttons";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
@@ -15,7 +14,7 @@ const HelpSection = ({ setModalActive }) => {
   return (
     <section className="help-section-wrap">
       <div className="section-title">
-        <SectionTitleText>{t("help_section_title")}</SectionTitleText>
+        <h3 className="section-title-text">{t("help_section_title")}</h3>
       </div>
 
       <div className="help-section-content">
@@ -40,9 +39,9 @@ const HelpSection = ({ setModalActive }) => {
         </div>
 
         <div className="help-section-text">
-          <SectionTitleText className="help-section-title">
+          <h3 className="help-section-title section-title-text">
             {t("help_section.title")}
-          </SectionTitleText>
+          </h3>
 
           <p className="help-section-description">
             {t("help_section.description")}

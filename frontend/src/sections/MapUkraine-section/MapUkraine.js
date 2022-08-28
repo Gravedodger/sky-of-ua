@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./MapUraine.css";
-import { SectionTitleText } from "../../Typography";
 import dataMapUkraine from "./dataMapUkraine";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
@@ -12,7 +11,7 @@ const MapUkraine = () => {
   return (
     <div className="map-ukraine-wrap">
       <div className="section-title">
-        <SectionTitleText>{t("map_ukraine.title")}</SectionTitleText>
+        <h3 className="section-title-text">{t("map_ukraine.title")}</h3>
       </div>
 
       <p className="section-description">{t("map_ukraine.description")}</p>

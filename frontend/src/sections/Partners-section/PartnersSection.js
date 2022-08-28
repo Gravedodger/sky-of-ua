@@ -1,6 +1,5 @@
 import React from "react";
 import "./PartnersSection.css";
-import { SectionTitleText } from "../../Typography";
 import PartnersCard from "../../components/PartnersCard";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
@@ -104,7 +103,7 @@ const PartnersSection = () => {
   return (
     <section className="partners-section-wrap">
       <div className="section-title">
-        <SectionTitleText>{t("partners_section_title")}</SectionTitleText>
+        <h3 className="section-title-text">{t("partners_section_title")}</h3>
       </div>
 
       <AliceCarousel

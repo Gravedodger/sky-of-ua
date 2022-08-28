@@ -333,6 +333,7 @@ export const TRANSLATIONS_EN = {
   sum_remains: "Sum remains",
 
   // MISC
+  description: "description",
   read_more: "Read more",
   month_june: "June",
   details: "Details",

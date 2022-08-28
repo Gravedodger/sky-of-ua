@@ -3,11 +3,9 @@ import "./ProjectPage.css";
 import "../../i18n";
 import HeroProject from "../../components/HeroProject";
 import ProjectDescription from "../../components/ProjectDescription";
-import ToSupportBlock from "../../blocks/ToSupport-block";
+import ToSupportBlock from "../../components/ToSupport-block";
 import ProjectAmountReport from "../../components/ProjectAmountReport";
 import ProjectPartners from "../../components/ProjectPartners";
-
-// image for component
 import medicalStethoscope from "../../assets/images/medical-stethoscope.jpg";
 
 const ProjectPage = () => {

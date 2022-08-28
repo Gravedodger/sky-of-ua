@@ -3,6 +3,7 @@ import "./RequestHelpForm.css";
 import initialState from "./initialState";
 import { ButtonSubmit } from "../Buttons";
 import { useTranslation } from "react-i18next";
+import '../../i18n';
 
 const RequestHelpForm = ({ setModalActive }) => {
   const { t } = useTranslation();
@@ -54,7 +55,7 @@ const RequestHelpForm = ({ setModalActive }) => {
           className="request-help-input"
           onChange={handleChange}
           value={form.name}
-        ></input>
+        />
 
         <label htmlFor="phone" className="request-help-label">
           {t("modal_form.phone")}
@@ -67,7 +68,7 @@ const RequestHelpForm = ({ setModalActive }) => {
           className="request-help-input"
           onChange={handleChange}
           value={form.phone}
-        ></input>
+        />
 
         <label htmlFor="email" className="request-help-label">
           {t("modal_form.email")}
@@ -80,7 +81,7 @@ const RequestHelpForm = ({ setModalActive }) => {
           className="request-help-input"
           onChange={handleChange}
           value={form.email}
-        ></input>
+        />
 
         <label htmlFor="type-of-help" className="request-help-label">
           {t("modal_form.type_of_help")}
@@ -110,7 +111,7 @@ const RequestHelpForm = ({ setModalActive }) => {
           placeholder={t("modal_form.comment_placeholder")}
           className="request-help-input"
           onChange={handleChange}
-        ></input>
+        />
         <ButtonSubmit />
       </form>
     </>

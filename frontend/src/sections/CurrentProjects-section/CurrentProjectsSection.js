@@ -1,6 +1,5 @@
 import React from "react";
 import "./CurrentProjectsSection.css";
-import { SectionTitleText } from "../../Typography";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import ProjectCard from "../../components/ProjectCard";
@@ -43,7 +42,7 @@ const CurrentProjectsSection = ({ sectionTitle, dataFileName }) => {
   return (
     <section className="current-projects-section-wrap">
       <div className="section-title">
-        <SectionTitleText>{t(sectionTitle)}</SectionTitleText>
+        <h3 className="section-title-text">{t(sectionTitle)}</h3>
       </div>
 
       <AliceCarousel

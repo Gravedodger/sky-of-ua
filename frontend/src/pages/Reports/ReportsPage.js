@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import { SectionTitleText } from "../../Typography";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
 import '../../i18n';
@@ -17,7 +16,7 @@ const ReportsPage = () => {
 
       <main>
         <div className="main-container">
-          <SectionTitleText>Welcome to the Reports Page!</SectionTitleText>
+          <p className="section-title-text">Welcome to the Reports Page!</p>
         </div>
       </main>
     </>

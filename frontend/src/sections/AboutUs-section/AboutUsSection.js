@@ -1,7 +1,6 @@
 import React from "react";
 import "./AboutUsSection.css";
-import AboutUsBlock from "../../blocks/AboutUs-block";
-import { SectionTitleText } from "../../Typography";
+import AboutUsBlock from "../../components/AboutUs-block";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
 
@@ -12,7 +11,7 @@ const AboutUsSection = () => {
     <>
       <section className="about-us-section-wrap">
         <div className="section-title">
-          <SectionTitleText>{t("about_us_section_title")}</SectionTitleText>
+          <h3 className="section-title-text">{t("about_us_section_title")}</h3>
         </div>
 
         <ul className="about-us-content-wrap">

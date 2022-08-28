@@ -1,9 +1,7 @@
 import React from "react";
 import "./ReportsSection.css";
-import { SectionTitleText } from "../../Typography";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
-
 import ladiesWithRubbish from "../../assets/images/ladies-with-rubbish.png";
 import boxWithItems from "../../assets/images/box-with-items.png";
 import pushbedAndLadies from "../../assets/images/pushbed-and-ladies.png";
@@ -14,9 +12,9 @@ const ReportsSection = () => {
 
   return (
     <div className="reports-wrap">
-      <SectionTitleText className="reports-title">
+      <h3 className="reports-title section-title-texts">
         {t("reports_section_title")}
-      </SectionTitleText>
+      </h3>
 
       <div className="reports-content">
         <div className="card-wrap-main">
@@ -98,6 +96,6 @@ const ReportsSection = () => {
       </div>
     </div>
   )
-};
+}
 
 export default ReportsSection;

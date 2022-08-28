@@ -1,6 +1,5 @@
 import React from "react";
 import "./JoinUsSection.css";
-import { SectionTitleText } from "../../Typography";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
 
@@ -10,7 +9,7 @@ const JoinUsSection = () => {
   return (
     <section className="join-us-section-wrap">
       <div className="section-title">
-        <SectionTitleText>{t("join_us_section_title")}</SectionTitleText>
+        <h3 className="section-title-text">{t("join_us_section_title")}</h3>
       </div>
 
       <div className="join-us-section-content">

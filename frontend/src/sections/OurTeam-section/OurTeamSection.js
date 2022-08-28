@@ -1,6 +1,5 @@
 import React from "react";
 import "./OurTeamSection.css";
-import { SectionTitleText } from "../../Typography";
 import peopleHiking from "../../assets/images/people-hiking.png";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
@@ -11,7 +10,7 @@ const OurTeamSection = () => {
   return (
     <section className="our-team-section-wrap">
       <div className="section-title">
-        <SectionTitleText>{t("our_team_section.section_title")}</SectionTitleText>
+        <h3 className="section-title-text">{t("our_team_section.section_title")}</h3>
       </div>
 
       <div className="our-team-section-container">

@@ -332,6 +332,7 @@ export const TRANSLATIONS_UK = {
   sum_remains: "Залишилось",
 
   // MISC
+  description: "опис",
   read_more: "Читати більше",
   month_june: "Червень",
   details: "Деталі",

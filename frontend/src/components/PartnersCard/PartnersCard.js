@@ -1,11 +1,5 @@
 import React from "react";
 import "./PartnersCard.css";
-import {
-  PartnerBlockText,
-  PartnerBlockTitle,
-  Button,
-  ButtonText,
-} from "../../Typography";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
 
@@ -28,11 +22,11 @@ const PartnersCard = ({
         <p className="partners-image-copyrigth">{partnerTitle}</p>
       </div>
 
-      <PartnerBlockTitle>{partnerTitle}</PartnerBlockTitle>
-      <PartnerBlockText>{partnerDescription}</PartnerBlockText>
-      <Button>
-        <ButtonText>{t("details")}</ButtonText>
-      </Button>
+      <h3 className="partner-block-title">{partnerTitle}</h3>
+      <p className="partner-block-text">{partnerDescription}</p>
+      <button className="btn">
+        <p className="btn-text">{t("details")}</p>
+      </button>
     </>
   );
 };

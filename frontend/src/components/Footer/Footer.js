@@ -3,7 +3,7 @@ import "./Footer.css";
 import Logo from "../Logo";
 import NavMenu from "../NavMenu";
 import SocialLinks from "../SocialLinks/SocialLinks";
-import PartnersFooterBlock from "../../blocks/PartnersFooter-block";
+import PartnersFooterBlock from "../PartnersFooter-block";
 import { useTranslation } from "react-i18next";
 import "./../../i18n";
 

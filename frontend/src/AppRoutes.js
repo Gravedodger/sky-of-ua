@@ -10,6 +10,9 @@ import Page404 from "./pages/NoMatch/NoMatchPage";
 import RequestHelpForm from "./components/RequestHelpForm";
 import Modal from "./components/Modal/Modal";
 import ProjectsPage from "./pages/Projects"
+import AdminPage from "./client/pages/Admin";
+import ReportManagement from "./client/components/ReporttManagement";
+import ProjectManagement from "./client/components/ProjectManagement";
 
 const AppRoutes = () => {
   const [modalActive, setModalActive] = useState(false);
@@ -24,6 +27,10 @@ const AppRoutes = () => {
         <Route path="/tmp-dev" element={<Project />} />
         <Route path="/reports" element={<ReportsPage />} />
         <Route path="*" element={<Page404 />} />
+
+        <Route path="/admin" element={<AdminPage />} />
+        <Route path="/projectManagement" element={<ProjectManagement />} />
+        <Route path="/reportManagement" element={<ReportManagement />} />
       </Routes>
 
       <Footer />

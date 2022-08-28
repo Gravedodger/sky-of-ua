@@ -11,7 +11,7 @@ const ChartRange = ({ persents = 50 }) => {
         <div
           style={{ width: `${normilizedPersents}%` }}
           className="chart-range-strip"
-        ></div>
+        />
       </div>
     </>
   );

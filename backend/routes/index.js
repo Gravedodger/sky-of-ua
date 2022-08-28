@@ -1,5 +1,9 @@
-const projectList = require("./projectList");
+const projectRoutes = require("./projects");
+const categoriesRoutes = require("./categories");
 
-module.exports = (app) => {
-    projectList(app);
-}
+const routes = (app) => {
+    projectRoutes(app);
+    categoriesRoutes(app);
+};
+
+module.exports = routes;

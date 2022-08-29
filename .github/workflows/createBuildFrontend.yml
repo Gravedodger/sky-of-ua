@@ -14,7 +14,7 @@ jobs:
     steps:    
       - uses: actions/checkout@v3
       - name: log files
-        run: ls - la
+        run: ls -la
       
 #      - name: run yarn build
 #       run: go build -v ${{ env.BUILD-VERSION }}

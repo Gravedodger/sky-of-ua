@@ -1,0 +1,26 @@
+{
+  "short_name": "sky-of-ua",
+  "name": "Sky of Ukraine Charity Foundation",
+  "keywords": ["charity", "Ukraine", "war", "support", "refugees", "humanitarian relief"],
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "mainLogo-small.png",
+      "type": "image/png",
+      "sizes": "130x30"
+    },
+    {
+      "src": "mainLogo-default.png",
+      "type": "image/png",
+      "sizes": "198x54"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

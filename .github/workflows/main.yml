@@ -14,5 +14,5 @@ jobs:
           server: ip466678.ftp.tools
           username: ip466678_oleg_dev
           password: ${{ secrets.FTP }}
-          local-dir: ../../frontend/build/
+          local-dir: /frontend/build/
           server-dir: skyua.org.ua/www/

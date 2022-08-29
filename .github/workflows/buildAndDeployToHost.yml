@@ -2,10 +2,9 @@ name: BuildFrontendDeployHost
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
-
   build:
     runs-on: ubuntu-latest
     steps:
@@ -17,13 +16,12 @@ jobs:
           npm install yarn
           yarn build
         working-directory: frontend/
-        
+
       - name: Deploy
-        uses: SamKirkland/FTP-Deploy-Action@4.3.1        
+        uses: SamKirkland/FTP-Deploy-Action@4.3.1
         with:
           server: ip466678.ftp.tools
           username: ip466678_oleg_dev
           password: 1Blackdeath
           local-dir: ./frontend/build/
-          server-dir: /skyua.org.ua/www/       
-        
+          server-dir: /skyua.org.ua/www/

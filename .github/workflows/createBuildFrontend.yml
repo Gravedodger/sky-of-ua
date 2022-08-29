@@ -8,8 +8,7 @@ jobs:
   create-build:
     runs-on: ubuntu-latest
     
-    steps:
-    
+    steps:    
       - name: Git clone our repo
       - uses: actions/checkout@v3
       

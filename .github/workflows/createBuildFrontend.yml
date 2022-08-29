@@ -1,5 +1,8 @@
 name: create-build-frontend
 
+env:
+  BUILD-VERSION: "version-${{ env.sha }}" 
+
 on:
   push:
     branches: [ "master" ]
@@ -11,6 +14,6 @@ jobs:
     steps:    
       - uses: actions/checkout@v3      
       - name: run yarn build
-        run: yarn build
+        run: go build -v ${{ env.BUILD-VERSION }}
         
         

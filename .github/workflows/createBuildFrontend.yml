@@ -9,8 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    
+      - name: Git clone our repo
       - uses: actions/checkout@v3
+      
       - name: run yarn build
         run: yarn build
-        working-directory: /frontend/
+        
         

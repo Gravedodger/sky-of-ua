@@ -1,7 +1,7 @@
 name: create-build-frontend
 
 env:
-  BUILD-VERSION: "version-${{ env.sha }}" 
+  BUILD-VERSION: "build-version-${{ github.sha }}" 
 
 on:
   push:

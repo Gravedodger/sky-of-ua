@@ -15,7 +15,7 @@ const HeroVideo = ({ setModalActive }) => {
         muted
         className="hero-video"
       />
-      <SocialLinks />
+      <SocialLinks style={"header"} />
       <StartPresentationBlock setModalActive={setModalActive} />
       <ScrollDown />
     </div>

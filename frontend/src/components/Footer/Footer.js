@@ -24,7 +24,7 @@ const Footer = () => {
                 +380 98 56 84 325
               </a>
             </address>
-            <SocialLinks />
+            <SocialLinks style={"footer"} />
           </div>
 
           <div className="footer-middle">

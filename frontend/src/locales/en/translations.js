@@ -199,19 +199,19 @@ export const TRANSLATIONS_EN = {
   // CURRENT PROJECTS SECTION
   cur_proj_section_title: "Current Projects",
   cur_proj_01: {
-    img_Alt: "bottle of water",
-    title: "Drinking water for the citizens of Mykolayiv",
-    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+    img_Alt: "bottles with water",
+    title: "Drinking water for the citizens of Kherson region",
+    text: "Announcing fundraiser for the purchase of drinking water for residents and military personnel of the de-occupied territories of the Kherson region",
   },
   cur_proj_02: {
-    img_Alt: "bottle of water",
-    title: "Drinking water for the citizens of Mykolayiv",
-    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+    img_Alt: "car with supplies",
+    title: "Transportation of humanitarian aid",
+    text: "Announcing fundraiser for logistical needs for the transportation of humanitarian aid in the Kherson, Zaporizhia and Kharkiv regions",
   },
   cur_proj_03: {
-    img_Alt: "bottle of water",
-    title: "Drinking water for the citizens of Mykolayiv",
-    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
+    img_Alt: "fresh bread",
+    title: "Fresh bread for residents of the Kherson region",
+    text: "Announcing fundraiser for the production of fresh bread for residents of the de-occupied territories of the Kherson Region is announced",
   },
   cur_proj_04: {
     img_Alt: "bottle of water",

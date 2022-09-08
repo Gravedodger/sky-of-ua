@@ -23,7 +23,12 @@ const CurrentProjectsSection = ({ sectionTitle, dataFileName }) => {
   };
 
   const items = dataFileName.map((item) => {
-    const { id, src } = item;
+    const {
+      id,
+      src,
+      fundraisingProgress = { targetSum: 35000.0, collectedSum: 15000.0 },
+    } = item;
+    const { targetSum, collectedSum } = fundraisingProgress;
     return (
       <div key={id} className="current-projects-card-wrap">
         <ProjectCard
@@ -34,6 +39,8 @@ const CurrentProjectsSection = ({ sectionTitle, dataFileName }) => {
           buttonText={t("support")}
           onDragStart={handleDragStart}
           role="presentation"
+          targetSum={targetSum}
+          collectedSum={collectedSum}
         />
       </div>
     );
@@ -49,7 +56,7 @@ const CurrentProjectsSection = ({ sectionTitle, dataFileName }) => {
         mouseTracking
         items={items}
         autoPlay
-        autoPlayInterval={1400}
+        autoPlayInterval={2000}
         infinite={true}
         responsive={responsive}
         disableButtonsControls

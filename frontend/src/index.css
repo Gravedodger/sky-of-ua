@@ -28,7 +28,14 @@ a {
   text-decoration: none;
 }
 
-a, h1, h2, h3, h4, h5, h6, p {
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
   padding: 0;
 }
@@ -178,52 +185,4 @@ a, h1, h2, h3, h4, h5, h6, p {
   font-weight: 400;
   line-height: 17px;
   color: #838688;
-}
-
-.btn {
-  display: block;
-  width: 206px;
-  height: 51px;
-  margin: 0 auto;
-  border: 1px solid #4c94ff;
-  cursor: pointer;
-  background: #ffffff;
-}
-
-@media screen and (min-width: 1440px) {
-  .btn {
-    width: 296px;
-  }
-}
-
-.btn-text {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19px;
-  color: #4c94ff;
-}
-
-.project-card-title {
-  margin-top: 16px;
-  margin-bottom: 8px;
-  margin-left: 24px;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 22px;
-  color: #272727;
-}
-
-.project-card-text {
-  margin-bottom: 24px;
-  margin-left: 24px;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 160%;
-  color: #83868b;
-}
-
-@media screen and (min-width: 1440px) {
-  .project-card-text {
-    width: 357px;
-  }
 }

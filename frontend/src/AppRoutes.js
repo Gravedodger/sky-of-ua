@@ -9,7 +9,7 @@ import ReportsPage from "./pages/Reports";
 import Page404 from "./pages/NoMatch/NoMatchPage";
 import RequestHelpForm from "./components/RequestHelpForm";
 import Modal from "./components/Modal/Modal";
-import ProjectsPage from "./pages/Projects"
+import ProjectsPage from "./pages/Projects";
 import AdminPage from "./client/pages/Admin";
 import ReportManagement from "./client/components/ReporttManagement";
 import ProjectManagement from "./client/components/ProjectManagement";
@@ -21,7 +21,11 @@ const AppRoutes = () => {
     <BrowserRouter history={history}>
       <Header setModalActive={setModalActive} />
       <Routes>
-        <Route exact path="/" element={<AboutUsPage setModalActive={setModalActive} />} />
+        <Route
+          exact
+          path="/"
+          element={<AboutUsPage setModalActive={setModalActive} />}
+        />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path=":regionId" element={<RegionInfoSection />} />
         <Route path="/tmp-dev" element={<Project />} />
@@ -39,7 +43,7 @@ const AppRoutes = () => {
         <RequestHelpForm setModalActive={setModalActive} />
       </Modal>
     </BrowserRouter>
-  )
-}
+  );
+};
 
 export default AppRoutes;

@@ -8,6 +8,8 @@ const ProjectCard = ({
   projectCardTitle,
   projectCardText,
   buttonText,
+  targetSum,
+  collectedSum,
 }) => {
   return (
     <>
@@ -16,12 +18,17 @@ const ProjectCard = ({
         alt={projectCardImageAltText}
         className="project-card-image"
       />
-      <h3 className="project-card-title">{projectCardTitle}</h3>
-      <p className="project-card-text">{projectCardText}</p>
-      <FundraisingProgress targetSum={35000.0} collectedSum={27000.0} />
-      <button className="btn">
-        <p className="btn-text">{buttonText}</p>
-      </button>
+      <div className="project-card-context-wrap">
+        <h3 className="project-card-title">{projectCardTitle}</h3>
+        <p className="project-card-text">{projectCardText}</p>
+        <FundraisingProgress
+          targetSum={targetSum}
+          collectedSum={collectedSum}
+        />
+        <button className="btn">
+          <p className="btn-text">{buttonText}</p>
+        </button>
+      </div>
     </>
   );
 };

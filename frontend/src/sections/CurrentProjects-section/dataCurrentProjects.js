@@ -1,29 +1,22 @@
-import BottleOfWater from "../../assets/images/bottle-of-water.png";
+import projectImage1 from "../../assets/images/bottles-of-water.jpg";
+import projectImage2 from "../../assets/images/car-with-goods.jpg";
+import projectImage3 from "../../assets/images/bread.jpg";
 
 const dataCurrentProjects = [
   {
     id: "cur_proj_01",
-    src: BottleOfWater,
+    src: projectImage1,
+    fundraisingProgress: { targetSum: 35000.0, collectedSum: 6800.0 },
   },
   {
     id: "cur_proj_02",
-    src: BottleOfWater,
+    src: projectImage2,
+    fundraisingProgress: { targetSum: 28000.0, collectedSum: 9200.0 },
   },
   {
     id: "cur_proj_03",
-    src: BottleOfWater,
-  },
-  {
-    id: "cur_proj_04",
-    src: BottleOfWater,
-  },
-  {
-    id: "cur_proj_05",
-    src: BottleOfWater,
-  },
-  {
-    id: "cur_proj_06",
-    src: BottleOfWater,
+    src: projectImage3,
+    fundraisingProgress: { targetSum: 44000.0, collectedSum: 5600.0 },
   },
 ];
 

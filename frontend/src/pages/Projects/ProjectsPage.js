@@ -5,8 +5,6 @@ import MediaQuery from "react-responsive";
 import MapUkraine from "../../sections/MapUkraine-section/MapUkraine";
 import CurrentProjectsSection from "../../sections/CurrentProjects-section";
 import dataHumanitarianAid from "../../sections/CurrentProjects-section/dataHumanitarianAid";
-// import dataMediaclAid from "../../sections/CurrentProjects-section/dataMedicalAid";
-// import dataMilitaryAid from "../../sections/CurrentProjects-section/dataMilitaryAid";
 import { useTranslation } from "react-i18next";
 import "../../i18n";
 
@@ -35,14 +33,6 @@ const ProjectsPage = () => {
             sectionTitle={"hum_proj_section_title"}
             dataFileName={dataHumanitarianAid}
           />
-          {/* <CurrentProjectsSection
-            sectionTitle={"med_proj_section_title"}
-            dataFileName={dataMediaclAid}
-          /> */}
-          {/* <CurrentProjectsSection
-            sectionTitle={"mil_proj_section_title"}
-            dataFileName={dataMilitaryAid}
-          /> */}
         </div>
       </main>
     </>

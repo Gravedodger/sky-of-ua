@@ -232,42 +232,6 @@ export const TRANSLATIONS_EN = {
     text: "Announcing fundraiser for the production of fresh bread for residents of the de-occupied territories of the Kherson Region is announced",
   },
 
-  // MEDICAL AID SECTION
-  med_proj_section_title: "Medical Aid",
-  med_proj_01: {
-    img_Alt: "bottle of water",
-    title: "Drinking water for the citizens of Mykolayiv",
-    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
-  },
-  med_proj_02: {
-    img_Alt: "bottle of water",
-    title: "Drinking water for the citizens of Mykolayiv",
-    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
-  },
-  med_proj_03: {
-    img_Alt: "bottle of water",
-    title: "Drinking water for the citizens of Mykolayiv",
-    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
-  },
-
-  // MILITARY AID SECTION
-  mil_proj_section_title: "Military Aid",
-  mil_proj_01: {
-    img_Alt: "bottle of water",
-    title: "Drinking water for the citizens of Mykolayiv",
-    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
-  },
-  mil_proj_02: {
-    img_Alt: "bottle of water",
-    title: "Drinking water for the citizens of Mykolayiv",
-    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
-  },
-  mil_proj_03: {
-    img_Alt: "bottle of water",
-    title: "Drinking water for the citizens of Mykolayiv",
-    text: "Announcing fundraiser for the procurement of drinking water in large bottles (500 l.) for the citizens of Mykolayiv",
-  },
-
   // FUNDRAISING
   sum_required: "Required sum",
   sum_remains: "Sum remains",
